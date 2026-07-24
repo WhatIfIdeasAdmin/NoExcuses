@@ -252,10 +252,10 @@
       "sourceId": "barbell-curl",
       "name": "Barbell Curl",
       "activityType": "WEIGHTLIFTING",
-      "shortDescription": "Classic mass-builder for the biceps.",
+      "shortDescription": "Classic mass-builder for the biceps. (sync test v2)",
       "longDescription": "Stand holding a barbell with an underhand, shoulder-width grip, arms extended. Curl the bar up toward your shoulders by bending your elbows, keeping your upper arms still, then lower back down with control.",
       "difficultyLevel": "BEGINNER",
-      "version": 1,
+      "version": 2,
       "muscles": [
         {"muscleName": "Biceps", "isPrimary": true},
         {"muscleName": "Forearms", "isPrimary": false}
@@ -270,10 +270,10 @@
       "sourceId": "dumbbell-curl",
       "name": "Dumbbell Curl",
       "activityType": "WEIGHTLIFTING",
-      "shortDescription": "Single-arm-friendly biceps builder with a natural wrist path.",
+      "shortDescription": "Single-arm-friendly biceps builder with a natural wrist path. (sync test v2)",
       "longDescription": "Stand holding a dumbbell in each hand at your sides, palms facing forward. Curl one or both dumbbells up toward your shoulders, then lower back down with control.",
       "difficultyLevel": "BEGINNER",
-      "version": 1,
+      "version": 2,
       "muscles": [
         {"muscleName": "Biceps", "isPrimary": true},
         {"muscleName": "Forearms", "isPrimary": false}
