@@ -1,0 +1,911 @@
+{
+  "catalogVersion": 1,
+  "exercises": [
+    {
+      "sourceId": "barbell-bench-press",
+      "name": "Barbell Bench Press",
+      "activityType": "WEIGHTLIFTING",
+      "shortDescription": "Classic barbell press for building chest strength and mass.",
+      "longDescription": "Lie on a flat bench with feet planted on the floor. Grip the bar slightly wider than shoulder-width. Unrack the bar and lower it to your mid-chest with control. Press the bar back up until your arms are fully extended, keeping your shoulder blades pulled together throughout.",
+      "difficultyLevel": "INTERMEDIATE",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Chest", "isPrimary": true},
+        {"muscleName": "Triceps", "isPrimary": false},
+        {"muscleName": "Front Deltoid", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "BARBELL", "isRequired": true},
+        {"equipment": "BENCH", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "dumbbell-bench-press",
+      "name": "Dumbbell Bench Press",
+      "activityType": "WEIGHTLIFTING",
+      "shortDescription": "Dumbbell variation of the bench press for a greater range of motion.",
+      "longDescription": "Lie on a flat bench holding a dumbbell in each hand at chest level, palms facing forward. Press both dumbbells up until your arms are extended, then lower them back down with control until you feel a stretch across your chest.",
+      "difficultyLevel": "INTERMEDIATE",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Chest", "isPrimary": true},
+        {"muscleName": "Triceps", "isPrimary": false},
+        {"muscleName": "Front Deltoid", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "DUMBBELL", "isRequired": true},
+        {"equipment": "BENCH", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "chest-press-machine",
+      "name": "Chest Press Machine",
+      "activityType": "STRENGTH_TRAINING",
+      "shortDescription": "Machine-guided press for chest development with a fixed, stable path.",
+      "longDescription": "Sit in the machine with your back against the pad and grip the handles at chest height. Press the handles forward until your arms are extended, then return slowly to the starting position.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Chest", "isPrimary": true},
+        {"muscleName": "Triceps", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "MACHINE", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "push-up",
+      "name": "Push-Up",
+      "activityType": "CALISTHENICS",
+      "shortDescription": "Bodyweight staple for chest, shoulders, and triceps.",
+      "longDescription": "Start in a plank position with hands slightly wider than shoulder-width. Lower your body until your chest nearly touches the floor, keeping your core tight and body in a straight line. Push back up to the starting position.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Chest", "isPrimary": true},
+        {"muscleName": "Triceps", "isPrimary": false},
+        {"muscleName": "Front Deltoid", "isPrimary": false},
+        {"muscleName": "Abs", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "BODYWEIGHT", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "cable-fly",
+      "name": "Cable Fly",
+      "activityType": "STRENGTH_TRAINING",
+      "shortDescription": "Isolation move that stretches and squeezes the chest through a wide arc.",
+      "longDescription": "Stand between two cable towers set at chest height, holding a handle in each hand. With a slight bend in your elbows, bring your hands together in front of your chest in a hugging motion, then return with control to the starting position.",
+      "difficultyLevel": "INTERMEDIATE",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Chest", "isPrimary": true}
+      ],
+      "equipment": [
+        {"equipment": "CABLE_MACHINE", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "pull-up",
+      "name": "Pull-Up",
+      "activityType": "CALISTHENICS",
+      "shortDescription": "Bodyweight vertical pull for back width and grip strength.",
+      "longDescription": "Hang from a pull-up bar with hands slightly wider than shoulder-width, palms facing away. Pull your body up until your chin clears the bar, then lower back down with control.",
+      "difficultyLevel": "ADVANCED",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Lats", "isPrimary": true},
+        {"muscleName": "Biceps", "isPrimary": false},
+        {"muscleName": "Rhomboids", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "PULL_UP_BAR", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "lat-pulldown",
+      "name": "Lat Pulldown",
+      "activityType": "STRENGTH_TRAINING",
+      "shortDescription": "Machine alternative to the pull-up for building lat width.",
+      "longDescription": "Sit at the lat pulldown machine and grip the bar wider than shoulder-width. Pull the bar down to your upper chest, squeezing your shoulder blades together, then let it rise back up with control.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Lats", "isPrimary": true},
+        {"muscleName": "Biceps", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "CABLE_MACHINE", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "barbell-row",
+      "name": "Barbell Row",
+      "activityType": "WEIGHTLIFTING",
+      "shortDescription": "Bent-over row for overall back thickness.",
+      "longDescription": "Hinge at the hips with a slight bend in your knees, holding a barbell with an overhand grip. Keeping your back flat, pull the bar to your lower ribcage, then lower it back down with control.",
+      "difficultyLevel": "INTERMEDIATE",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Lats", "isPrimary": true},
+        {"muscleName": "Rhomboids", "isPrimary": true},
+        {"muscleName": "Lower Back", "isPrimary": false},
+        {"muscleName": "Biceps", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "BARBELL", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "seated-cable-row",
+      "name": "Seated Cable Row",
+      "activityType": "STRENGTH_TRAINING",
+      "shortDescription": "Seated pulling motion for mid-back thickness.",
+      "longDescription": "Sit at the cable row station with feet braced on the platform, knees slightly bent. Pull the handle toward your torso, squeezing your shoulder blades together, then extend your arms back out with control.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Rhomboids", "isPrimary": true},
+        {"muscleName": "Lats", "isPrimary": false},
+        {"muscleName": "Biceps", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "CABLE_MACHINE", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "deadlift",
+      "name": "Deadlift",
+      "activityType": "WEIGHTLIFTING",
+      "shortDescription": "Full-body pull that builds the posterior chain from the floor.",
+      "longDescription": "Stand with feet hip-width apart, barbell over midfoot. Hinge down and grip the bar just outside your knees. Keeping your back flat and chest up, drive through your heels to stand up straight, then lower the bar back to the floor with control.",
+      "difficultyLevel": "ADVANCED",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Lower Back", "isPrimary": true},
+        {"muscleName": "Glutes", "isPrimary": true},
+        {"muscleName": "Hamstrings", "isPrimary": true},
+        {"muscleName": "Lats", "isPrimary": false},
+        {"muscleName": "Trapezius", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "BARBELL", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "overhead-press",
+      "name": "Overhead Press",
+      "activityType": "WEIGHTLIFTING",
+      "shortDescription": "Standing barbell press for shoulder strength and stability.",
+      "longDescription": "Stand with feet shoulder-width apart, holding a barbell at shoulder height with an overhand grip. Press the bar straight overhead until your arms are locked out, then lower it back to shoulder height with control.",
+      "difficultyLevel": "INTERMEDIATE",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Front Deltoid", "isPrimary": true},
+        {"muscleName": "Side Deltoid", "isPrimary": false},
+        {"muscleName": "Triceps", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "BARBELL", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "dumbbell-lateral-raise",
+      "name": "Dumbbell Lateral Raise",
+      "activityType": "STRENGTH_TRAINING",
+      "shortDescription": "Isolation move for building shoulder width.",
+      "longDescription": "Stand holding a dumbbell in each hand at your sides. With a slight bend in your elbows, raise both arms out to the sides until they reach shoulder height, then lower back down with control.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Side Deltoid", "isPrimary": true}
+      ],
+      "equipment": [
+        {"equipment": "DUMBBELL", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "shoulder-press-machine",
+      "name": "Shoulder Press Machine",
+      "activityType": "STRENGTH_TRAINING",
+      "shortDescription": "Machine-guided overhead press for shoulder development.",
+      "longDescription": "Sit in the machine with your back against the pad and grip the handles at shoulder height. Press the handles overhead until your arms are extended, then lower back down with control.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Front Deltoid", "isPrimary": true},
+        {"muscleName": "Side Deltoid", "isPrimary": false},
+        {"muscleName": "Triceps", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "MACHINE", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "barbell-curl",
+      "name": "Barbell Curl",
+      "activityType": "WEIGHTLIFTING",
+      "shortDescription": "Classic mass-builder for the biceps.",
+      "longDescription": "Stand holding a barbell with an underhand, shoulder-width grip, arms extended. Curl the bar up toward your shoulders by bending your elbows, keeping your upper arms still, then lower back down with control.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Biceps", "isPrimary": true},
+        {"muscleName": "Forearms", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "BARBELL", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "dumbbell-curl",
+      "name": "Dumbbell Curl",
+      "activityType": "WEIGHTLIFTING",
+      "shortDescription": "Single-arm-friendly biceps builder with a natural wrist path.",
+      "longDescription": "Stand holding a dumbbell in each hand at your sides, palms facing forward. Curl one or both dumbbells up toward your shoulders, then lower back down with control.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Biceps", "isPrimary": true},
+        {"muscleName": "Forearms", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "DUMBBELL", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "cable-curl",
+      "name": "Cable Curl",
+      "activityType": "STRENGTH_TRAINING",
+      "shortDescription": "Constant-tension biceps curl using a cable stack.",
+      "longDescription": "Stand facing a low cable pulley with a straight or EZ-curl attachment. Curl the handle up toward your shoulders, keeping your elbows tucked at your sides, then lower back down with control.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Biceps", "isPrimary": true}
+      ],
+      "equipment": [
+        {"equipment": "CABLE_MACHINE", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "tricep-pushdown",
+      "name": "Tricep Pushdown",
+      "activityType": "STRENGTH_TRAINING",
+      "shortDescription": "Cable isolation move for the triceps.",
+      "longDescription": "Stand facing a high cable pulley with a straight or rope attachment, elbows tucked at your sides. Push the attachment down until your arms are fully extended, then let it rise back up with control.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Triceps", "isPrimary": true}
+      ],
+      "equipment": [
+        {"equipment": "CABLE_MACHINE", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "dip",
+      "name": "Dip",
+      "activityType": "CALISTHENICS",
+      "shortDescription": "Bodyweight press for triceps and lower chest.",
+      "longDescription": "Support your body on parallel bars with arms extended. Lower your body by bending your elbows until your upper arms are roughly parallel to the floor, then press back up to the starting position.",
+      "difficultyLevel": "ADVANCED",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Triceps", "isPrimary": true},
+        {"muscleName": "Chest", "isPrimary": false},
+        {"muscleName": "Front Deltoid", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "OTHER", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "skull-crusher",
+      "name": "Skull Crusher",
+      "activityType": "WEIGHTLIFTING",
+      "shortDescription": "Lying triceps extension using a barbell or EZ-bar.",
+      "longDescription": "Lie on a bench holding a barbell above your chest with arms extended. Bend your elbows to lower the bar toward your forehead, keeping your upper arms still, then extend back up to the starting position.",
+      "difficultyLevel": "INTERMEDIATE",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Triceps", "isPrimary": true}
+      ],
+      "equipment": [
+        {"equipment": "BARBELL", "isRequired": true},
+        {"equipment": "BENCH", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "barbell-squat",
+      "name": "Barbell Squat",
+      "activityType": "WEIGHTLIFTING",
+      "shortDescription": "Foundational lower-body compound lift.",
+      "longDescription": "Stand with the barbell resting across your upper back, feet shoulder-width apart. Bend your knees and hips to lower into a squat until your thighs are at least parallel to the floor, then drive back up to standing.",
+      "difficultyLevel": "INTERMEDIATE",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Quadriceps", "isPrimary": true},
+        {"muscleName": "Glutes", "isPrimary": false},
+        {"muscleName": "Hamstrings", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "BARBELL", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "leg-press",
+      "name": "Leg Press",
+      "activityType": "STRENGTH_TRAINING",
+      "shortDescription": "Machine-guided squat pattern that loads the legs without spinal loading.",
+      "longDescription": "Sit in the leg press machine with feet shoulder-width apart on the platform. Lower the platform by bending your knees toward your chest, then press back up until your legs are extended without locking your knees.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Quadriceps", "isPrimary": true},
+        {"muscleName": "Glutes", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "MACHINE", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "leg-extension",
+      "name": "Leg Extension",
+      "activityType": "STRENGTH_TRAINING",
+      "shortDescription": "Isolation move that targets the quadriceps directly.",
+      "longDescription": "Sit in the leg extension machine with the pad resting on your shins. Extend your legs until they're straight, squeezing your quads, then lower back down with control.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Quadriceps", "isPrimary": true}
+      ],
+      "equipment": [
+        {"equipment": "MACHINE", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "bodyweight-squat",
+      "name": "Bodyweight Squat",
+      "activityType": "CALISTHENICS",
+      "shortDescription": "No-equipment squat for building lower-body basics.",
+      "longDescription": "Stand with feet shoulder-width apart, arms extended in front for balance. Bend your knees and hips to lower into a squat, then drive back up to standing.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Quadriceps", "isPrimary": true},
+        {"muscleName": "Glutes", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "BODYWEIGHT", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "lunge",
+      "name": "Lunge",
+      "activityType": "CALISTHENICS",
+      "shortDescription": "Single-leg movement for quads, glutes, and balance.",
+      "longDescription": "Stand tall, then step forward with one leg and lower your hips until both knees are bent around 90 degrees. Push back off your front foot to return to standing, then repeat on the other leg.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Quadriceps", "isPrimary": true},
+        {"muscleName": "Glutes", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "BODYWEIGHT", "isRequired": true},
+        {"equipment": "DUMBBELL", "isRequired": false}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "romanian-deadlift",
+      "name": "Romanian Deadlift",
+      "activityType": "WEIGHTLIFTING",
+      "shortDescription": "Hip-hinge movement that targets the hamstrings and glutes.",
+      "longDescription": "Stand holding a barbell in front of your thighs. Keeping your legs mostly straight and back flat, hinge at the hips to lower the bar down your legs until you feel a stretch in your hamstrings, then drive your hips forward to stand back up.",
+      "difficultyLevel": "INTERMEDIATE",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Hamstrings", "isPrimary": true},
+        {"muscleName": "Glutes", "isPrimary": false},
+        {"muscleName": "Lower Back", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "BARBELL", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "leg-curl",
+      "name": "Leg Curl",
+      "activityType": "STRENGTH_TRAINING",
+      "shortDescription": "Isolation move for the back of the thigh.",
+      "longDescription": "Lie face down on the leg curl machine with the pad resting against the back of your ankles. Curl your legs up toward your glutes, then lower back down with control.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Hamstrings", "isPrimary": true}
+      ],
+      "equipment": [
+        {"equipment": "MACHINE", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "hip-thrust",
+      "name": "Hip Thrust",
+      "activityType": "WEIGHTLIFTING",
+      "shortDescription": "Glute-focused hip extension movement.",
+      "longDescription": "Sit on the floor with your upper back against a bench, a barbell across your hips. Drive through your heels to lift your hips up until your body forms a straight line from shoulders to knees, then lower back down with control.",
+      "difficultyLevel": "INTERMEDIATE",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Glutes", "isPrimary": true},
+        {"muscleName": "Hamstrings", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "BARBELL", "isRequired": true},
+        {"equipment": "BENCH", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "glute-bridge",
+      "name": "Glute Bridge",
+      "activityType": "CALISTHENICS",
+      "shortDescription": "Bodyweight hip extension for the glutes.",
+      "longDescription": "Lie on your back with knees bent and feet flat on the floor. Drive through your heels to lift your hips toward the ceiling, squeezing your glutes at the top, then lower back down with control.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Glutes", "isPrimary": true},
+        {"muscleName": "Hamstrings", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "BODYWEIGHT", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "standing-calf-raise",
+      "name": "Standing Calf Raise",
+      "activityType": "STRENGTH_TRAINING",
+      "shortDescription": "Isolation move for the calf muscles.",
+      "longDescription": "Stand on the edge of a step or calf raise machine with your heels hanging off. Rise up onto your toes as high as possible, then lower your heels back down below the step for a full stretch.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Calves", "isPrimary": true}
+      ],
+      "equipment": [
+        {"equipment": "BODYWEIGHT", "isRequired": true},
+        {"equipment": "MACHINE", "isRequired": false}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "plank",
+      "name": "Plank",
+      "activityType": "CORE_TRAINING",
+      "shortDescription": "Isometric hold that builds core stability.",
+      "longDescription": "Support your body on your forearms and toes, keeping your body in a straight line from head to heels. Hold the position, keeping your core braced and hips level.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Abs", "isPrimary": true},
+        {"muscleName": "Deep Core", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "BODYWEIGHT", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "crunch",
+      "name": "Crunch",
+      "activityType": "CORE_TRAINING",
+      "shortDescription": "Classic ab-flexion exercise.",
+      "longDescription": "Lie on your back with knees bent and feet flat on the floor, hands lightly supporting your head. Curl your shoulders up off the floor by contracting your abs, then lower back down with control.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Abs", "isPrimary": true}
+      ],
+      "equipment": [
+        {"equipment": "BODYWEIGHT", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "hanging-leg-raise",
+      "name": "Hanging Leg Raise",
+      "activityType": "CORE_TRAINING",
+      "shortDescription": "Advanced core move performed hanging from a bar.",
+      "longDescription": "Hang from a pull-up bar with arms fully extended. Keeping your legs straight or knees bent, raise them up toward your chest by contracting your abs, then lower back down with control.",
+      "difficultyLevel": "ADVANCED",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Abs", "isPrimary": true},
+        {"muscleName": "Hip Flexors", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "PULL_UP_BAR", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "kettlebell-swing",
+      "name": "Kettlebell Swing",
+      "activityType": "CROSSFIT",
+      "shortDescription": "Explosive hip-hinge movement that trains power and conditioning.",
+      "longDescription": "Stand with feet shoulder-width apart, holding a kettlebell with both hands. Hinge at the hips to swing the kettlebell back between your legs, then drive your hips forward explosively to swing it up to chest height.",
+      "difficultyLevel": "INTERMEDIATE",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Glutes", "isPrimary": true},
+        {"muscleName": "Hamstrings", "isPrimary": false},
+        {"muscleName": "Full Body", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "KETTLEBELL", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "burpee",
+      "name": "Burpee",
+      "activityType": "CROSSFIT",
+      "shortDescription": "Full-body conditioning move combining a squat, plank, and jump.",
+      "longDescription": "Start standing, then squat down and place your hands on the floor. Kick your feet back into a plank, perform a push-up, then jump your feet back to your hands and explode upward into a jump.",
+      "difficultyLevel": "INTERMEDIATE",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Full Body", "isPrimary": true},
+        {"muscleName": "Chest", "isPrimary": false},
+        {"muscleName": "Quadriceps", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "BODYWEIGHT", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "outdoor-run",
+      "name": "Outdoor Run",
+      "activityType": "RUNNING",
+      "shortDescription": "Running outdoors at your own pace and route.",
+      "longDescription": "Run outdoors at a steady, comfortable pace, focusing on consistent breathing and stride. Adjust pace and distance to your fitness goals.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Cardiovascular System", "isPrimary": true}
+      ],
+      "equipment": [],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "treadmill-run",
+      "name": "Treadmill Run",
+      "activityType": "RUNNING_TREADMILL",
+      "shortDescription": "Running indoors on a treadmill with adjustable pace and incline.",
+      "longDescription": "Set the treadmill to a comfortable starting speed and run with an upright posture, adjusting speed and incline as needed.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Cardiovascular System", "isPrimary": true}
+      ],
+      "equipment": [
+        {"equipment": "TREADMILL", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "outdoor-cycling",
+      "name": "Outdoor Cycling",
+      "activityType": "BIKING",
+      "shortDescription": "Cycling outdoors on roads or trails.",
+      "longDescription": "Ride a bicycle outdoors at a steady pace, shifting gears as needed for terrain. Maintain a comfortable cadence and posture.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Cardiovascular System", "isPrimary": true},
+        {"muscleName": "Quadriceps", "isPrimary": false}
+      ],
+      "equipment": [],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "indoor-cycling",
+      "name": "Indoor Cycling",
+      "activityType": "BIKING_STATIONARY",
+      "shortDescription": "Stationary cycling for a controlled indoor cardio session.",
+      "longDescription": "Set the stationary bike's resistance to a comfortable level and pedal at a steady cadence, adjusting resistance and speed to match your workout goals.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Cardiovascular System", "isPrimary": true},
+        {"muscleName": "Quadriceps", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "STATIONARY_BIKE", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "rowing-machine",
+      "name": "Rowing Machine",
+      "activityType": "ROWING_MACHINE",
+      "shortDescription": "Full-body cardio using a rowing ergometer.",
+      "longDescription": "Sit on the rowing machine with feet strapped in. Drive through your legs, lean back slightly, then pull the handle to your chest. Reverse the motion smoothly to return to the starting position.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Cardiovascular System", "isPrimary": true},
+        {"muscleName": "Lats", "isPrimary": false},
+        {"muscleName": "Quadriceps", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "ROWING_MACHINE", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "elliptical",
+      "name": "Elliptical",
+      "activityType": "ELLIPTICAL",
+      "shortDescription": "Low-impact cardio machine that mimics running without the joint stress.",
+      "longDescription": "Step onto the elliptical and grip the handles. Move your legs in a smooth, elliptical motion while pushing and pulling the handles, adjusting resistance as needed.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Cardiovascular System", "isPrimary": true}
+      ],
+      "equipment": [
+        {"equipment": "ELLIPTICAL", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "stair-climber",
+      "name": "Stair Climber",
+      "activityType": "STAIR_CLIMBING_MACHINE",
+      "shortDescription": "Cardio machine that simulates climbing stairs.",
+      "longDescription": "Step onto the stair climber and begin stepping at a steady pace, keeping your posture upright and avoiding leaning on the handrails.",
+      "difficultyLevel": "INTERMEDIATE",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Cardiovascular System", "isPrimary": true},
+        {"muscleName": "Glutes", "isPrimary": false},
+        {"muscleName": "Quadriceps", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "STAIR_CLIMBER", "isRequired": true}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "swimming",
+      "name": "Swimming",
+      "activityType": "SWIMMING_POOL",
+      "shortDescription": "Full-body, low-impact cardio in the water.",
+      "longDescription": "Swim continuous laps using your stroke of choice, focusing on steady breathing and efficient technique.",
+      "difficultyLevel": "INTERMEDIATE",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Cardiovascular System", "isPrimary": true},
+        {"muscleName": "Lats", "isPrimary": false},
+        {"muscleName": "Full Body", "isPrimary": false}
+      ],
+      "equipment": [],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "standing-forward-fold",
+      "name": "Standing Forward Fold",
+      "activityType": "STRETCHING",
+      "shortDescription": "Standing stretch for the hamstrings and lower back.",
+      "longDescription": "Stand with feet hip-width apart. Hinge at the hips and fold forward, letting your head and arms hang toward the floor, keeping a slight bend in your knees if needed.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Hamstrings", "isPrimary": true},
+        {"muscleName": "Lower Back", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "YOGA_MAT", "isRequired": false}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "downward-dog",
+      "name": "Downward Dog",
+      "activityType": "YOGA",
+      "shortDescription": "Classic yoga pose that stretches the whole posterior chain.",
+      "longDescription": "From a tabletop position, tuck your toes and lift your hips up and back, forming an inverted V-shape with your body. Press your heels toward the floor and your chest toward your thighs.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Hamstrings", "isPrimary": true},
+        {"muscleName": "Calves", "isPrimary": false},
+        {"muscleName": "Lats", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "YOGA_MAT", "isRequired": false}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "pigeon-pose",
+      "name": "Pigeon Pose",
+      "activityType": "YOGA",
+      "shortDescription": "Deep hip-opening stretch.",
+      "longDescription": "From a tabletop position, bring one knee forward behind your wrist and extend the other leg straight back. Square your hips and fold forward over your front leg for a deeper stretch.",
+      "difficultyLevel": "INTERMEDIATE",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Hip Flexors", "isPrimary": true},
+        {"muscleName": "Hip Rotators", "isPrimary": false},
+        {"muscleName": "Glutes", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "YOGA_MAT", "isRequired": false}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "cat-cow-stretch",
+      "name": "Cat-Cow Stretch",
+      "activityType": "STRETCHING",
+      "shortDescription": "Gentle spinal mobility flow.",
+      "longDescription": "Start on all fours. Inhale as you arch your back and lift your head and tailbone (cow), then exhale as you round your spine and tuck your chin (cat). Flow smoothly between the two positions.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Lower Back", "isPrimary": true},
+        {"muscleName": "Abs", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "YOGA_MAT", "isRequired": false}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "childs-pose",
+      "name": "Child's Pose",
+      "activityType": "YOGA",
+      "shortDescription": "Restful yoga pose that gently stretches the back and hips.",
+      "longDescription": "Kneel on the floor with your big toes touching and knees spread wide. Sit back onto your heels and fold forward, extending your arms in front of you and resting your forehead on the floor.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Lower Back", "isPrimary": true},
+        {"muscleName": "Hip Flexors", "isPrimary": false}
+      ],
+      "equipment": [
+        {"equipment": "YOGA_MAT", "isRequired": false}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "hamstring-stretch",
+      "name": "Hamstring Stretch",
+      "activityType": "STRETCHING",
+      "shortDescription": "Targeted stretch for tight hamstrings.",
+      "longDescription": "Sit or lie on the floor and extend one leg straight. Reach toward your toes or use a strap around your foot, keeping your back as straight as possible, until you feel a stretch in the back of your thigh.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Hamstrings", "isPrimary": true}
+      ],
+      "equipment": [
+        {"equipment": "YOGA_MAT", "isRequired": false}
+      ],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "quad-stretch",
+      "name": "Quad Stretch",
+      "activityType": "STRETCHING",
+      "shortDescription": "Standing stretch for the front of the thigh.",
+      "longDescription": "Stand on one leg, holding onto something for balance if needed. Grab your other ankle behind you and pull your heel toward your glutes, keeping your knees close together.",
+      "difficultyLevel": "BEGINNER",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Quadriceps", "isPrimary": true}
+      ],
+      "equipment": [],
+      "links": [],
+      "media": []
+    },
+    {
+      "sourceId": "full-sun-salutation",
+      "name": "Full Sun Salutation",
+      "activityType": "YOGA",
+      "shortDescription": "Flowing sequence of poses that warms up the entire body.",
+      "longDescription": "Move through a linked sequence of poses — mountain pose, forward fold, halfway lift, plank, chaturanga, upward dog, and downward dog — synchronizing each movement with your breath.",
+      "difficultyLevel": "INTERMEDIATE",
+      "version": 1,
+      "muscles": [
+        {"muscleName": "Full Body", "isPrimary": true}
+      ],
+      "equipment": [
+        {"equipment": "YOGA_MAT", "isRequired": false}
+      ],
+      "links": [],
+      "media": []
+    }
+  ]
+}
