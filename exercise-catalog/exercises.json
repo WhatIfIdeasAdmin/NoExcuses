@@ -15,8 +15,8 @@
         {"muscleName": "Front Deltoid", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "BARBELL", "isRequired": true},
-        {"equipment": "BENCH", "isRequired": true}
+        {"equipmentName": "Barbell", "isRequired": true},
+        {"equipmentName": "Bench", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -35,8 +35,8 @@
         {"muscleName": "Front Deltoid", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "DUMBBELL", "isRequired": true},
-        {"equipment": "BENCH", "isRequired": true}
+        {"equipmentName": "Dumbbell", "isRequired": true},
+        {"equipmentName": "Bench", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -54,7 +54,7 @@
         {"muscleName": "Triceps", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "MACHINE", "isRequired": true}
+        {"equipmentName": "Machine", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -74,7 +74,7 @@
         {"muscleName": "Abs", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "BODYWEIGHT", "isRequired": true}
+        {"equipmentName": "Bodyweight", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -91,7 +91,7 @@
         {"muscleName": "Chest", "isPrimary": true}
       ],
       "equipment": [
-        {"equipment": "CABLE_MACHINE", "isRequired": true}
+        {"equipmentName": "Cable Machine", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -110,7 +110,7 @@
         {"muscleName": "Rhomboids", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "PULL_UP_BAR", "isRequired": true}
+        {"equipmentName": "Pull-Up Bar", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -128,7 +128,7 @@
         {"muscleName": "Biceps", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "CABLE_MACHINE", "isRequired": true}
+        {"equipmentName": "Cable Machine", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -148,7 +148,7 @@
         {"muscleName": "Biceps", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "BARBELL", "isRequired": true}
+        {"equipmentName": "Barbell", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -167,7 +167,7 @@
         {"muscleName": "Biceps", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "CABLE_MACHINE", "isRequired": true}
+        {"equipmentName": "Cable Machine", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -188,7 +188,7 @@
         {"muscleName": "Trapezius", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "BARBELL", "isRequired": true}
+        {"equipmentName": "Barbell", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -207,7 +207,7 @@
         {"muscleName": "Triceps", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "BARBELL", "isRequired": true}
+        {"equipmentName": "Barbell", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -224,7 +224,7 @@
         {"muscleName": "Side Deltoid", "isPrimary": true}
       ],
       "equipment": [
-        {"equipment": "DUMBBELL", "isRequired": true}
+        {"equipmentName": "Dumbbell", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -243,7 +243,7 @@
         {"muscleName": "Triceps", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "MACHINE", "isRequired": true}
+        {"equipmentName": "Machine", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -261,7 +261,7 @@
         {"muscleName": "Forearms", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "BARBELL", "isRequired": true}
+        {"equipmentName": "Barbell", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -279,7 +279,7 @@
         {"muscleName": "Forearms", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "DUMBBELL", "isRequired": true}
+        {"equipmentName": "Dumbbell", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -296,7 +296,7 @@
         {"muscleName": "Biceps", "isPrimary": true}
       ],
       "equipment": [
-        {"equipment": "CABLE_MACHINE", "isRequired": true}
+        {"equipmentName": "Cable Machine", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -313,7 +313,7 @@
         {"muscleName": "Triceps", "isPrimary": true}
       ],
       "equipment": [
-        {"equipment": "CABLE_MACHINE", "isRequired": true}
+        {"equipmentName": "Cable Machine", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -332,7 +332,7 @@
         {"muscleName": "Front Deltoid", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "OTHER", "isRequired": true}
+        {"equipmentName": "Other", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -349,8 +349,8 @@
         {"muscleName": "Triceps", "isPrimary": true}
       ],
       "equipment": [
-        {"equipment": "BARBELL", "isRequired": true},
-        {"equipment": "BENCH", "isRequired": true}
+        {"equipmentName": "Barbell", "isRequired": true},
+        {"equipmentName": "Bench", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -369,7 +369,7 @@
         {"muscleName": "Hamstrings", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "BARBELL", "isRequired": true}
+        {"equipmentName": "Barbell", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -387,7 +387,7 @@
         {"muscleName": "Glutes", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "MACHINE", "isRequired": true}
+        {"equipmentName": "Machine", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -404,7 +404,7 @@
         {"muscleName": "Quadriceps", "isPrimary": true}
       ],
       "equipment": [
-        {"equipment": "MACHINE", "isRequired": true}
+        {"equipmentName": "Machine", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -422,7 +422,7 @@
         {"muscleName": "Glutes", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "BODYWEIGHT", "isRequired": true}
+        {"equipmentName": "Bodyweight", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -440,8 +440,8 @@
         {"muscleName": "Glutes", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "BODYWEIGHT", "isRequired": true},
-        {"equipment": "DUMBBELL", "isRequired": false}
+        {"equipmentName": "Bodyweight", "isRequired": true},
+        {"equipmentName": "Dumbbell", "isRequired": false}
       ],
       "links": [],
       "media": []
@@ -460,7 +460,7 @@
         {"muscleName": "Lower Back", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "BARBELL", "isRequired": true}
+        {"equipmentName": "Barbell", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -477,7 +477,7 @@
         {"muscleName": "Hamstrings", "isPrimary": true}
       ],
       "equipment": [
-        {"equipment": "MACHINE", "isRequired": true}
+        {"equipmentName": "Machine", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -495,8 +495,8 @@
         {"muscleName": "Hamstrings", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "BARBELL", "isRequired": true},
-        {"equipment": "BENCH", "isRequired": true}
+        {"equipmentName": "Barbell", "isRequired": true},
+        {"equipmentName": "Bench", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -514,7 +514,7 @@
         {"muscleName": "Hamstrings", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "BODYWEIGHT", "isRequired": true}
+        {"equipmentName": "Bodyweight", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -531,8 +531,8 @@
         {"muscleName": "Calves", "isPrimary": true}
       ],
       "equipment": [
-        {"equipment": "BODYWEIGHT", "isRequired": true},
-        {"equipment": "MACHINE", "isRequired": false}
+        {"equipmentName": "Bodyweight", "isRequired": true},
+        {"equipmentName": "Machine", "isRequired": false}
       ],
       "links": [],
       "media": []
@@ -550,7 +550,7 @@
         {"muscleName": "Deep Core", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "BODYWEIGHT", "isRequired": true}
+        {"equipmentName": "Bodyweight", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -567,7 +567,7 @@
         {"muscleName": "Abs", "isPrimary": true}
       ],
       "equipment": [
-        {"equipment": "BODYWEIGHT", "isRequired": true}
+        {"equipmentName": "Bodyweight", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -585,7 +585,7 @@
         {"muscleName": "Hip Flexors", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "PULL_UP_BAR", "isRequired": true}
+        {"equipmentName": "Pull-Up Bar", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -604,7 +604,7 @@
         {"muscleName": "Full Body", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "KETTLEBELL", "isRequired": true}
+        {"equipmentName": "Kettlebell", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -623,7 +623,7 @@
         {"muscleName": "Quadriceps", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "BODYWEIGHT", "isRequired": true}
+        {"equipmentName": "Bodyweight", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -655,7 +655,7 @@
         {"muscleName": "Cardiovascular System", "isPrimary": true}
       ],
       "equipment": [
-        {"equipment": "TREADMILL", "isRequired": true}
+        {"equipmentName": "Treadmill", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -689,7 +689,7 @@
         {"muscleName": "Quadriceps", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "STATIONARY_BIKE", "isRequired": true}
+        {"equipmentName": "Stationary Bike", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -708,7 +708,7 @@
         {"muscleName": "Quadriceps", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "ROWING_MACHINE", "isRequired": true}
+        {"equipmentName": "Rowing Machine", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -725,7 +725,7 @@
         {"muscleName": "Cardiovascular System", "isPrimary": true}
       ],
       "equipment": [
-        {"equipment": "ELLIPTICAL", "isRequired": true}
+        {"equipmentName": "Elliptical", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -744,7 +744,7 @@
         {"muscleName": "Quadriceps", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "STAIR_CLIMBER", "isRequired": true}
+        {"equipmentName": "Stair Climber", "isRequired": true}
       ],
       "links": [],
       "media": []
@@ -779,7 +779,7 @@
         {"muscleName": "Lower Back", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "YOGA_MAT", "isRequired": false}
+        {"equipmentName": "Yoga Mat", "isRequired": false}
       ],
       "links": [],
       "media": []
@@ -798,7 +798,7 @@
         {"muscleName": "Lats", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "YOGA_MAT", "isRequired": false}
+        {"equipmentName": "Yoga Mat", "isRequired": false}
       ],
       "links": [],
       "media": []
@@ -817,7 +817,7 @@
         {"muscleName": "Glutes", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "YOGA_MAT", "isRequired": false}
+        {"equipmentName": "Yoga Mat", "isRequired": false}
       ],
       "links": [],
       "media": []
@@ -835,7 +835,7 @@
         {"muscleName": "Abs", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "YOGA_MAT", "isRequired": false}
+        {"equipmentName": "Yoga Mat", "isRequired": false}
       ],
       "links": [],
       "media": []
@@ -853,7 +853,7 @@
         {"muscleName": "Hip Flexors", "isPrimary": false}
       ],
       "equipment": [
-        {"equipment": "YOGA_MAT", "isRequired": false}
+        {"equipmentName": "Yoga Mat", "isRequired": false}
       ],
       "links": [],
       "media": []
@@ -870,7 +870,7 @@
         {"muscleName": "Hamstrings", "isPrimary": true}
       ],
       "equipment": [
-        {"equipment": "YOGA_MAT", "isRequired": false}
+        {"equipmentName": "Yoga Mat", "isRequired": false}
       ],
       "links": [],
       "media": []
@@ -902,7 +902,7 @@
         {"muscleName": "Full Body", "isPrimary": true}
       ],
       "equipment": [
-        {"equipment": "YOGA_MAT", "isRequired": false}
+        {"equipmentName": "Yoga Mat", "isRequired": false}
       ],
       "links": [],
       "media": []
