@@ -1,0 +1,221 @@
+{
+ "_comment": "Sample data for LifeTracker's 90-day seeder. Developer-only: fetched at runtime so it never ships in a release build. The seeder's deterministic Random(42) structure stays in code, so this content still produces the same 714 entries.",
+ "cardioTypes": [
+  "RUNNING",
+  "BIKING",
+  "WALKING",
+  "INDOOR_CYCLING",
+  "ROWING",
+  "SWIMMING"
+ ],
+ "classes": [
+  {
+   "name": "Spin",
+   "instructor": "Marcus"
+  },
+  {
+   "name": "Vinyasa Flow",
+   "instructor": "Priya"
+  },
+  {
+   "name": "HIIT Circuit",
+   "instructor": "Dana"
+  },
+  {
+   "name": "Bootcamp",
+   "instructor": "Alex"
+  },
+  {
+   "name": "Reformer Pilates",
+   "instructor": "Sam"
+  }
+ ],
+ "sleepNotes": [
+  "Woke twice, got back down quickly",
+  "Late caffeine — took a while to drop off",
+  "Solid, no wake-ups",
+  "Warm room, restless first hour"
+ ],
+ "strengthNotes": [
+  "Felt strong, added a plate on the last set",
+  "Left shoulder a bit tight — kept the volume down",
+  "Straight through, no rest-timer overruns",
+  "Deload week, kept everything submaximal"
+ ],
+ "cardioNotes": [
+  "Negative split, felt easy",
+  "Hot and humid, backed off the pace",
+  "Hill route",
+  "Easy recovery pace"
+ ],
+ "foods": [
+  {
+   "name": "Greek yogurt with berries",
+   "serving": "1 cup",
+   "gramWeight": 245.0,
+   "calories": 180.0,
+   "proteinG": 18.0,
+   "carbsG": 20.0,
+   "fatG": 3.0,
+   "saturatedFatG": 1.8,
+   "cholesterolMg": 10.0,
+   "fiberG": 2.0,
+   "sugarG": 16.0,
+   "sodiumMg": 65.0
+  },
+  {
+   "name": "Oatmeal with banana",
+   "serving": "1 bowl",
+   "gramWeight": 300.0,
+   "calories": 320.0,
+   "proteinG": 10.0,
+   "carbsG": 58.0,
+   "fatG": 6.0,
+   "saturatedFatG": 1.1,
+   "cholesterolMg": 0.0,
+   "fiberG": 7.0,
+   "sugarG": 16.0,
+   "sodiumMg": 10.0
+  },
+  {
+   "name": "Chicken breast and rice",
+   "serving": "200g / 1 cup",
+   "gramWeight": 358.0,
+   "calories": 520.0,
+   "proteinG": 45.0,
+   "carbsG": 55.0,
+   "fatG": 9.0,
+   "saturatedFatG": 2.0,
+   "cholesterolMg": 125.0,
+   "fiberG": 1.5,
+   "sugarG": 0.5,
+   "sodiumMg": 340.0
+  },
+  {
+   "name": "Grilled salmon and greens",
+   "serving": "180g fillet",
+   "gramWeight": 280.0,
+   "calories": 430.0,
+   "proteinG": 38.0,
+   "carbsG": 8.0,
+   "fatG": 26.0,
+   "saturatedFatG": 5.5,
+   "cholesterolMg": 100.0,
+   "fiberG": 3.0,
+   "sugarG": 2.0,
+   "sodiumMg": 210.0
+  },
+  {
+   "name": "Turkey sandwich",
+   "serving": "1 sandwich",
+   "gramWeight": 210.0,
+   "calories": 380.0,
+   "proteinG": 28.0,
+   "carbsG": 40.0,
+   "fatG": 11.0,
+   "saturatedFatG": 2.8,
+   "cholesterolMg": 55.0,
+   "fiberG": 4.0,
+   "sugarG": 6.0,
+   "sodiumMg": 980.0
+  },
+  {
+   "name": "Protein shake",
+   "serving": "1 scoop",
+   "gramWeight": 330.0,
+   "calories": 150.0,
+   "proteinG": 25.0,
+   "carbsG": 5.0,
+   "fatG": 2.5,
+   "saturatedFatG": 1.0,
+   "cholesterolMg": 40.0,
+   "fiberG": 1.0,
+   "sugarG": 2.0,
+   "sodiumMg": 130.0
+  },
+  {
+   "name": "Mixed nuts",
+   "serving": "30g",
+   "gramWeight": 30.0,
+   "calories": 190.0,
+   "proteinG": 6.0,
+   "carbsG": 7.0,
+   "fatG": 16.0,
+   "saturatedFatG": 2.2,
+   "cholesterolMg": 0.0,
+   "fiberG": 3.0,
+   "sugarG": 1.5,
+   "sodiumMg": 90.0
+  },
+  {
+   "name": "Beef stir fry",
+   "serving": "1 plate",
+   "gramWeight": 400.0,
+   "calories": 610.0,
+   "proteinG": 42.0,
+   "carbsG": 48.0,
+   "fatG": 24.0,
+   "saturatedFatG": 8.5,
+   "cholesterolMg": 110.0,
+   "fiberG": 5.0,
+   "sugarG": 9.0,
+   "sodiumMg": 1150.0
+  },
+  {
+   "name": "Apple",
+   "serving": "1 medium",
+   "gramWeight": 182.0,
+   "calories": 95.0,
+   "proteinG": 0.5,
+   "carbsG": 25.0,
+   "fatG": 0.3,
+   "saturatedFatG": 0.1,
+   "cholesterolMg": 0.0,
+   "fiberG": 4.4,
+   "sugarG": 19.0,
+   "sodiumMg": 2.0
+  },
+  {
+   "name": "Two boiled eggs",
+   "serving": "2 eggs",
+   "gramWeight": 100.0,
+   "calories": 155.0,
+   "proteinG": 13.0,
+   "carbsG": 1.1,
+   "fatG": 11.0,
+   "saturatedFatG": 3.3,
+   "cholesterolMg": 372.0,
+   "fiberG": 0.0,
+   "sugarG": 1.1,
+   "sodiumMg": 124.0
+  },
+  {
+   "name": "Lentil soup",
+   "serving": "1 bowl",
+   "gramWeight": 350.0,
+   "calories": 240.0,
+   "proteinG": 15.0,
+   "carbsG": 38.0,
+   "fatG": 3.0,
+   "saturatedFatG": 0.5,
+   "cholesterolMg": 0.0,
+   "fiberG": 14.0,
+   "sugarG": 5.0,
+   "sodiumMg": 720.0
+  },
+  {
+   "name": "Pasta bolognese",
+   "serving": "1 plate",
+   "gramWeight": 400.0,
+   "calories": 680.0,
+   "proteinG": 32.0,
+   "carbsG": 82.0,
+   "fatG": 22.0,
+   "saturatedFatG": 7.5,
+   "cholesterolMg": 65.0,
+   "fiberG": 6.0,
+   "sugarG": 12.0,
+   "sodiumMg": 890.0
+  }
+ ]
+}
