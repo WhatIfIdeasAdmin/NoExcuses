@@ -1,0 +1,1328 @@
+{
+ "_comment": "Generated from the app's Kotlin seed lists, then maintained here. Name is the identity: exercises resolve their muscles and equipment by name, so renaming a row here orphans nothing but retargets every exercise that named it. category/location must match the MuscleGroup, FitnessCategory, EquipmentCategory and EquipmentLocation enums in the app; a row with an unrecognised value is skipped and reported rather than applied.",
+ "muscles": [
+  {
+   "name": "Chest",
+   "category": "CHEST",
+   "aliases": [
+    "pecs",
+    "pectorals",
+    "chest muscles"
+   ]
+  },
+  {
+   "name": "Lats",
+   "category": "BACK",
+   "aliases": [
+    "lat muscles",
+    "back wings",
+    "latissimus dorsi"
+   ]
+  },
+  {
+   "name": "Trapezius",
+   "category": "BACK",
+   "aliases": [
+    "traps"
+   ]
+  },
+  {
+   "name": "Rhomboids",
+   "category": "BACK",
+   "aliases": [
+    "middle back",
+    "between shoulder blades"
+   ]
+  },
+  {
+   "name": "Lower Back",
+   "category": "BACK",
+   "aliases": [
+    "erector spinae",
+    "spinal erectors"
+   ]
+  },
+  {
+   "name": "Front Deltoid",
+   "category": "SHOULDERS",
+   "aliases": [
+    "anterior deltoid",
+    "front delts"
+   ]
+  },
+  {
+   "name": "Side Deltoid",
+   "category": "SHOULDERS",
+   "aliases": [
+    "lateral deltoid",
+    "side delts"
+   ]
+  },
+  {
+   "name": "Rear Deltoid",
+   "category": "SHOULDERS",
+   "aliases": [
+    "posterior deltoid",
+    "rear delts"
+   ]
+  },
+  {
+   "name": "Rotator Cuff",
+   "category": "SHOULDERS",
+   "aliases": [
+    "shoulder stabilizers"
+   ]
+  },
+  {
+   "name": "Biceps",
+   "category": "BICEPS",
+   "aliases": [
+    "biceps brachii",
+    "guns"
+   ]
+  },
+  {
+   "name": "Triceps",
+   "category": "TRICEPS",
+   "aliases": [
+    "triceps brachii",
+    "tris"
+   ]
+  },
+  {
+   "name": "Forearms",
+   "category": "FOREARMS",
+   "aliases": [
+    "forearm flexors",
+    "forearm extensors",
+    "grip muscles",
+    "wrist muscles"
+   ]
+  },
+  {
+   "name": "Hands",
+   "category": "FOREARMS",
+   "aliases": [
+    "grip",
+    "fingers",
+    "hand muscles",
+    "flexor digitorum",
+    "lumbricals",
+    "interossei",
+    "thenar",
+    "hypothenar"
+   ]
+  },
+  {
+   "name": "Abs",
+   "category": "CORE",
+   "aliases": [
+    "rectus abdominis",
+    "six-pack",
+    "abdominals",
+    "stomach muscles"
+   ]
+  },
+  {
+   "name": "Obliques",
+   "category": "CORE",
+   "aliases": [
+    "side abs",
+    "waist"
+   ]
+  },
+  {
+   "name": "Deep Core",
+   "category": "CORE",
+   "aliases": [
+    "transverse abdominis",
+    "tva"
+   ]
+  },
+  {
+   "name": "Quadriceps",
+   "category": "QUADS",
+   "aliases": [
+    "quads",
+    "front thigh"
+   ]
+  },
+  {
+   "name": "Hamstrings",
+   "category": "HAMSTRINGS",
+   "aliases": [
+    "hams",
+    "back thigh"
+   ]
+  },
+  {
+   "name": "Glutes",
+   "category": "GLUTES",
+   "aliases": [
+    "butt",
+    "buttocks",
+    "booty",
+    "ass",
+    "rear",
+    "backside"
+   ]
+  },
+  {
+   "name": "Hip Flexors",
+   "category": "HIPS",
+   "aliases": [
+    "iliopsoas",
+    "psoas"
+   ]
+  },
+  {
+   "name": "Adductors",
+   "category": "HIPS",
+   "aliases": [
+    "inner thigh",
+    "groin"
+   ]
+  },
+  {
+   "name": "Abductors",
+   "category": "HIPS",
+   "aliases": [
+    "outer thigh",
+    "hip abductors"
+   ]
+  },
+  {
+   "name": "Hip Rotators",
+   "category": "HIPS",
+   "aliases": [
+    "deep glutes",
+    "piriformis"
+   ]
+  },
+  {
+   "name": "Calves",
+   "category": "CALVES",
+   "aliases": [
+    "calf muscles",
+    "gastrocnemius",
+    "soleus"
+   ]
+  },
+  {
+   "name": "Shins",
+   "category": "CALVES",
+   "aliases": [
+    "tibialis anterior",
+    "shin muscle"
+   ]
+  },
+  {
+   "name": "Neck",
+   "category": "NECK",
+   "aliases": [
+    "cervical muscles",
+    "sternocleidomastoid"
+   ]
+  },
+  {
+   "name": "Cardiovascular System",
+   "category": "FULL_BODY",
+   "aliases": [
+    "cardio",
+    "whole body",
+    "heart and lungs",
+    "full-body",
+    "total body"
+   ]
+  },
+  {
+   "name": "Full Body",
+   "category": "FULL_BODY",
+   "aliases": [
+    "compound",
+    "total-body",
+    "functional"
+   ]
+  }
+ ],
+ "fitnessTypes": [
+  {
+   "name": "Running",
+   "category": "CARDIO",
+   "aliases": [
+    "jogging"
+   ]
+  },
+  {
+   "name": "Trail running",
+   "category": "CARDIO",
+   "aliases": []
+  },
+  {
+   "name": "Treadmill running",
+   "category": "CARDIO",
+   "aliases": []
+  },
+  {
+   "name": "Sprinting",
+   "category": "CARDIO",
+   "aliases": [
+    "interval sprints"
+   ]
+  },
+  {
+   "name": "Walking",
+   "category": "CARDIO",
+   "aliases": []
+  },
+  {
+   "name": "Race walking",
+   "category": "CARDIO",
+   "aliases": []
+  },
+  {
+   "name": "Nordic walking",
+   "category": "CARDIO",
+   "aliases": []
+  },
+  {
+   "name": "Hiking",
+   "category": "CARDIO",
+   "aliases": []
+  },
+  {
+   "name": "Cycling",
+   "category": "CARDIO",
+   "aliases": [
+    "biking",
+    "road biking"
+   ]
+  },
+  {
+   "name": "Mountain biking",
+   "category": "CARDIO",
+   "aliases": []
+  },
+  {
+   "name": "Indoor cycling",
+   "category": "CARDIO",
+   "aliases": [
+    "spinning",
+    "spin class"
+   ]
+  },
+  {
+   "name": "Elliptical training",
+   "category": "CARDIO",
+   "aliases": [
+    "elliptical"
+   ]
+  },
+  {
+   "name": "Stair climbing",
+   "category": "CARDIO",
+   "aliases": [
+    "stair climbing machine",
+    "stepmill"
+   ]
+  },
+  {
+   "name": "Rowing",
+   "category": "CARDIO",
+   "aliases": [
+    "indoor rowing",
+    "rowing machine",
+    "erg"
+   ]
+  },
+  {
+   "name": "Swimming (pool)",
+   "category": "CARDIO",
+   "aliases": []
+  },
+  {
+   "name": "Swimming (open water)",
+   "category": "CARDIO",
+   "aliases": []
+  },
+  {
+   "name": "Jump rope",
+   "category": "CARDIO",
+   "aliases": [
+    "skipping rope"
+   ]
+  },
+  {
+   "name": "High-intensity interval training",
+   "category": "CARDIO",
+   "aliases": [
+    "HIIT"
+   ]
+  },
+  {
+   "name": "Mixed cardio",
+   "category": "CARDIO",
+   "aliases": []
+  },
+  {
+   "name": "Track and field",
+   "category": "CARDIO",
+   "aliases": []
+  },
+  {
+   "name": "Aerobics",
+   "category": "CARDIO",
+   "aliases": []
+  },
+  {
+   "name": "Step aerobics",
+   "category": "CARDIO",
+   "aliases": [
+    "step class"
+   ]
+  },
+  {
+   "name": "Strength training",
+   "category": "STRENGTH",
+   "aliases": [
+    "resistance training",
+    "weight training"
+   ]
+  },
+  {
+   "name": "Weightlifting",
+   "category": "STRENGTH",
+   "aliases": []
+  },
+  {
+   "name": "Olympic weightlifting",
+   "category": "STRENGTH",
+   "aliases": [
+    "snatch and clean and jerk"
+   ]
+  },
+  {
+   "name": "Powerlifting",
+   "category": "STRENGTH",
+   "aliases": []
+  },
+  {
+   "name": "Bodybuilding",
+   "category": "STRENGTH",
+   "aliases": []
+  },
+  {
+   "name": "Calisthenics",
+   "category": "STRENGTH",
+   "aliases": [
+    "bodyweight training"
+   ]
+  },
+  {
+   "name": "CrossFit",
+   "category": "STRENGTH",
+   "aliases": []
+  },
+  {
+   "name": "Functional training",
+   "category": "STRENGTH",
+   "aliases": []
+  },
+  {
+   "name": "Circuit training",
+   "category": "STRENGTH",
+   "aliases": []
+  },
+  {
+   "name": "Core training",
+   "category": "STRENGTH",
+   "aliases": [
+    "ab workout"
+   ]
+  },
+  {
+   "name": "Boot camp",
+   "category": "STRENGTH",
+   "aliases": []
+  },
+  {
+   "name": "Gymnastics",
+   "category": "STRENGTH",
+   "aliases": []
+  },
+  {
+   "name": "Plyometrics",
+   "category": "STRENGTH",
+   "aliases": [
+    "jump training"
+   ]
+  },
+  {
+   "name": "Kettlebell training",
+   "category": "STRENGTH",
+   "aliases": []
+  },
+  {
+   "name": "Strongman training",
+   "category": "STRENGTH",
+   "aliases": []
+  },
+  {
+   "name": "Yoga",
+   "category": "MIND_BODY",
+   "aliases": []
+  },
+  {
+   "name": "Hatha yoga",
+   "category": "MIND_BODY",
+   "aliases": []
+  },
+  {
+   "name": "Vinyasa yoga",
+   "category": "MIND_BODY",
+   "aliases": [
+    "flow yoga"
+   ]
+  },
+  {
+   "name": "Power yoga",
+   "category": "MIND_BODY",
+   "aliases": []
+  },
+  {
+   "name": "Hot yoga",
+   "category": "MIND_BODY",
+   "aliases": [
+    "bikram yoga"
+   ]
+  },
+  {
+   "name": "Restorative yoga",
+   "category": "MIND_BODY",
+   "aliases": []
+  },
+  {
+   "name": "Pilates",
+   "category": "MIND_BODY",
+   "aliases": []
+  },
+  {
+   "name": "Barre",
+   "category": "MIND_BODY",
+   "aliases": []
+  },
+  {
+   "name": "Stretching",
+   "category": "MIND_BODY",
+   "aliases": []
+  },
+  {
+   "name": "Flexibility training",
+   "category": "MIND_BODY",
+   "aliases": [
+    "mobility work"
+   ]
+  },
+  {
+   "name": "Tai chi",
+   "category": "MIND_BODY",
+   "aliases": []
+  },
+  {
+   "name": "Qigong",
+   "category": "MIND_BODY",
+   "aliases": []
+  },
+  {
+   "name": "Guided breathing",
+   "category": "MIND_BODY",
+   "aliases": [
+    "breathwork"
+   ]
+  },
+  {
+   "name": "Meditation",
+   "category": "MIND_BODY",
+   "aliases": []
+  },
+  {
+   "name": "Group exercise class",
+   "category": "CLASS_GROUP",
+   "aliases": []
+  },
+  {
+   "name": "Dancing",
+   "category": "CLASS_GROUP",
+   "aliases": []
+  },
+  {
+   "name": "Zumba",
+   "category": "CLASS_GROUP",
+   "aliases": []
+  },
+  {
+   "name": "Cardio dance",
+   "category": "CLASS_GROUP",
+   "aliases": []
+  },
+  {
+   "name": "Ballet",
+   "category": "CLASS_GROUP",
+   "aliases": []
+  },
+  {
+   "name": "Hip-hop dance",
+   "category": "CLASS_GROUP",
+   "aliases": []
+  },
+  {
+   "name": "Ballroom dancing",
+   "category": "CLASS_GROUP",
+   "aliases": []
+  },
+  {
+   "name": "Line dancing",
+   "category": "CLASS_GROUP",
+   "aliases": []
+  },
+  {
+   "name": "Kickboxing",
+   "category": "CLASS_GROUP",
+   "aliases": []
+  },
+  {
+   "name": "Boxing",
+   "category": "CLASS_GROUP",
+   "aliases": []
+  },
+  {
+   "name": "Martial arts",
+   "category": "CLASS_GROUP",
+   "aliases": []
+  },
+  {
+   "name": "Brazilian jiu-jitsu",
+   "category": "CLASS_GROUP",
+   "aliases": [
+    "BJJ"
+   ]
+  },
+  {
+   "name": "Judo",
+   "category": "CLASS_GROUP",
+   "aliases": []
+  },
+  {
+   "name": "Karate",
+   "category": "CLASS_GROUP",
+   "aliases": []
+  },
+  {
+   "name": "Taekwondo",
+   "category": "CLASS_GROUP",
+   "aliases": []
+  },
+  {
+   "name": "Muay Thai",
+   "category": "CLASS_GROUP",
+   "aliases": [
+    "Thai boxing"
+   ]
+  },
+  {
+   "name": "Wrestling",
+   "category": "CLASS_GROUP",
+   "aliases": []
+  },
+  {
+   "name": "Badminton",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Baseball",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Basketball",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Cricket",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Fencing",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "American football",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Australian football",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Frisbee / disc",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Ultimate frisbee",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Golf",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Handball",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Ice hockey",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Field hockey",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Racquetball",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Roller hockey",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Rugby",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Soccer",
+   "category": "SPORT",
+   "aliases": [
+    "football"
+   ]
+  },
+  {
+   "name": "Softball",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Squash",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Table tennis",
+   "category": "SPORT",
+   "aliases": [
+    "ping pong"
+   ]
+  },
+  {
+   "name": "Tennis",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Pickleball",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Volleyball",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Lacrosse",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Archery",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Bowling",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Curling",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Disc golf",
+   "category": "SPORT",
+   "aliases": []
+  },
+  {
+   "name": "Horseback riding",
+   "category": "SPORT",
+   "aliases": [
+    "equestrian"
+   ]
+  },
+  {
+   "name": "Water polo",
+   "category": "WATER",
+   "aliases": []
+  },
+  {
+   "name": "Water fitness",
+   "category": "WATER",
+   "aliases": []
+  },
+  {
+   "name": "Water aerobics",
+   "category": "WATER",
+   "aliases": []
+  },
+  {
+   "name": "Scuba diving",
+   "category": "WATER",
+   "aliases": []
+  },
+  {
+   "name": "Surfing",
+   "category": "WATER",
+   "aliases": []
+  },
+  {
+   "name": "Sailing",
+   "category": "WATER",
+   "aliases": []
+  },
+  {
+   "name": "Paddling",
+   "category": "WATER",
+   "aliases": []
+  },
+  {
+   "name": "Stand-up paddleboarding",
+   "category": "WATER",
+   "aliases": [
+    "SUP"
+   ]
+  },
+  {
+   "name": "Kayaking",
+   "category": "WATER",
+   "aliases": []
+  },
+  {
+   "name": "Canoeing",
+   "category": "WATER",
+   "aliases": []
+  },
+  {
+   "name": "Water skiing",
+   "category": "WATER",
+   "aliases": []
+  },
+  {
+   "name": "Downhill skiing",
+   "category": "WINTER_OUTDOOR",
+   "aliases": [
+    "skiing"
+   ]
+  },
+  {
+   "name": "Cross-country skiing",
+   "category": "WINTER_OUTDOOR",
+   "aliases": []
+  },
+  {
+   "name": "Snowboarding",
+   "category": "WINTER_OUTDOOR",
+   "aliases": []
+  },
+  {
+   "name": "Ice skating",
+   "category": "WINTER_OUTDOOR",
+   "aliases": []
+  },
+  {
+   "name": "Snowshoeing",
+   "category": "WINTER_OUTDOOR",
+   "aliases": []
+  },
+  {
+   "name": "Rock climbing",
+   "category": "WINTER_OUTDOOR",
+   "aliases": []
+  },
+  {
+   "name": "Bouldering",
+   "category": "WINTER_OUTDOOR",
+   "aliases": []
+  },
+  {
+   "name": "Paragliding",
+   "category": "WINTER_OUTDOOR",
+   "aliases": []
+  },
+  {
+   "name": "Obstacle course racing",
+   "category": "WINTER_OUTDOOR",
+   "aliases": [
+    "OCR",
+    "mud run"
+   ]
+  },
+  {
+   "name": "Parkour",
+   "category": "WINTER_OUTDOOR",
+   "aliases": [
+    "free running"
+   ]
+  },
+  {
+   "name": "Trampoline",
+   "category": "WINTER_OUTDOOR",
+   "aliases": [
+    "rebounding"
+   ]
+  },
+  {
+   "name": "Skateboarding",
+   "category": "WINTER_OUTDOOR",
+   "aliases": []
+  },
+  {
+   "name": "Inline skating",
+   "category": "WINTER_OUTDOOR",
+   "aliases": [
+    "rollerblading"
+   ]
+  },
+  {
+   "name": "Wheelchair fitness",
+   "category": "OTHER",
+   "aliases": []
+  },
+  {
+   "name": "General fitness",
+   "category": "OTHER",
+   "aliases": []
+  },
+  {
+   "name": "Other",
+   "category": "OTHER",
+   "aliases": []
+  }
+ ],
+ "equipment": [
+  {
+   "name": "Barbell",
+   "category": "FREE_WEIGHTS",
+   "location": "INDOOR",
+   "aliases": []
+  },
+  {
+   "name": "Dumbbell",
+   "category": "FREE_WEIGHTS",
+   "location": "INDOOR",
+   "aliases": [
+    "dumbbells"
+   ]
+  },
+  {
+   "name": "Kettlebell",
+   "category": "FREE_WEIGHTS",
+   "location": "BOTH",
+   "aliases": []
+  },
+  {
+   "name": "EZ Curl Bar",
+   "category": "FREE_WEIGHTS",
+   "location": "INDOOR",
+   "aliases": [
+    "SZ bar",
+    "curl bar"
+   ]
+  },
+  {
+   "name": "Weight Plates",
+   "category": "FREE_WEIGHTS",
+   "location": "INDOOR",
+   "aliases": [
+    "bumper plates",
+    "iron plates"
+   ]
+  },
+  {
+   "name": "Ankle Weights",
+   "category": "FREE_WEIGHTS",
+   "location": "BOTH",
+   "aliases": []
+  },
+  {
+   "name": "Wrist Weights",
+   "category": "FREE_WEIGHTS",
+   "location": "BOTH",
+   "aliases": []
+  },
+  {
+   "name": "Weighted Vest",
+   "category": "FREE_WEIGHTS",
+   "location": "BOTH",
+   "aliases": []
+  },
+  {
+   "name": "Machine",
+   "category": "MACHINES",
+   "location": "INDOOR",
+   "aliases": [
+    "weight machine"
+   ]
+  },
+  {
+   "name": "Leg Press Machine",
+   "category": "MACHINES",
+   "location": "INDOOR",
+   "aliases": [
+    "leg press"
+   ]
+  },
+  {
+   "name": "Lat Pulldown Machine",
+   "category": "MACHINES",
+   "location": "INDOOR",
+   "aliases": [
+    "lat pulldown"
+   ]
+  },
+  {
+   "name": "Smith Machine",
+   "category": "MACHINES",
+   "location": "INDOOR",
+   "aliases": []
+  },
+  {
+   "name": "Pilates Reformer",
+   "category": "MACHINES",
+   "location": "INDOOR",
+   "aliases": [
+    "reformer"
+   ]
+  },
+  {
+   "name": "Cable Machine",
+   "category": "CABLE",
+   "location": "INDOOR",
+   "aliases": []
+  },
+  {
+   "name": "Treadmill",
+   "category": "CARDIO_MACHINES",
+   "location": "INDOOR",
+   "aliases": []
+  },
+  {
+   "name": "Stationary Bike",
+   "category": "CARDIO_MACHINES",
+   "location": "INDOOR",
+   "aliases": [
+    "exercise bike",
+    "spin bike"
+   ]
+  },
+  {
+   "name": "Rowing Machine",
+   "category": "CARDIO_MACHINES",
+   "location": "INDOOR",
+   "aliases": [
+    "rower",
+    "erg"
+   ]
+  },
+  {
+   "name": "Elliptical",
+   "category": "CARDIO_MACHINES",
+   "location": "INDOOR",
+   "aliases": [
+    "elliptical trainer"
+   ]
+  },
+  {
+   "name": "Stair Climber",
+   "category": "CARDIO_MACHINES",
+   "location": "INDOOR",
+   "aliases": [
+    "stepmill",
+    "stair machine"
+   ]
+  },
+  {
+   "name": "Medicine Ball",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "BOTH",
+   "aliases": []
+  },
+  {
+   "name": "Exercise Ball",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "BOTH",
+   "aliases": [
+    "stability ball",
+    "swiss ball"
+   ]
+  },
+  {
+   "name": "Yoga Mat",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "BOTH",
+   "aliases": []
+  },
+  {
+   "name": "Jump Rope",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "BOTH",
+   "aliases": [
+    "skipping rope"
+   ]
+  },
+  {
+   "name": "Suspension Trainer",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "BOTH",
+   "aliases": [
+    "TRX"
+   ]
+  },
+  {
+   "name": "Plyo Box",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "BOTH",
+   "aliases": [
+    "jump box"
+   ]
+  },
+  {
+   "name": "Gymnastics Rings",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "BOTH",
+   "aliases": []
+  },
+  {
+   "name": "Parallettes",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "BOTH",
+   "aliases": []
+  },
+  {
+   "name": "Ab Wheel",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "BOTH",
+   "aliases": [
+    "ab roller"
+   ]
+  },
+  {
+   "name": "Slam Ball",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "INDOOR",
+   "aliases": []
+  },
+  {
+   "name": "Sandbag",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "BOTH",
+   "aliases": []
+  },
+  {
+   "name": "Punching Bag",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "INDOOR",
+   "aliases": [
+    "heavy bag"
+   ]
+  },
+  {
+   "name": "Boxing Gloves",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "BOTH",
+   "aliases": []
+  },
+  {
+   "name": "Speed Bag",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "INDOOR",
+   "aliases": []
+  },
+  {
+   "name": "Yoga Block",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "BOTH",
+   "aliases": []
+  },
+  {
+   "name": "Yoga Strap",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "BOTH",
+   "aliases": []
+  },
+  {
+   "name": "Agility Ladder",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "BOTH",
+   "aliases": []
+  },
+  {
+   "name": "Balance Board",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "BOTH",
+   "aliases": []
+  },
+  {
+   "name": "BOSU Ball",
+   "category": "BODYWEIGHT_ACCESSORY",
+   "location": "INDOOR",
+   "aliases": []
+  },
+  {
+   "name": "Resistance Band",
+   "category": "RESISTANCE_MOBILITY",
+   "location": "BOTH",
+   "aliases": [
+    "exercise band"
+   ]
+  },
+  {
+   "name": "Foam Roller",
+   "category": "RESISTANCE_MOBILITY",
+   "location": "BOTH",
+   "aliases": []
+  },
+  {
+   "name": "Battle Ropes",
+   "category": "RESISTANCE_MOBILITY",
+   "location": "BOTH",
+   "aliases": [
+    "battling ropes"
+   ]
+  },
+  {
+   "name": "Massage Ball",
+   "category": "RESISTANCE_MOBILITY",
+   "location": "BOTH",
+   "aliases": [
+    "lacrosse ball"
+   ]
+  },
+  {
+   "name": "Gym Mat",
+   "category": "RESISTANCE_MOBILITY",
+   "location": "BOTH",
+   "aliases": [
+    "exercise mat"
+   ]
+  },
+  {
+   "name": "Bench",
+   "category": "BENCH_RACK",
+   "location": "INDOOR",
+   "aliases": []
+  },
+  {
+   "name": "Incline Bench",
+   "category": "BENCH_RACK",
+   "location": "INDOOR",
+   "aliases": []
+  },
+  {
+   "name": "Pull-Up Bar",
+   "category": "BENCH_RACK",
+   "location": "BOTH",
+   "aliases": []
+  },
+  {
+   "name": "Dip Bars",
+   "category": "BENCH_RACK",
+   "location": "BOTH",
+   "aliases": [
+    "dip station"
+   ]
+  },
+  {
+   "name": "Squat Rack",
+   "category": "BENCH_RACK",
+   "location": "INDOOR",
+   "aliases": []
+  },
+  {
+   "name": "Power Rack",
+   "category": "BENCH_RACK",
+   "location": "INDOOR",
+   "aliases": [
+    "power cage"
+   ]
+  },
+  {
+   "name": "Wall Bars",
+   "category": "BENCH_RACK",
+   "location": "INDOOR",
+   "aliases": [
+    "stall bars"
+   ]
+  },
+  {
+   "name": "Sled",
+   "category": "OTHER",
+   "location": "BOTH",
+   "aliases": [
+    "prowler"
+   ]
+  },
+  {
+   "name": "Bodyweight",
+   "category": "OTHER",
+   "location": "BOTH",
+   "aliases": [
+    "no equipment",
+    "none"
+   ]
+  },
+  {
+   "name": "Farmer's Walk Handles",
+   "category": "OTHER",
+   "location": "BOTH",
+   "aliases": []
+  },
+  {
+   "name": "Climbing Rope",
+   "category": "OTHER",
+   "location": "BOTH",
+   "aliases": []
+  },
+  {
+   "name": "Other",
+   "category": "OTHER",
+   "location": "BOTH",
+   "aliases": []
+  }
+ ]
+}
