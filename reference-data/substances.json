@@ -308,6 +308,15 @@
    "isControlled": false
   },
   {
+   "id": 219,
+   "code": "VANADIUM",
+   "name": "Vanadium",
+   "type": "MINERAL",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
    "id": 400,
    "code": "EPA",
    "name": "EPA (omega-3)",
@@ -1337,6 +1346,60 @@
    "id": 677,
    "code": "GREEN_COFFEE",
    "name": "Green coffee bean extract",
+   "type": "HERBAL",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
+   "id": 678,
+   "code": "GARCINIA",
+   "name": "Garcinia cambogia",
+   "type": "HERBAL",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
+   "id": 679,
+   "code": "FORSKOLIN",
+   "name": "Forskolin (Coleus)",
+   "type": "HERBAL",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
+   "id": 680,
+   "code": "CATS_CLAW",
+   "name": "Cat's claw",
+   "type": "HERBAL",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
+   "id": 681,
+   "code": "DEVILS_CLAW",
+   "name": "Devil's claw",
+   "type": "HERBAL",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
+   "id": 682,
+   "code": "GOLDENSEAL",
+   "name": "Goldenseal",
+   "type": "HERBAL",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
+   "id": 683,
+   "code": "MARSHMALLOW_ROOT",
+   "name": "Marshmallow root",
    "type": "HERBAL",
    "nutrientId": null,
    "defaultUnit": "mg",
@@ -6045,6 +6108,131 @@
   {
    "substanceId": 15,
    "alias": "beta-carotene",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 219,
+   "alias": "vanadium",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 219,
+   "alias": "vanadyl sulfate",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 219,
+   "alias": "vanadium",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 678,
+   "alias": "garcinia",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 678,
+   "alias": "garcinia cambogia",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 678,
+   "alias": "hca",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 678,
+   "alias": "hydroxycitric acid",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 678,
+   "alias": "garcinia",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 679,
+   "alias": "forskolin",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 679,
+   "alias": "coleus forskohlii",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 679,
+   "alias": "forskolin",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 680,
+   "alias": "cats claw",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 680,
+   "alias": "cat's claw",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 680,
+   "alias": "uncaria tomentosa",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 680,
+   "alias": "cats claw",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 681,
+   "alias": "devils claw",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 681,
+   "alias": "devil's claw",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 681,
+   "alias": "harpagophytum",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 681,
+   "alias": "devils claw",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 682,
+   "alias": "goldenseal",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 682,
+   "alias": "hydrastis canadensis",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 682,
+   "alias": "goldenseal",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 683,
+   "alias": "marshmallow root",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 683,
+   "alias": "althaea officinalis",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 683,
+   "alias": "marshmallow root",
    "kind": "INGREDIENT_GROUP"
   }
  ],
