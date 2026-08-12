@@ -1,0 +1,12 @@
+# Every catalog document is stored and checked out with LF, on every platform.
+#
+# Git's core.autocrlf on Windows converts LF to CRLF on checkout, so a working copy can differ from
+# the blob by one byte per line — 22,695 on disk against 21,368 stored, for workout-lists.json. That
+# is harmless while everything reads through the GitHub API, which serves the blob. It stops being
+# harmless the moment a tool commits from a CRLF working copy with autocrlf off: every line changes,
+# the whole file rewrites, and the diff that is supposed to show one edit shows the entire document.
+#
+# The admin site guards against reflow by refusing to write a file it cannot reproduce byte for
+# byte. This pins the other end, so the bytes it reproduces are the bytes stored.
+*.json text eol=lf
+*.md   text eol=lf
