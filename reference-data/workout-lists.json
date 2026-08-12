@@ -1,5 +1,5 @@
 {
- "_comment": "Reference lists the app reads: the muscles, fitness types and equipment it offers, plus the vocabularies their category and location fields draw from. Edited on the catalog admin site and pulled into the app from the Dev Tools screens. Rows are matched by name, so renaming one reads as a delete plus an add.",
+ "_comment": "Reference lists the app reads: the muscles, fitness types and equipment it offers, plus the activities an exercise can be filed under and the vocabularies their category and location fields draw from. Edited on the catalog admin site and pulled into the app from the Dev Tools screens. Rows are matched by name, so renaming one reads as a delete plus an add. In `activityTypes`, `name` is the token stored in exercise_definitions.activityType and published in exercises.json, and `behavesLike` names the WorkoutType (logging mode) a new exercise with that activity defaults to.",
  "muscles": [
   {
    "name": "Chest",
@@ -1323,6 +1323,433 @@
    "category": "OTHER",
    "location": "BOTH",
    "aliases": []
+  }
+ ],
+ "activityTypes": [
+  {
+   "name": "RUNNING",
+   "label": "Running",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "RUNNING_TREADMILL",
+   "label": "Running treadmill",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "WALKING",
+   "label": "Walking",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "HIKING",
+   "label": "Hiking",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "BIKING",
+   "label": "Biking",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "BIKING_STATIONARY",
+   "label": "Biking stationary",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "SPINNING",
+   "label": "Spinning",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "ELLIPTICAL",
+   "label": "Elliptical",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "STAIR_CLIMBING",
+   "label": "Stair climbing",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "STAIR_CLIMBING_MACHINE",
+   "label": "Stair climbing machine",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "ROWING",
+   "label": "Rowing",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "ROWING_MACHINE",
+   "label": "Rowing machine",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "SWIMMING_POOL",
+   "label": "Swimming pool",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "SWIMMING_OPEN_WATER",
+   "label": "Swimming open water",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "JUMP_ROPE",
+   "label": "Jump rope",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "HIGH_INTENSITY_INTERVAL_TRAINING",
+   "label": "High intensity interval training",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "MIXED_CARDIO",
+   "label": "Mixed cardio",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "TRACK_AND_FIELD",
+   "label": "Track and field",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "AEROBICS",
+   "label": "Aerobics",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "STRENGTH_TRAINING",
+   "label": "Strength training",
+   "behavesLike": "STRENGTH"
+  },
+  {
+   "name": "WEIGHTLIFTING",
+   "label": "Weightlifting",
+   "behavesLike": "STRENGTH"
+  },
+  {
+   "name": "CALISTHENICS",
+   "label": "Calisthenics",
+   "behavesLike": "STRENGTH"
+  },
+  {
+   "name": "CROSSFIT",
+   "label": "Crossfit",
+   "behavesLike": "STRENGTH"
+  },
+  {
+   "name": "FUNCTIONAL_TRAINING",
+   "label": "Functional training",
+   "behavesLike": "STRENGTH"
+  },
+  {
+   "name": "CIRCUIT_TRAINING",
+   "label": "Circuit training",
+   "behavesLike": "STRENGTH"
+  },
+  {
+   "name": "CORE_TRAINING",
+   "label": "Core training",
+   "behavesLike": "STRENGTH"
+  },
+  {
+   "name": "BOOT_CAMP",
+   "label": "Boot camp",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "GYMNASTICS",
+   "label": "Gymnastics",
+   "behavesLike": "STRENGTH"
+  },
+  {
+   "name": "YOGA",
+   "label": "Yoga",
+   "behavesLike": "STRETCH_YOGA"
+  },
+  {
+   "name": "PILATES",
+   "label": "Pilates",
+   "behavesLike": "STRETCH_YOGA"
+  },
+  {
+   "name": "BARRE",
+   "label": "Barre",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "STRETCHING",
+   "label": "Stretching",
+   "behavesLike": "STRETCH_YOGA"
+  },
+  {
+   "name": "FLEXIBILITY",
+   "label": "Flexibility",
+   "behavesLike": "STRETCH_YOGA"
+  },
+  {
+   "name": "TAI_CHI",
+   "label": "Tai chi",
+   "behavesLike": "STRETCH_YOGA"
+  },
+  {
+   "name": "GUIDED_BREATHING",
+   "label": "Guided breathing",
+   "behavesLike": "STRETCH_YOGA"
+  },
+  {
+   "name": "MEDITATION",
+   "label": "Meditation",
+   "behavesLike": "STRETCH_YOGA"
+  },
+  {
+   "name": "EXERCISE_CLASS",
+   "label": "Exercise class",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "DANCING",
+   "label": "Dancing",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "ZUMBA",
+   "label": "Zumba",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "CARDIO_DANCE",
+   "label": "Cardio dance",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "STEP_TRAINING",
+   "label": "Step training",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "KICKBOXING",
+   "label": "Kickboxing",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "BOXING",
+   "label": "Boxing",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "MARTIAL_ARTS",
+   "label": "Martial arts",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "WRESTLING",
+   "label": "Wrestling",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "BADMINTON",
+   "label": "Badminton",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "BASEBALL",
+   "label": "Baseball",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "BASKETBALL",
+   "label": "Basketball",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "CRICKET",
+   "label": "Cricket",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "FENCING",
+   "label": "Fencing",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "FOOTBALL_AMERICAN",
+   "label": "Football american",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "FOOTBALL_AUSTRALIAN",
+   "label": "Football australian",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "FRISBEE_DISC",
+   "label": "Frisbee disc",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "GOLF",
+   "label": "Golf",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "HANDBALL",
+   "label": "Handball",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "ICE_HOCKEY",
+   "label": "Ice hockey",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "RACQUETBALL",
+   "label": "Racquetball",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "ROLLER_HOCKEY",
+   "label": "Roller hockey",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "RUGBY",
+   "label": "Rugby",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "SOCCER",
+   "label": "Soccer",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "SOFTBALL",
+   "label": "Softball",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "SQUASH",
+   "label": "Squash",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "TABLE_TENNIS",
+   "label": "Table tennis",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "TENNIS",
+   "label": "Tennis",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "VOLLEYBALL",
+   "label": "Volleyball",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "LACROSSE",
+   "label": "Lacrosse",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "ARCHERY",
+   "label": "Archery",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "BOWLING",
+   "label": "Bowling",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "CURLING",
+   "label": "Curling",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "WATER_POLO",
+   "label": "Water polo",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "WATER_FITNESS",
+   "label": "Water fitness",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "WATER_AEROBICS",
+   "label": "Water aerobics",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "SCUBA_DIVING",
+   "label": "Scuba diving",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "SURFING",
+   "label": "Surfing",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "SAILING",
+   "label": "Sailing",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "PADDLING",
+   "label": "Paddling",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "SKIING",
+   "label": "Skiing",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "SNOWBOARDING",
+   "label": "Snowboarding",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "ICE_SKATING",
+   "label": "Ice skating",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "SNOWSHOEING",
+   "label": "Snowshoeing",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "ROCK_CLIMBING",
+   "label": "Rock climbing",
+   "behavesLike": "STRENGTH"
+  },
+  {
+   "name": "PARAGLIDING",
+   "label": "Paragliding",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "WHEELCHAIR",
+   "label": "Wheelchair",
+   "behavesLike": "CARDIO"
+  },
+  {
+   "name": "GENERAL_FITNESS",
+   "label": "General fitness",
+   "behavesLike": "CLASS"
+  },
+  {
+   "name": "OTHER",
+   "label": "Other",
+   "behavesLike": "CLASS"
   }
  ]
 }
