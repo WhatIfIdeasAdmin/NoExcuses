@@ -1,5 +1,5 @@
 {
- "_comment": "Generated from the app's Kotlin seed lists, then maintained here. Name is the identity: exercises resolve their muscles and equipment by name, so renaming a row here orphans nothing but retargets every exercise that named it. category/location must match the MuscleGroup, FitnessCategory, EquipmentCategory and EquipmentLocation enums in the app; a row with an unrecognised value is skipped and reported rather than applied.",
+ "_comment": "Reference lists the app reads: the muscles, fitness types and equipment it offers, plus the vocabularies their category and location fields draw from. Edited on the catalog admin site and pulled into the app from the Dev Tools screens. Rows are matched by name, so renaming one reads as a delete plus an add.",
  "muscles": [
   {
    "name": "Chest",
