@@ -29,7 +29,7 @@ so never change an existing `sourceId` or reuse one for a different exercise.
     {
       "sourceId": "barbell-bench-press",   // stable slug, never reused/changed
       "name": "Barbell Bench Press",
-      "activityType": "WEIGHTLIFTING",     // see ActivityType.kt in the app for the full list
+      "activityType": "WEIGHTLIFTING",     // a name from the Activity types list
       "shortDescription": "...",
       "longDescription": "...",
       "difficultyLevel": "INTERMEDIATE",   // BEGINNER | INTERMEDIATE | ADVANCED
@@ -38,7 +38,7 @@ so never change an existing `sourceId` or reuse one for a different exercise.
         {"muscleName": "Chest", "isPrimary": true}
       ],
       "equipment": [
-        {"equipment": "BARBELL", "isRequired": true}   // see Equipment.kt for the full list
+        {"equipmentName": "Barbell", "isRequired": true}   // a name from the Equipment list, not an enum
       ],
       "links": [
         {"label": "Form guide", "url": "https://..."}
