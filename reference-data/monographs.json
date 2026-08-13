@@ -14,6 +14,7 @@
    "regulatoryStatus": null,
    "regulatoryAsOf": null,
    "sourceUrl": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+   "sources": [],
    "typicalHalfLife": null
   },
   {
@@ -28,6 +29,7 @@
    "regulatoryStatus": null,
    "regulatoryAsOf": null,
    "sourceUrl": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+   "sources": [],
    "typicalHalfLife": null
   },
   {
@@ -42,6 +44,7 @@
    "regulatoryStatus": null,
    "regulatoryAsOf": null,
    "sourceUrl": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+   "sources": [],
    "typicalHalfLife": null
   },
   {
@@ -56,6 +59,7 @@
    "regulatoryStatus": null,
    "regulatoryAsOf": null,
    "sourceUrl": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+   "sources": [],
    "typicalHalfLife": null
   },
   {
@@ -70,6 +74,7 @@
    "regulatoryStatus": null,
    "regulatoryAsOf": null,
    "sourceUrl": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+   "sources": [],
    "typicalHalfLife": null
   },
   {
@@ -84,6 +89,7 @@
    "regulatoryStatus": null,
    "regulatoryAsOf": null,
    "sourceUrl": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+   "sources": [],
    "typicalHalfLife": null
   },
   {
@@ -98,6 +104,7 @@
    "regulatoryStatus": null,
    "regulatoryAsOf": null,
    "sourceUrl": "https://ods.od.nih.gov/factsheets/Niacin-HealthProfessional/",
+   "sources": [],
    "typicalHalfLife": null
   },
   {
@@ -112,6 +119,7 @@
    "regulatoryStatus": null,
    "regulatoryAsOf": null,
    "sourceUrl": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/",
+   "sources": [],
    "typicalHalfLife": null
   },
   {
@@ -126,6 +134,7 @@
    "regulatoryStatus": null,
    "regulatoryAsOf": null,
    "sourceUrl": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+   "sources": [],
    "typicalHalfLife": null
   },
   {
@@ -140,6 +149,7 @@
    "regulatoryStatus": "Approved and available over the counter.",
    "regulatoryAsOf": "2026-08-09",
    "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK441917/",
+   "sources": [],
    "typicalHalfLife": "About 2 to 3 hours"
   },
   {
@@ -154,6 +164,7 @@
    "regulatoryStatus": "Approved and available over the counter.",
    "regulatoryAsOf": "2026-08-09",
    "sourceUrl": null,
+   "sources": [],
    "typicalHalfLife": "About 2 hours"
   },
   {
@@ -168,6 +179,7 @@
    "regulatoryStatus": null,
    "regulatoryAsOf": null,
    "sourceUrl": null,
+   "sources": [],
    "typicalHalfLife": "About 5 hours, longer in pregnancy and with some medications"
   },
   {
@@ -182,6 +194,7 @@
    "regulatoryStatus": null,
    "regulatoryAsOf": null,
    "sourceUrl": null,
+   "sources": [],
    "typicalHalfLife": null
   },
   {
@@ -196,6 +209,7 @@
    "regulatoryStatus": null,
    "regulatoryAsOf": null,
    "sourceUrl": null,
+   "sources": [],
    "typicalHalfLife": null
   },
   {
@@ -210,6 +224,7 @@
    "regulatoryStatus": null,
    "regulatoryAsOf": null,
    "sourceUrl": null,
+   "sources": [],
    "typicalHalfLife": null
   },
   {
@@ -224,6 +239,7 @@
    "regulatoryStatus": null,
    "regulatoryAsOf": null,
    "sourceUrl": null,
+   "sources": [],
    "typicalHalfLife": null
   },
   {
@@ -238,6 +254,7 @@
    "regulatoryStatus": null,
    "regulatoryAsOf": null,
    "sourceUrl": null,
+   "sources": [],
    "typicalHalfLife": null
   },
   {
@@ -252,6 +269,7 @@
    "regulatoryStatus": null,
    "regulatoryAsOf": null,
    "sourceUrl": null,
+   "sources": [],
    "typicalHalfLife": "About 20 to 50 minutes"
   },
   {
@@ -266,6 +284,7 @@
    "regulatoryStatus": null,
    "regulatoryAsOf": null,
    "sourceUrl": null,
+   "sources": [],
    "typicalHalfLife": null
   },
   {
@@ -278,8 +297,40 @@
    "contraindications": null,
    "evidenceLevel": "PRECLINICAL",
    "regulatoryStatus": "Not FDA-approved. Removed from the FDA compounding Category 2 list on 2026-04-22; a Pharmacy Compounding Advisory Committee review was scheduled for 2026-07-23/24. Status is actively changing.",
-   "regulatoryAsOf": "2026-08-09",
+   "regulatoryAsOf": null,
    "sourceUrl": "https://www.ncbi.nlm.nih.gov/books/NBK441917/",
+   "sources": [
+    {
+     "name": "Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/40756949/",
+     "asOf": "2026-08-12",
+     "kind": "systematic review"
+    },
+    {
+     "name": "Multifunctionality and Possible Medical Application of the BPC 157 Peptide",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11859134/",
+     "asOf": "2026-08-12",
+     "kind": "literature and patent review"
+    },
+    {
+     "name": "Reply to Sikiric et al., Pharmaceuticals",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12567171/",
+     "asOf": "2026-08-12",
+     "kind": "published exchange"
+    },
+    {
+     "name": "WADA Prohibited List",
+     "url": "https://www.wada-ama.org/en/prohibited-list",
+     "asOf": "2026-08-12",
+     "kind": "prohibited list, category S0"
+    },
+    {
+     "name": "StatPearls entry",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK441917/",
+     "asOf": "2026-08-09",
+     "kind": "reference text"
+    }
+   ],
    "typicalHalfLife": null
   },
   {
@@ -292,8 +343,28 @@
    "contraindications": null,
    "evidenceLevel": "PRECLINICAL",
    "regulatoryStatus": "Not approved for human use.",
-   "regulatoryAsOf": "2026-08-09",
-   "sourceUrl": null,
+   "regulatoryAsOf": null,
+   "sourceUrl": "https://www.mdpi.com/2076-3417/16/12/6202",
+   "sources": [
+    {
+     "name": "Thymosin Beta-4 and TB-500 in Tissue Healing: A Scoping Review",
+     "url": "https://www.mdpi.com/2076-3417/16/12/6202",
+     "asOf": "2026-08-12",
+     "kind": "scoping review"
+    },
+    {
+     "name": "WADA Prohibited List, S2 peptide hormones and growth factors",
+     "url": "https://www.drugs.com/wada/s2-peptide-hormones-growth-factors-and-related-substances.html",
+     "asOf": "2026-08-12",
+     "kind": "prohibited list"
+    },
+    {
+     "name": "WADA Prohibited List",
+     "url": "https://www.wada-ama.org/en/prohibited-list",
+     "asOf": "2026-08-12",
+     "kind": "prohibited list"
+    }
+   ],
    "typicalHalfLife": null
   },
   {
@@ -306,8 +377,28 @@
    "contraindications": null,
    "evidenceLevel": "PRECLINICAL",
    "regulatoryStatus": "Not FDA-approved as a drug. Remains in compounding Category 1, so compounding pharmacies may prepare it.",
-   "regulatoryAsOf": "2026-08-09",
-   "sourceUrl": null,
+   "regulatoryAsOf": null,
+   "sourceUrl": "https://join.a4pc.org/hubfs/PDFs/503A-Categories-Update-for-September-2023-FINAL.docx.pdf",
+   "sources": [
+    {
+     "name": "FDA 503A bulk drug substances, Category 2 update",
+     "url": "https://join.a4pc.org/hubfs/PDFs/503A-Categories-Update-for-September-2023-FINAL.docx.pdf",
+     "asOf": "2026-08-12",
+     "kind": "compounding list"
+    },
+    {
+     "name": "FDA removes certain peptide bulk drug substances from Category 2",
+     "url": "https://www.lexology.com/library/detail.aspx?g=2e55b76a-3173-4e04-beda-bf021202f18d",
+     "asOf": "2026-08-12",
+     "kind": "regulatory analysis"
+    },
+    {
+     "name": "WADA Prohibited List, S2 growth hormone secretagogues",
+     "url": "https://www.drugs.com/wada/s2-peptide-hormones-growth-factors-and-related-substances.html",
+     "asOf": "2026-08-12",
+     "kind": "prohibited list"
+    }
+   ],
    "typicalHalfLife": null
   },
   {
@@ -320,8 +411,28 @@
    "contraindications": null,
    "evidenceLevel": "PRECLINICAL",
    "regulatoryStatus": "Not FDA-approved.",
-   "regulatoryAsOf": "2026-08-09",
-   "sourceUrl": null,
+   "regulatoryAsOf": null,
+   "sourceUrl": "https://www.lexology.com/library/detail.aspx?g=2e55b76a-3173-4e04-beda-bf021202f18d",
+   "sources": [
+    {
+     "name": "FDA removes certain peptide bulk drug substances from Category 2",
+     "url": "https://www.lexology.com/library/detail.aspx?g=2e55b76a-3173-4e04-beda-bf021202f18d",
+     "asOf": "2026-08-12",
+     "kind": "regulatory analysis"
+    },
+    {
+     "name": "FDA 503A bulk drug substances, Category 2 update",
+     "url": "https://join.a4pc.org/hubfs/PDFs/503A-Categories-Update-for-September-2023-FINAL.docx.pdf",
+     "asOf": "2026-08-12",
+     "kind": "compounding list"
+    },
+    {
+     "name": "WADA Prohibited List, S2 GHRH analogues",
+     "url": "https://www.drugs.com/wada/s2-peptide-hormones-growth-factors-and-related-substances.html",
+     "asOf": "2026-08-12",
+     "kind": "prohibited list"
+    }
+   ],
    "typicalHalfLife": null
   },
   {
@@ -334,8 +445,28 @@
    "contraindications": "Personal or family history of medullary thyroid carcinoma or MEN2.",
    "evidenceLevel": "WELL_ESTABLISHED",
    "regulatoryStatus": "FDA-approved as a prescription medicine (Ozempic, Wegovy, Rybelsus).",
-   "regulatoryAsOf": "2026-08-09",
-   "sourceUrl": null,
+   "regulatoryAsOf": null,
+   "sourceUrl": "https://www.prnewswire.com/news-releases/wegovy-receives-fda-approval-for-cardiovascular-risk-reduction-in-adults-with-known-heart-disease-and-overweight-or-obesity-302084454.html",
+   "sources": [
+    {
+     "name": "FDA approval of Wegovy for cardiovascular risk reduction",
+     "url": "https://www.prnewswire.com/news-releases/wegovy-receives-fda-approval-for-cardiovascular-risk-reduction-in-adults-with-known-heart-disease-and-overweight-or-obesity-302084454.html",
+     "asOf": "2026-08-12",
+     "kind": "approval announcement"
+    },
+    {
+     "name": "SELECT trial: long-term weight loss effects of semaglutide, Nature Medicine",
+     "url": "https://www.nature.com/articles/s41591-024-02996-7",
+     "asOf": "2026-08-12",
+     "kind": "phase 3 outcome trial"
+    },
+    {
+     "name": "Yale Medicine: why a cardiologist may prescribe semaglutide",
+     "url": "https://www.yalemedicine.org/news/why-your-cardiologist-may-prescribe-semaglutide-wegovy",
+     "asOf": "2026-08-12",
+     "kind": "clinical summary"
+    }
+   ],
    "typicalHalfLife": "About 1 week"
   },
   {
@@ -348,8 +479,28 @@
    "contraindications": "Personal or family history of medullary thyroid carcinoma or MEN2.",
    "evidenceLevel": "WELL_ESTABLISHED",
    "regulatoryStatus": "FDA-approved as a prescription medicine (Mounjaro, Zepbound).",
-   "regulatoryAsOf": "2026-08-09",
-   "sourceUrl": null,
+   "regulatoryAsOf": null,
+   "sourceUrl": "https://investor.lilly.com/news-releases/news-release-details/fda-approves-zepboundr-tirzepatide-first-and-only-prescription",
+   "sources": [
+    {
+     "name": "FDA approves Zepbound for moderate-to-severe obstructive sleep apnea",
+     "url": "https://investor.lilly.com/news-releases/news-release-details/fda-approves-zepboundr-tirzepatide-first-and-only-prescription",
+     "asOf": "2026-08-12",
+     "kind": "approval announcement"
+    },
+    {
+     "name": "SURMOUNT-OSA phase 3 results",
+     "url": "https://www.tctmd.com/news/tirzepatide-gets-fda-approval-sleep-apnea-adults-obesity",
+     "asOf": "2026-08-12",
+     "kind": "phase 3 trial reporting"
+    },
+    {
+     "name": "FDA approves tirzepatide as first treatment for OSA with obesity",
+     "url": "https://www.neurologylive.com/view/fda-approves-tirzepatide-first-treatment-obstructive-sleep-apnea-obesity",
+     "asOf": "2026-08-12",
+     "kind": "approval reporting"
+    }
+   ],
    "typicalHalfLife": "About 5 days"
   },
   {
@@ -363,7 +514,27 @@
    "evidenceLevel": "EMERGING",
    "regulatoryStatus": "Investigational. Not approved by the FDA or any comparable regulator. The phase 3 TRIUMPH programme has reported; the manufacturer has stated an intended FDA submission in Q1 2027. Submission is not approval, and no approved labelling exists.",
    "regulatoryAsOf": "2026-08-12",
-   "sourceUrl": null,
+   "sourceUrl": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-weight-loss-average",
+   "sources": [
+    {
+     "name": "Lilly: retatrutide phase 3 TRIUMPH-1 topline results",
+     "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-weight-loss-average",
+     "asOf": "2026-08-12",
+     "kind": "phase 3 trial reporting"
+    },
+    {
+     "name": "Retatrutide achieves up to 30.3% average weight loss in TRIUMPH-1",
+     "url": "https://www.ajmc.com/view/retatrutide-achieves-up-to-30-3-average-weight-loss-in-phase-3-triumph-1-trial",
+     "asOf": "2026-08-12",
+     "kind": "phase 3 trial reporting"
+    },
+    {
+     "name": "Lilly: TRIUMPH pivotal obesity trial results",
+     "url": "https://www.prnewswire.com/news-releases/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss-in-pivotal-phase-3-obesity-trial-302778859.html",
+     "asOf": "2026-08-12",
+     "kind": "phase 3 trial reporting"
+    }
+   ],
    "typicalHalfLife": null
   },
   {
@@ -376,8 +547,40 @@
    "contraindications": null,
    "evidenceLevel": "WELL_ESTABLISHED",
    "regulatoryStatus": "FDA-approved for HIV-associated lipodystrophy (Egrifta).",
-   "regulatoryAsOf": "2026-08-09",
-   "sourceUrl": null,
+   "regulatoryAsOf": null,
+   "sourceUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/022505Orig1s010lbl.pdf",
+   "sources": [
+    {
+     "name": "EGRIFTA prescribing information",
+     "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/022505Orig1s010lbl.pdf",
+     "asOf": "2026-08-12",
+     "kind": "FDA label"
+    },
+    {
+     "name": "EGRIFTA SV prescribing information",
+     "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/022505s012s013lbl.pdf",
+     "asOf": "2026-08-12",
+     "kind": "FDA label"
+    },
+    {
+     "name": "FDA approval of the F8 formulation (EGRIFTA WR)",
+     "url": "https://www.contagionlive.com/view/fda-approves-f8-formulation-of-theratechnologies-tesamorelin-for-hiv-associated-lipodystrophy",
+     "asOf": "2026-08-12",
+     "kind": "approval reporting"
+    },
+    {
+     "name": "Tesamorelin reduces visceral adipose tissue and liver fat in INSTI-treated persons with HIV",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10678288/",
+     "asOf": "2026-08-12",
+     "kind": "clinical study"
+    },
+    {
+     "name": "WADA Prohibited List, S2 GHRH analogues",
+     "url": "https://www.drugs.com/wada/s2-peptide-hormones-growth-factors-and-related-substances.html",
+     "asOf": "2026-08-12",
+     "kind": "prohibited list"
+    }
+   ],
    "typicalHalfLife": null
   },
   {
@@ -390,8 +593,22 @@
    "contraindications": null,
    "evidenceLevel": "EMERGING",
    "regulatoryStatus": "No longer marketed as an approved US product; available via compounding.",
-   "regulatoryAsOf": "2026-08-09",
-   "sourceUrl": null,
+   "regulatoryAsOf": null,
+   "sourceUrl": "https://www.drugs.com/wada/s2-peptide-hormones-growth-factors-and-related-substances.html",
+   "sources": [
+    {
+     "name": "WADA Prohibited List, S2 GHRH analogues",
+     "url": "https://www.drugs.com/wada/s2-peptide-hormones-growth-factors-and-related-substances.html",
+     "asOf": "2026-08-12",
+     "kind": "prohibited list"
+    },
+    {
+     "name": "FDA 503A bulk drug substances, Category 2 update",
+     "url": "https://join.a4pc.org/hubfs/PDFs/503A-Categories-Update-for-September-2023-FINAL.docx.pdf",
+     "asOf": "2026-08-12",
+     "kind": "compounding list"
+    }
+   ],
    "typicalHalfLife": null
   },
   {
@@ -404,8 +621,22 @@
    "contraindications": null,
    "evidenceLevel": "LIMITED",
    "regulatoryStatus": "Not FDA-approved; approved in Russia for specified indications.",
-   "regulatoryAsOf": "2026-08-09",
-   "sourceUrl": null,
+   "regulatoryAsOf": null,
+   "sourceUrl": "https://peptpedia.org/peptide/semax",
+   "sources": [
+    {
+     "name": "Semax: half-life, BDNF mechanism and Russian approval status",
+     "url": "https://peptpedia.org/peptide/semax",
+     "asOf": "2026-08-12",
+     "kind": "secondary summary"
+    },
+    {
+     "name": "Selank and Semax: nootropic peptides from Russian research programs",
+     "url": "https://www.peptides.fyi/selank-semax-nootropic-peptides-russian-research/",
+     "asOf": "2026-08-12",
+     "kind": "secondary summary"
+    }
+   ],
    "typicalHalfLife": null
   },
   {
@@ -418,8 +649,22 @@
    "contraindications": null,
    "evidenceLevel": "LIMITED",
    "regulatoryStatus": "Not FDA-approved; approved in Russia.",
-   "regulatoryAsOf": "2026-08-09",
-   "sourceUrl": null,
+   "regulatoryAsOf": null,
+   "sourceUrl": "https://www.regeneristherapy.com/en/blog/selank-nootropic-peptide",
+   "sources": [
+    {
+     "name": "Selank: the anxiolytic nootropic peptide, evidence and clinical use",
+     "url": "https://www.regeneristherapy.com/en/blog/selank-nootropic-peptide",
+     "asOf": "2026-08-12",
+     "kind": "secondary summary"
+    },
+    {
+     "name": "Selank vs Semax: Russian nootropic peptides compared",
+     "url": "https://peptidepedia.org/guides/selank-vs-semax",
+     "asOf": "2026-08-12",
+     "kind": "secondary summary"
+    }
+   ],
    "typicalHalfLife": null
   },
   {
@@ -432,8 +677,22 @@
    "contraindications": null,
    "evidenceLevel": "EMERGING",
    "regulatoryStatus": "Permitted in cosmetics; not approved as an injectable medicine.",
-   "regulatoryAsOf": "2026-08-09",
-   "sourceUrl": null,
+   "regulatoryAsOf": null,
+   "sourceUrl": "https://plulaboratories.com/blogs/copper-peptide-research/ghk-cu-topical-vs-injection",
+   "sources": [
+    {
+     "name": "GHK-Cu topical versus injection: copper peptide routes",
+     "url": "https://plulaboratories.com/blogs/copper-peptide-research/ghk-cu-topical-vs-injection",
+     "asOf": "2026-08-12",
+     "kind": "secondary summary"
+    },
+    {
+     "name": "Copper peptides: do you really need to inject them?",
+     "url": "https://nubeeannoosa.com.au/blogs/news/copper-peptides-injection-vs-topical",
+     "asOf": "2026-08-12",
+     "kind": "secondary summary"
+    }
+   ],
    "typicalHalfLife": null
   },
   {
@@ -446,8 +705,34 @@
    "contraindications": null,
    "evidenceLevel": "PRECLINICAL",
    "regulatoryStatus": "Not approved anywhere.",
-   "regulatoryAsOf": "2026-08-09",
-   "sourceUrl": null,
+   "regulatoryAsOf": null,
+   "sourceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11943447/",
+   "sources": [
+    {
+     "name": "Overview of Epitalon, a highly bioactive pineal tetrapeptide",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11943447/",
+     "asOf": "2026-08-12",
+     "kind": "peer-reviewed review"
+    },
+    {
+     "name": "AEDG peptide stimulates gene expression and protein synthesis during neurogenesis",
+     "url": "https://www.mdpi.com/1420-3049/25/3/609",
+     "asOf": "2026-08-12",
+     "kind": "mechanistic study"
+    },
+    {
+     "name": "Pineal peptides restore age-related disturbances in hormonal function",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15664732/",
+     "asOf": "2026-08-12",
+     "kind": "clinical study"
+    },
+    {
+     "name": "Epithalamin and Epithalon, Cognitive Vitality for Researchers",
+     "url": "https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Epithalamin-and-Epithalon-Cognitive-Vitality-For-Researchers.pdf",
+     "asOf": "2026-08-12",
+     "kind": "independent evidence appraisal"
+    }
+   ],
    "typicalHalfLife": null
   },
   {
@@ -460,8 +745,22 @@
    "contraindications": null,
    "evidenceLevel": "PRECLINICAL",
    "regulatoryStatus": "Not approved anywhere.",
-   "regulatoryAsOf": "2026-08-09",
-   "sourceUrl": null,
+   "regulatoryAsOf": null,
+   "sourceUrl": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2025.1602271/epub",
+   "sources": [
+    {
+     "name": "Mitochondria-derived peptide MOTS-c restores mitochondrial respiration in type 2 diabetic heart",
+     "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2025.1602271/epub",
+     "asOf": "2026-08-12",
+     "kind": "preclinical study"
+    },
+    {
+     "name": "MOTS-c clinical trials status",
+     "url": "https://peptidestack.io/blog/mots-c-clinical-trials-status-2026",
+     "asOf": "2026-08-12",
+     "kind": "trial status summary"
+    }
+   ],
    "typicalHalfLife": null
   },
   {
@@ -474,8 +773,22 @@
    "contraindications": "Uncontrolled hypertension; known cardiovascular disease.",
    "evidenceLevel": "WELL_ESTABLISHED",
    "regulatoryStatus": "FDA-approved for one indication (Vyleesi).",
-   "regulatoryAsOf": "2026-08-09",
-   "sourceUrl": null,
+   "regulatoryAsOf": null,
+   "sourceUrl": "https://superpower.com/guides/pt-141",
+   "sources": [
+    {
+     "name": "PT-141 (bremelanotide): a melanocortin-based approach",
+     "url": "https://superpower.com/guides/pt-141",
+     "asOf": "2026-08-12",
+     "kind": "clinical overview"
+    },
+    {
+     "name": "Bremelanotide for sexual dysfunction: clinical guide",
+     "url": "https://enavvi.com/insights/pt-141-bremelanotide-for-sexual-dysfunction-clinical-guide-for-physicians",
+     "asOf": "2026-08-12",
+     "kind": "clinical overview"
+    }
+   ],
    "typicalHalfLife": null
   },
   {
@@ -488,8 +801,28 @@
    "contraindications": null,
    "evidenceLevel": "PRECLINICAL",
    "regulatoryStatus": "Not approved as a medicine.",
-   "regulatoryAsOf": "2026-08-09",
-   "sourceUrl": null,
+   "regulatoryAsOf": null,
+   "sourceUrl": "https://trimrx.com/blog/aod-9604-research-review/",
+   "sources": [
+    {
+     "name": "AOD-9604: what the research actually says",
+     "url": "https://trimrx.com/blog/aod-9604-research-review/",
+     "asOf": "2026-08-12",
+     "kind": "evidence review"
+    },
+    {
+     "name": "Metabolic Pharmaceuticals phase 2b obesity trial update",
+     "url": "https://www.biospace.com/metabolic-pharmaceuticals-s-obesity-trial-update-first-100-subjects-complete-the-phase-2b-trial-of-aod9604",
+     "asOf": "2026-08-12",
+     "kind": "trial reporting"
+    },
+    {
+     "name": "AOD-9604: lessons from a discontinued peptide drug candidate",
+     "url": "https://emiratitimes.com/lessons-from-a-discontinued-aod-9604-research-peptide/",
+     "asOf": "2026-08-12",
+     "kind": "development history"
+    }
+   ],
    "typicalHalfLife": null
   },
   {
@@ -504,6 +837,7 @@
    "regulatoryStatus": "Prescription-only; Schedule III controlled substance in the US.",
    "regulatoryAsOf": "2026-08-09",
    "sourceUrl": null,
+   "sources": [],
    "typicalHalfLife": null
   },
   {
@@ -518,6 +852,7 @@
    "regulatoryStatus": "Sold as a dietary supplement in the US; a controlled substance in several other countries.",
    "regulatoryAsOf": "2026-08-09",
    "sourceUrl": null,
+   "sources": [],
    "typicalHalfLife": null
   },
   {
@@ -532,6 +867,7 @@
    "regulatoryStatus": "Prescription-only.",
    "regulatoryAsOf": "2026-08-09",
    "sourceUrl": null,
+   "sources": [],
    "typicalHalfLife": "About 7 days"
   }
  ]
