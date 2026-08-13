@@ -1583,7 +1583,7 @@
    "type": "HORMONE",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": true
   },
   {
    "id": 804,
