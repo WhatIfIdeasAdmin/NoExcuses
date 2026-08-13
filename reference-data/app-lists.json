@@ -1,0 +1,213 @@
+{
+ "_comment": "The app's small in-app vocabularies. Edited on the catalog website; the app reads them straight out of this document, so a change here needs a refresh and nothing else. Goal keys and meal-type names are stored on user data and are PERMANENT — rename a label freely, never a key. MeasurementUnit is deliberately NOT here: it carries conversion factors, and a wrong factor silently rescales readings already recorded.",
+ "goals": [
+  {
+   "key": "carbs",
+   "label": "Carbs",
+   "unitCategory": "GRAMS",
+   "group": "INTAKES"
+  },
+  {
+   "key": "fat",
+   "label": "Fat",
+   "unitCategory": "GRAMS",
+   "group": "INTAKES"
+  },
+  {
+   "key": "protein",
+   "label": "Protein",
+   "unitCategory": "GRAMS",
+   "group": "INTAKES"
+  },
+  {
+   "key": "dance",
+   "label": "Dance",
+   "unitCategory": "TIME",
+   "group": "ACTIVITIES"
+  },
+  {
+   "key": "steps",
+   "label": "Steps",
+   "unitCategory": "QUANTITY",
+   "group": "ACTIVITIES"
+  },
+  {
+   "key": "stretching",
+   "label": "Stretching",
+   "unitCategory": "TIME",
+   "group": "ACTIVITIES"
+  },
+  {
+   "key": "housekeeping",
+   "label": "Housekeeping",
+   "unitCategory": "TIME",
+   "group": "WELLBEING"
+  },
+  {
+   "key": "journaling",
+   "label": "Journaling",
+   "unitCategory": "TIME",
+   "group": "WELLBEING"
+  },
+  {
+   "key": "meditation",
+   "label": "Meditation",
+   "unitCategory": "TIME",
+   "group": "WELLBEING"
+  },
+  {
+   "key": "outdoors",
+   "label": "Outdoors",
+   "unitCategory": "TIME",
+   "group": "WELLBEING"
+  },
+  {
+   "key": "personal_care",
+   "label": "Personal Care",
+   "unitCategory": "TIME",
+   "group": "WELLBEING"
+  },
+  {
+   "key": "relationships",
+   "label": "Relationships",
+   "unitCategory": "TIME",
+   "group": "WELLBEING"
+  },
+  {
+   "key": "audio_books",
+   "label": "Audio Books",
+   "unitCategory": "TIME",
+   "group": "SELF_IMPROVEMENT"
+  },
+  {
+   "key": "brain_training",
+   "label": "Brain Training",
+   "unitCategory": "TIME",
+   "group": "SELF_IMPROVEMENT"
+  },
+  {
+   "key": "business_development",
+   "label": "Business Development",
+   "unitCategory": "TIME",
+   "group": "SELF_IMPROVEMENT"
+  },
+  {
+   "key": "financial",
+   "label": "Financial",
+   "unitCategory": "TIME",
+   "group": "SELF_IMPROVEMENT"
+  },
+  {
+   "key": "gratitude",
+   "label": "Gratitude",
+   "unitCategory": "TIME",
+   "group": "SELF_IMPROVEMENT"
+  },
+  {
+   "key": "languages",
+   "label": "Languages",
+   "unitCategory": "TIME",
+   "group": "SELF_IMPROVEMENT"
+  },
+  {
+   "key": "musical",
+   "label": "Musical",
+   "unitCategory": "TIME",
+   "group": "SELF_IMPROVEMENT"
+  },
+  {
+   "key": "reading",
+   "label": "Reading",
+   "unitCategory": "TIME",
+   "group": "SELF_IMPROVEMENT"
+  },
+  {
+   "key": "service",
+   "label": "Service",
+   "unitCategory": "TIME",
+   "group": "SELF_IMPROVEMENT"
+  },
+  {
+   "key": "spiritual",
+   "label": "Spiritual",
+   "unitCategory": "TIME",
+   "group": "SELF_IMPROVEMENT"
+  },
+  {
+   "key": "study",
+   "label": "Study",
+   "unitCategory": "TIME",
+   "group": "SELF_IMPROVEMENT"
+  }
+ ],
+ "mealTypes": [
+  {
+   "name": "BREAKFAST",
+   "label": "Breakfast"
+  },
+  {
+   "name": "LUNCH",
+   "label": "Lunch"
+  },
+  {
+   "name": "DINNER",
+   "label": "Dinner"
+  },
+  {
+   "name": "SNACK",
+   "label": "Snack"
+  }
+ ],
+ "waterAmounts": [
+  {
+   "label": "150ml",
+   "amountMl": 150,
+   "system": "METRIC"
+  },
+  {
+   "label": "250ml",
+   "amountMl": 250,
+   "system": "METRIC"
+  },
+  {
+   "label": "350ml",
+   "amountMl": 350,
+   "system": "METRIC"
+  },
+  {
+   "label": "500ml",
+   "amountMl": 500,
+   "system": "METRIC"
+  },
+  {
+   "label": "750ml",
+   "amountMl": 750,
+   "system": "METRIC"
+  },
+  {
+   "label": "4oz",
+   "amountMl": 118,
+   "system": "IMPERIAL"
+  },
+  {
+   "label": "8oz",
+   "amountMl": 237,
+   "system": "IMPERIAL"
+  },
+  {
+   "label": "12oz",
+   "amountMl": 355,
+   "system": "IMPERIAL"
+  },
+  {
+   "label": "16oz",
+   "amountMl": 473,
+   "system": "IMPERIAL"
+  },
+  {
+   "label": "24oz",
+   "amountMl": 710,
+   "system": "IMPERIAL"
+  }
+ ]
+}
