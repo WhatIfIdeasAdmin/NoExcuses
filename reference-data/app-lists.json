@@ -138,6 +138,12 @@
    "label": "Study",
    "unitCategory": "TIME",
    "group": "SELF_IMPROVEMENT"
+  },
+  {
+   "key": "cold_plunge",
+   "label": "Cold plunge",
+   "unitCategory": "TIME",
+   "group": "WELLBEING"
   }
  ],
  "mealTypes": [
