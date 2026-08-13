@@ -208,6 +208,16 @@
    "label": "24oz",
    "amountMl": 710,
    "system": "IMPERIAL"
+  },
+  {
+   "label": "32oz",
+   "amountMl": "946",
+   "system": "IMPERIAL"
+  },
+  {
+   "label": "1L",
+   "amountMl": "1000",
+   "system": "METRIC"
   }
  ]
 }
