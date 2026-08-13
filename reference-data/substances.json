@@ -6664,6 +6664,20 @@
    "note": null
   },
   {
+   "substanceId": 621,
+   "kind": "MAX_DAILY_DOSE",
+   "amount": 800.0,
+   "unit": "mg",
+   "basis": "SUPPLEMENTAL_ONLY",
+   "sex": null,
+   "minAgeYears": 19,
+   "maxAgeYears": null,
+   "sourceName": "EFSA Panel on Food Additives and Nutrient Sources (ANS), Scientific opinion on the safety of green tea catechins",
+   "sourceUrl": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2018.5239",
+   "asOf": "2026-08-13",
+   "note": "EFSA found a statistically significant rise in serum transaminases at 800 mg EGCG/day or above taken as a supplement, and no indication of liver injury from green tea infusions. Not an IOM Upper Limit."
+  },
+  {
    "substanceId": 850,
    "kind": "MAX_DAILY_DOSE",
    "amount": 4000.0,
