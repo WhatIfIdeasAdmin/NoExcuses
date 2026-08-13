@@ -361,8 +361,8 @@
    "safetyNotes": "There is no approved labelling, so no verified safety information, contraindication list or interaction data exists. Identity, concentration and sterility of grey-market material are unverified, and concentration errors are a documented cause of accidental overdose with this class. Effects of the glucagon-receptor component on heart rate and blood glucose are still being characterised in trials.",
    "contraindications": null,
    "evidenceLevel": "EMERGING",
-   "regulatoryStatus": "Investigational. Not approved by the FDA or any comparable regulator; in phase 3 trials.",
-   "regulatoryAsOf": "2026-08-09",
+   "regulatoryStatus": "Investigational. Not approved by the FDA or any comparable regulator. The phase 3 TRIUMPH programme has reported; the manufacturer has stated an intended FDA submission in Q1 2027. Submission is not approval, and no approved labelling exists.",
+   "regulatoryAsOf": "2026-08-12",
    "sourceUrl": null,
    "typicalHalfLife": null
   },
