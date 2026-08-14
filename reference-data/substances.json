@@ -1406,6 +1406,15 @@
    "isControlled": false
   },
   {
+   "id": 684,
+   "code": "LICORICE",
+   "name": "Licorice root",
+   "type": "HERBAL",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
    "id": 700,
    "code": "BPC_157",
    "name": "BPC-157",
@@ -2056,16 +2065,6 @@
  ],
  "aliases": [
   {
-   "alias": "vitamin a",
-   "kind": "COMMON",
-   "substanceId": 1
-  },
-  {
-   "alias": "vitamin a",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 1
-  },
-  {
    "alias": "retinol",
    "kind": "COMMON",
    "substanceId": 1
@@ -2076,14 +2075,14 @@
    "substanceId": 1
   },
   {
-   "alias": "vitamin c",
+   "alias": "vitamin a",
    "kind": "COMMON",
-   "substanceId": 2
+   "substanceId": 1
   },
   {
-   "alias": "vitamin c",
+   "alias": "vitamin a",
    "kind": "INGREDIENT_GROUP",
-   "substanceId": 2
+   "substanceId": 1
   },
   {
    "alias": "ascorbic acid",
@@ -2096,22 +2095,17 @@
    "substanceId": 2
   },
   {
-   "alias": "vitamin d",
+   "alias": "vitamin c",
    "kind": "COMMON",
-   "substanceId": 3
+   "substanceId": 2
   },
   {
-   "alias": "vitamin d",
+   "alias": "vitamin c",
    "kind": "INGREDIENT_GROUP",
-   "substanceId": 3
+   "substanceId": 2
   },
   {
    "alias": "cholecalciferol",
-   "kind": "COMMON",
-   "substanceId": 3
-  },
-  {
-   "alias": "vitamin d3",
    "kind": "COMMON",
    "substanceId": 3
   },
@@ -2126,19 +2120,24 @@
    "substanceId": 3
   },
   {
+   "alias": "vitamin d",
+   "kind": "COMMON",
+   "substanceId": 3
+  },
+  {
    "alias": "vitamin d2",
    "kind": "COMMON",
    "substanceId": 3
   },
   {
-   "alias": "vitamin e",
+   "alias": "vitamin d3",
    "kind": "COMMON",
-   "substanceId": 4
+   "substanceId": 3
   },
   {
-   "alias": "vitamin e",
+   "alias": "vitamin d",
    "kind": "INGREDIENT_GROUP",
-   "substanceId": 4
+   "substanceId": 3
   },
   {
    "alias": "alpha-tocopherol",
@@ -2156,17 +2155,17 @@
    "substanceId": 4
   },
   {
-   "alias": "vitamin k",
+   "alias": "vitamin e",
    "kind": "COMMON",
-   "substanceId": 5
+   "substanceId": 4
   },
   {
-   "alias": "vitamin k",
+   "alias": "vitamin e",
    "kind": "INGREDIENT_GROUP",
-   "substanceId": 5
+   "substanceId": 4
   },
   {
-   "alias": "phylloquinone",
+   "alias": "k2",
    "kind": "COMMON",
    "substanceId": 5
   },
@@ -2176,37 +2175,27 @@
    "substanceId": 5
   },
   {
-   "alias": "k2",
-   "kind": "COMMON",
-   "substanceId": 5
-  },
-  {
    "alias": "mk-7",
    "kind": "COMMON",
    "substanceId": 5
   },
   {
-   "alias": "thiamin (b1)",
+   "alias": "phylloquinone",
    "kind": "COMMON",
-   "substanceId": 6
+   "substanceId": 5
   },
   {
-   "alias": "thiamin",
+   "alias": "vitamin k",
+   "kind": "COMMON",
+   "substanceId": 5
+  },
+  {
+   "alias": "vitamin k",
    "kind": "INGREDIENT_GROUP",
-   "substanceId": 6
-  },
-  {
-   "alias": "vitamin b1",
-   "kind": "COMMON",
-   "substanceId": 6
+   "substanceId": 5
   },
   {
    "alias": "b1",
-   "kind": "COMMON",
-   "substanceId": 6
-  },
-  {
-   "alias": "thiamine",
    "kind": "COMMON",
    "substanceId": 6
   },
@@ -2216,7 +2205,37 @@
    "substanceId": 6
   },
   {
+   "alias": "thiamin (b1)",
+   "kind": "COMMON",
+   "substanceId": 6
+  },
+  {
+   "alias": "thiamine",
+   "kind": "COMMON",
+   "substanceId": 6
+  },
+  {
+   "alias": "vitamin b1",
+   "kind": "COMMON",
+   "substanceId": 6
+  },
+  {
+   "alias": "thiamin",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 6
+  },
+  {
+   "alias": "b2",
+   "kind": "COMMON",
+   "substanceId": 7
+  },
+  {
    "alias": "riboflavin (b2)",
+   "kind": "COMMON",
+   "substanceId": 7
+  },
+  {
+   "alias": "vitamin b2",
    "kind": "COMMON",
    "substanceId": 7
   },
@@ -2226,37 +2245,12 @@
    "substanceId": 7
   },
   {
-   "alias": "vitamin b2",
-   "kind": "COMMON",
-   "substanceId": 7
-  },
-  {
-   "alias": "b2",
-   "kind": "COMMON",
-   "substanceId": 7
-  },
-  {
-   "alias": "niacin (b3)",
-   "kind": "COMMON",
-   "substanceId": 8
-  },
-  {
-   "alias": "niacin",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 8
-  },
-  {
-   "alias": "vitamin b3",
-   "kind": "COMMON",
-   "substanceId": 8
-  },
-  {
    "alias": "b3",
    "kind": "COMMON",
    "substanceId": 8
   },
   {
-   "alias": "nicotinamide",
+   "alias": "niacin (b3)",
    "kind": "COMMON",
    "substanceId": 8
   },
@@ -2266,24 +2260,24 @@
    "substanceId": 8
   },
   {
+   "alias": "nicotinamide",
+   "kind": "COMMON",
+   "substanceId": 8
+  },
+  {
    "alias": "nicotinic acid",
    "kind": "COMMON",
    "substanceId": 8
   },
   {
-   "alias": "pantothenic acid (b5)",
+   "alias": "vitamin b3",
    "kind": "COMMON",
-   "substanceId": 9
+   "substanceId": 8
   },
   {
-   "alias": "pantothenic acid",
+   "alias": "niacin",
    "kind": "INGREDIENT_GROUP",
-   "substanceId": 9
-  },
-  {
-   "alias": "vitamin b5",
-   "kind": "COMMON",
-   "substanceId": 9
+   "substanceId": 8
   },
   {
    "alias": "b5",
@@ -2296,22 +2290,22 @@
    "substanceId": 9
   },
   {
-   "alias": "vitamin b6",
+   "alias": "pantothenic acid (b5)",
    "kind": "COMMON",
-   "substanceId": 10
+   "substanceId": 9
   },
   {
-   "alias": "vitamin b6",
+   "alias": "vitamin b5",
+   "kind": "COMMON",
+   "substanceId": 9
+  },
+  {
+   "alias": "pantothenic acid",
    "kind": "INGREDIENT_GROUP",
-   "substanceId": 10
+   "substanceId": 9
   },
   {
-   "alias": "pyridoxine",
-   "kind": "COMMON",
-   "substanceId": 10
-  },
-  {
-   "alias": "pyridoxal 5-phosphate",
+   "alias": "b6",
    "kind": "COMMON",
    "substanceId": 10
   },
@@ -2321,9 +2315,29 @@
    "substanceId": 10
   },
   {
-   "alias": "b6",
+   "alias": "pyridoxal 5-phosphate",
    "kind": "COMMON",
    "substanceId": 10
+  },
+  {
+   "alias": "pyridoxine",
+   "kind": "COMMON",
+   "substanceId": 10
+  },
+  {
+   "alias": "vitamin b6",
+   "kind": "COMMON",
+   "substanceId": 10
+  },
+  {
+   "alias": "vitamin b6",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 10
+  },
+  {
+   "alias": "b7",
+   "kind": "COMMON",
+   "substanceId": 11
   },
   {
    "alias": "biotin (b7)",
@@ -2331,17 +2345,7 @@
    "substanceId": 11
   },
   {
-   "alias": "biotin",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 11
-  },
-  {
    "alias": "vitamin b7",
-   "kind": "COMMON",
-   "substanceId": 11
-  },
-  {
-   "alias": "b7",
    "kind": "COMMON",
    "substanceId": 11
   },
@@ -2351,22 +2355,12 @@
    "substanceId": 11
   },
   {
-   "alias": "folate",
-   "kind": "COMMON",
-   "substanceId": 12
-  },
-  {
-   "alias": "folate",
+   "alias": "biotin",
    "kind": "INGREDIENT_GROUP",
-   "substanceId": 12
+   "substanceId": 11
   },
   {
-   "alias": "folic acid",
-   "kind": "COMMON",
-   "substanceId": 12
-  },
-  {
-   "alias": "vitamin b9",
+   "alias": "5-mthf",
    "kind": "COMMON",
    "substanceId": 12
   },
@@ -2376,32 +2370,37 @@
    "substanceId": 12
   },
   {
+   "alias": "folate",
+   "kind": "COMMON",
+   "substanceId": 12
+  },
+  {
+   "alias": "folic acid",
+   "kind": "COMMON",
+   "substanceId": 12
+  },
+  {
    "alias": "methylfolate",
    "kind": "COMMON",
    "substanceId": 12
   },
   {
-   "alias": "5-mthf",
+   "alias": "vitamin b9",
    "kind": "COMMON",
    "substanceId": 12
   },
   {
-   "alias": "vitamin b12",
-   "kind": "COMMON",
-   "substanceId": 13
+   "alias": "folate",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 12
   },
   {
-   "alias": "vitamin b12",
-   "kind": "INGREDIENT_GROUP",
+   "alias": "b12",
+   "kind": "COMMON",
    "substanceId": 13
   },
   {
    "alias": "cobalamin",
-   "kind": "COMMON",
-   "substanceId": 13
-  },
-  {
-   "alias": "methylcobalamin",
    "kind": "COMMON",
    "substanceId": 13
   },
@@ -2411,8 +2410,18 @@
    "substanceId": 13
   },
   {
-   "alias": "b12",
+   "alias": "methylcobalamin",
    "kind": "COMMON",
+   "substanceId": 13
+  },
+  {
+   "alias": "vitamin b12",
+   "kind": "COMMON",
+   "substanceId": 13
+  },
+  {
+   "alias": "vitamin b12",
+   "kind": "INGREDIENT_GROUP",
    "substanceId": 13
   },
   {
@@ -2421,27 +2430,42 @@
    "substanceId": 14
   },
   {
-   "alias": "choline",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 14
-  },
-  {
    "alias": "choline bitartrate",
    "kind": "COMMON",
    "substanceId": 14
   },
   {
-   "alias": "sodium",
+   "alias": "choline",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 14
+  },
+  {
+   "substanceId": 15,
+   "alias": "beta carotene",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 15,
+   "alias": "beta-carotene",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 15,
+   "alias": "provitamin a",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 15,
+   "alias": "beta-carotene",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "alias": "salt",
    "kind": "COMMON",
    "substanceId": 200
   },
   {
    "alias": "sodium",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 200
-  },
-  {
-   "alias": "salt",
    "kind": "COMMON",
    "substanceId": 200
   },
@@ -2451,13 +2475,13 @@
    "substanceId": 200
   },
   {
-   "alias": "potassium",
-   "kind": "COMMON",
-   "substanceId": 201
+   "alias": "sodium",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 200
   },
   {
    "alias": "potassium",
-   "kind": "INGREDIENT_GROUP",
+   "kind": "COMMON",
    "substanceId": 201
   },
   {
@@ -2466,13 +2490,13 @@
    "substanceId": 201
   },
   {
-   "alias": "calcium",
-   "kind": "COMMON",
-   "substanceId": 202
+   "alias": "potassium",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 201
   },
   {
    "alias": "calcium",
-   "kind": "INGREDIENT_GROUP",
+   "kind": "COMMON",
    "substanceId": 202
   },
   {
@@ -2486,19 +2510,9 @@
    "substanceId": 202
   },
   {
-   "alias": "iron",
-   "kind": "COMMON",
-   "substanceId": 203
-  },
-  {
-   "alias": "iron",
+   "alias": "calcium",
    "kind": "INGREDIENT_GROUP",
-   "substanceId": 203
-  },
-  {
-   "alias": "ferrous sulfate",
-   "kind": "COMMON",
-   "substanceId": 203
+   "substanceId": 202
   },
   {
    "alias": "ferrous bisglycinate",
@@ -2511,17 +2525,27 @@
    "substanceId": 203
   },
   {
-   "alias": "magnesium",
+   "alias": "ferrous sulfate",
+   "kind": "COMMON",
+   "substanceId": 203
+  },
+  {
+   "alias": "iron",
+   "kind": "COMMON",
+   "substanceId": 203
+  },
+  {
+   "alias": "iron",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 203
+  },
+  {
+   "alias": "mag glycinate",
    "kind": "COMMON",
    "substanceId": 204
   },
   {
    "alias": "magnesium",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 204
-  },
-  {
-   "alias": "mag glycinate",
    "kind": "COMMON",
    "substanceId": 204
   },
@@ -2546,22 +2570,12 @@
    "substanceId": 204
   },
   {
-   "alias": "zinc",
-   "kind": "COMMON",
-   "substanceId": 205
-  },
-  {
-   "alias": "zinc",
+   "alias": "magnesium",
    "kind": "INGREDIENT_GROUP",
-   "substanceId": 205
+   "substanceId": 204
   },
   {
-   "alias": "zinc picolinate",
-   "kind": "COMMON",
-   "substanceId": 205
-  },
-  {
-   "alias": "zinc gluconate",
+   "alias": "zinc",
    "kind": "COMMON",
    "substanceId": 205
   },
@@ -2571,6 +2585,21 @@
    "substanceId": 205
   },
   {
+   "alias": "zinc gluconate",
+   "kind": "COMMON",
+   "substanceId": 205
+  },
+  {
+   "alias": "zinc picolinate",
+   "kind": "COMMON",
+   "substanceId": 205
+  },
+  {
+   "alias": "zinc",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 205
+  },
+  {
    "alias": "phosphorus",
    "kind": "COMMON",
    "substanceId": 206
@@ -2583,11 +2612,6 @@
   {
    "alias": "copper",
    "kind": "COMMON",
-   "substanceId": 207
-  },
-  {
-   "alias": "copper",
-   "kind": "INGREDIENT_GROUP",
    "substanceId": 207
   },
   {
@@ -2596,6 +2620,11 @@
    "substanceId": 207
   },
   {
+   "alias": "copper",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 207
+  },
+  {
    "alias": "manganese",
    "kind": "COMMON",
    "substanceId": 208
@@ -2608,11 +2637,6 @@
   {
    "alias": "selenium",
    "kind": "COMMON",
-   "substanceId": 209
-  },
-  {
-   "alias": "selenium",
-   "kind": "INGREDIENT_GROUP",
    "substanceId": 209
   },
   {
@@ -2621,17 +2645,12 @@
    "substanceId": 209
   },
   {
-   "alias": "iodine",
-   "kind": "COMMON",
-   "substanceId": 210
-  },
-  {
-   "alias": "iodine",
+   "alias": "selenium",
    "kind": "INGREDIENT_GROUP",
-   "substanceId": 210
+   "substanceId": 209
   },
   {
-   "alias": "potassium iodide",
+   "alias": "iodine",
    "kind": "COMMON",
    "substanceId": 210
   },
@@ -2641,13 +2660,18 @@
    "substanceId": 210
   },
   {
-   "alias": "chromium",
+   "alias": "potassium iodide",
    "kind": "COMMON",
-   "substanceId": 211
+   "substanceId": 210
+  },
+  {
+   "alias": "iodine",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 210
   },
   {
    "alias": "chromium",
-   "kind": "INGREDIENT_GROUP",
+   "kind": "COMMON",
    "substanceId": 211
   },
   {
@@ -2656,6 +2680,11 @@
    "substanceId": 211
   },
   {
+   "alias": "chromium",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 211
+  },
+  {
    "alias": "molybdenum",
    "kind": "COMMON",
    "substanceId": 212
@@ -2684,19 +2713,94 @@
    "alias": "fluoride",
    "kind": "INGREDIENT_GROUP",
    "substanceId": 214
+  },
+  {
+   "substanceId": 215,
+   "alias": "chloride",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 215,
+   "alias": "chloride",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 216,
+   "alias": "bamboo silica",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 216,
+   "alias": "orthosilicic acid",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 216,
+   "alias": "silica",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 216,
+   "alias": "silicon",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 216,
+   "alias": "silicon",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 217,
+   "alias": "strontium",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 217,
+   "alias": "strontium citrate",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 217,
+   "alias": "strontium",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 218,
+   "alias": "lithium",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 218,
+   "alias": "lithium orotate",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 218,
+   "alias": "lithium",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 219,
+   "alias": "vanadium",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 219,
+   "alias": "vanadyl sulfate",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 219,
+   "alias": "vanadium",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "alias": "eicosapentaenoic acid",
+   "kind": "COMMON",
+   "substanceId": 400
   },
   {
    "alias": "epa (omega-3)",
-   "kind": "COMMON",
-   "substanceId": 400
-  },
-  {
-   "alias": "eicosapentaenoic acid",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 400
-  },
-  {
-   "alias": "eicosapentaenoic acid",
    "kind": "COMMON",
    "substanceId": 400
   },
@@ -2706,13 +2810,13 @@
    "substanceId": 400
   },
   {
-   "alias": "dha (omega-3)",
-   "kind": "COMMON",
-   "substanceId": 401
+   "alias": "eicosapentaenoic acid",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 400
   },
   {
-   "alias": "docosahexaenoic acid",
-   "kind": "INGREDIENT_GROUP",
+   "alias": "dha (omega-3)",
+   "kind": "COMMON",
    "substanceId": 401
   },
   {
@@ -2726,14 +2830,9 @@
    "substanceId": 401
   },
   {
-   "alias": "omega-3 (total)",
-   "kind": "COMMON",
-   "substanceId": 402
-  },
-  {
-   "alias": "omega-3 fatty acids",
+   "alias": "docosahexaenoic acid",
    "kind": "INGREDIENT_GROUP",
-   "substanceId": 402
+   "substanceId": 401
   },
   {
    "alias": "fish oil",
@@ -2751,18 +2850,143 @@
    "substanceId": 402
   },
   {
+   "alias": "omega-3 (total)",
+   "kind": "COMMON",
+   "substanceId": 402
+  },
+  {
+   "alias": "omega-3 fatty acids",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 402
+  },
+  {
+   "substanceId": 403,
+   "alias": "alpha linolenic acid",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 403,
+   "alias": "alpha-linolenic acid",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 403,
+   "alias": "flaxseed omega-3",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 403,
+   "alias": "alpha-linolenic acid",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 404,
+   "alias": "cla",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 404,
+   "alias": "conjugated linoleic acid",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 404,
+   "alias": "cla",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 405,
+   "alias": "c8",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 405,
+   "alias": "caprylic acid",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 405,
+   "alias": "mct",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 405,
+   "alias": "mct oil",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 405,
+   "alias": "medium chain triglycerides",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 405,
+   "alias": "mct",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 406,
+   "alias": "lecithin",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 406,
+   "alias": "soy lecithin",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 406,
+   "alias": "sunflower lecithin",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 406,
+   "alias": "lecithin",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 407,
+   "alias": "gamma linolenic acid",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 407,
+   "alias": "gamma-linolenic acid",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 407,
+   "alias": "gla",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 407,
+   "alias": "gla",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 408,
+   "alias": "phosphatidylcholine",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 408,
+   "alias": "phosphatidylcholine",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
    "alias": "creatine",
+   "kind": "COMMON",
+   "substanceId": 500
+  },
+  {
+   "alias": "creatine monohydrate",
    "kind": "COMMON",
    "substanceId": 500
   },
   {
    "alias": "creatine",
    "kind": "INGREDIENT_GROUP",
-   "substanceId": 500
-  },
-  {
-   "alias": "creatine monohydrate",
-   "kind": "COMMON",
    "substanceId": 500
   },
   {
@@ -2772,13 +2996,18 @@
   },
   {
    "alias": "theanine",
-   "kind": "INGREDIENT_GROUP",
+   "kind": "COMMON",
    "substanceId": 501
   },
   {
    "alias": "theanine",
-   "kind": "COMMON",
+   "kind": "INGREDIENT_GROUP",
    "substanceId": 501
+  },
+  {
+   "alias": "citrulline malate",
+   "kind": "COMMON",
+   "substanceId": 502
   },
   {
    "alias": "l-citrulline",
@@ -2791,9 +3020,9 @@
    "substanceId": 502
   },
   {
-   "alias": "citrulline malate",
+   "alias": "arginine",
    "kind": "COMMON",
-   "substanceId": 502
+   "substanceId": 503
   },
   {
    "alias": "l-arginine",
@@ -2806,26 +3035,21 @@
    "substanceId": 503
   },
   {
-   "alias": "arginine",
-   "kind": "COMMON",
-   "substanceId": 503
-  },
-  {
-   "alias": "beta-alanine",
-   "kind": "COMMON",
-   "substanceId": 504
-  },
-  {
-   "alias": "beta-alanine",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 504
-  },
-  {
    "alias": "beta alanine",
    "kind": "COMMON",
    "substanceId": 504
   },
   {
+   "alias": "beta-alanine",
+   "kind": "COMMON",
+   "substanceId": 504
+  },
+  {
+   "alias": "beta-alanine",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 504
+  },
+  {
    "alias": "glycine",
    "kind": "COMMON",
    "substanceId": 505
@@ -2846,17 +3070,7 @@
    "substanceId": 506
   },
   {
-   "alias": "n-acetylcysteine",
-   "kind": "COMMON",
-   "substanceId": 507
-  },
-  {
-   "alias": "n-acetyl-l-cysteine",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 507
-  },
-  {
-   "alias": "nac",
+   "alias": "acetylcysteine",
    "kind": "COMMON",
    "substanceId": 507
   },
@@ -2866,9 +3080,24 @@
    "substanceId": 507
   },
   {
-   "alias": "acetylcysteine",
+   "alias": "n-acetylcysteine",
    "kind": "COMMON",
    "substanceId": 507
+  },
+  {
+   "alias": "nac",
+   "kind": "COMMON",
+   "substanceId": 507
+  },
+  {
+   "alias": "n-acetyl-l-cysteine",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 507
+  },
+  {
+   "alias": "glutamine",
+   "kind": "COMMON",
+   "substanceId": 508
   },
   {
    "alias": "l-glutamine",
@@ -2881,794 +3110,19 @@
    "substanceId": 508
   },
   {
-   "alias": "glutamine",
-   "kind": "COMMON",
-   "substanceId": 508
-  },
-  {
    "alias": "l-tyrosine",
    "kind": "COMMON",
    "substanceId": 509
   },
   {
    "alias": "tyrosine",
-   "kind": "INGREDIENT_GROUP",
+   "kind": "COMMON",
    "substanceId": 509
   },
   {
    "alias": "tyrosine",
-   "kind": "COMMON",
+   "kind": "INGREDIENT_GROUP",
    "substanceId": 509
-  },
-  {
-   "alias": "curcumin (turmeric)",
-   "kind": "COMMON",
-   "substanceId": 600
-  },
-  {
-   "alias": "turmeric",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 600
-  },
-  {
-   "alias": "turmeric",
-   "kind": "COMMON",
-   "substanceId": 600
-  },
-  {
-   "alias": "curcuma longa",
-   "kind": "COMMON",
-   "substanceId": 600
-  },
-  {
-   "alias": "ashwagandha",
-   "kind": "COMMON",
-   "substanceId": 601
-  },
-  {
-   "alias": "ashwagandha",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 601
-  },
-  {
-   "alias": "withania somnifera",
-   "kind": "COMMON",
-   "substanceId": 601
-  },
-  {
-   "alias": "ksm-66",
-   "kind": "COMMON",
-   "substanceId": 601
-  },
-  {
-   "alias": "rhodiola",
-   "kind": "COMMON",
-   "substanceId": 602
-  },
-  {
-   "alias": "rhodiola",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 602
-  },
-  {
-   "alias": "rhodiola rosea",
-   "kind": "COMMON",
-   "substanceId": 602
-  },
-  {
-   "alias": "milk thistle",
-   "kind": "COMMON",
-   "substanceId": 603
-  },
-  {
-   "alias": "milk thistle",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 603
-  },
-  {
-   "alias": "silymarin",
-   "kind": "COMMON",
-   "substanceId": 603
-  },
-  {
-   "alias": "silybum marianum",
-   "kind": "COMMON",
-   "substanceId": 603
-  },
-  {
-   "alias": "ginkgo biloba",
-   "kind": "COMMON",
-   "substanceId": 604
-  },
-  {
-   "alias": "ginkgo",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 604
-  },
-  {
-   "alias": "valerian",
-   "kind": "COMMON",
-   "substanceId": 605
-  },
-  {
-   "alias": "valerian",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 605
-  },
-  {
-   "alias": "valeriana officinalis",
-   "kind": "COMMON",
-   "substanceId": 605
-  },
-  {
-   "alias": "st john's wort",
-   "kind": "COMMON",
-   "substanceId": 606
-  },
-  {
-   "alias": "st. john's wort",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 606
-  },
-  {
-   "alias": "hypericum perforatum",
-   "kind": "COMMON",
-   "substanceId": 606
-  },
-  {
-   "alias": "saw palmetto",
-   "kind": "COMMON",
-   "substanceId": 607
-  },
-  {
-   "alias": "saw palmetto",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 607
-  },
-  {
-   "alias": "serenoa repens",
-   "kind": "COMMON",
-   "substanceId": 607
-  },
-  {
-   "alias": "berberine",
-   "kind": "COMMON",
-   "substanceId": 608
-  },
-  {
-   "alias": "berberine",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 608
-  },
-  {
-   "alias": "echinacea",
-   "kind": "COMMON",
-   "substanceId": 609
-  },
-  {
-   "alias": "echinacea",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 609
-  },
-  {
-   "alias": "bpc-157",
-   "kind": "COMMON",
-   "substanceId": 700
-  },
-  {
-   "alias": "bpc-157",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 700
-  },
-  {
-   "alias": "bpc157",
-   "kind": "COMMON",
-   "substanceId": 700
-  },
-  {
-   "alias": "body protection compound",
-   "kind": "COMMON",
-   "substanceId": 700
-  },
-  {
-   "alias": "pentadecapeptide bpc 157",
-   "kind": "COMMON",
-   "substanceId": 700
-  },
-  {
-   "alias": "tb-500",
-   "kind": "COMMON",
-   "substanceId": 701
-  },
-  {
-   "alias": "tb-500",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 701
-  },
-  {
-   "alias": "tb500",
-   "kind": "COMMON",
-   "substanceId": 701
-  },
-  {
-   "alias": "thymosin beta-4",
-   "kind": "COMMON",
-   "substanceId": 701
-  },
-  {
-   "alias": "thymosin beta 4",
-   "kind": "COMMON",
-   "substanceId": 701
-  },
-  {
-   "alias": "ipamorelin",
-   "kind": "COMMON",
-   "substanceId": 702
-  },
-  {
-   "alias": "ipamorelin",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 702
-  },
-  {
-   "alias": "cjc-1295",
-   "kind": "COMMON",
-   "substanceId": 703
-  },
-  {
-   "alias": "cjc-1295",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 703
-  },
-  {
-   "alias": "cjc1295",
-   "kind": "COMMON",
-   "substanceId": 703
-  },
-  {
-   "alias": "mod grf 1-29",
-   "kind": "COMMON",
-   "substanceId": 703
-  },
-  {
-   "alias": "semaglutide",
-   "kind": "COMMON",
-   "substanceId": 704
-  },
-  {
-   "alias": "semaglutide",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 704
-  },
-  {
-   "alias": "ozempic",
-   "kind": "COMMON",
-   "substanceId": 704
-  },
-  {
-   "alias": "wegovy",
-   "kind": "COMMON",
-   "substanceId": 704
-  },
-  {
-   "alias": "rybelsus",
-   "kind": "COMMON",
-   "substanceId": 704
-  },
-  {
-   "alias": "tirzepatide",
-   "kind": "COMMON",
-   "substanceId": 705
-  },
-  {
-   "alias": "tirzepatide",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 705
-  },
-  {
-   "alias": "mounjaro",
-   "kind": "COMMON",
-   "substanceId": 705
-  },
-  {
-   "alias": "zepbound",
-   "kind": "COMMON",
-   "substanceId": 705
-  },
-  {
-   "alias": "retatrutide",
-   "kind": "COMMON",
-   "substanceId": 706
-  },
-  {
-   "alias": "retatrutide",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 706
-  },
-  {
-   "alias": "ly3437943",
-   "kind": "COMMON",
-   "substanceId": 706
-  },
-  {
-   "alias": "reta",
-   "kind": "COMMON",
-   "substanceId": 706
-  },
-  {
-   "alias": "tesamorelin",
-   "kind": "COMMON",
-   "substanceId": 707
-  },
-  {
-   "alias": "tesamorelin",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 707
-  },
-  {
-   "alias": "egrifta",
-   "kind": "COMMON",
-   "substanceId": 707
-  },
-  {
-   "alias": "sermorelin",
-   "kind": "COMMON",
-   "substanceId": 708
-  },
-  {
-   "alias": "sermorelin",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 708
-  },
-  {
-   "alias": "semax",
-   "kind": "COMMON",
-   "substanceId": 709
-  },
-  {
-   "alias": "semax",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 709
-  },
-  {
-   "alias": "selank",
-   "kind": "COMMON",
-   "substanceId": 710
-  },
-  {
-   "alias": "selank",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 710
-  },
-  {
-   "alias": "ghk-cu",
-   "kind": "COMMON",
-   "substanceId": 711
-  },
-  {
-   "alias": "ghk-cu",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 711
-  },
-  {
-   "alias": "copper peptide",
-   "kind": "COMMON",
-   "substanceId": 711
-  },
-  {
-   "alias": "ghk copper",
-   "kind": "COMMON",
-   "substanceId": 711
-  },
-  {
-   "alias": "epitalon",
-   "kind": "COMMON",
-   "substanceId": 712
-  },
-  {
-   "alias": "epitalon",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 712
-  },
-  {
-   "alias": "epithalon",
-   "kind": "COMMON",
-   "substanceId": 712
-  },
-  {
-   "alias": "mots-c",
-   "kind": "COMMON",
-   "substanceId": 713
-  },
-  {
-   "alias": "mots-c",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 713
-  },
-  {
-   "alias": "motsc",
-   "kind": "COMMON",
-   "substanceId": 713
-  },
-  {
-   "alias": "pt-141",
-   "kind": "COMMON",
-   "substanceId": 714
-  },
-  {
-   "alias": "pt-141",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 714
-  },
-  {
-   "alias": "bremelanotide",
-   "kind": "COMMON",
-   "substanceId": 714
-  },
-  {
-   "alias": "vyleesi",
-   "kind": "COMMON",
-   "substanceId": 714
-  },
-  {
-   "alias": "aod-9604",
-   "kind": "COMMON",
-   "substanceId": 715
-  },
-  {
-   "alias": "aod-9604",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 715
-  },
-  {
-   "alias": "aod9604",
-   "kind": "COMMON",
-   "substanceId": 715
-  },
-  {
-   "alias": "melatonin",
-   "kind": "COMMON",
-   "substanceId": 800
-  },
-  {
-   "alias": "melatonin",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 800
-  },
-  {
-   "alias": "dhea",
-   "kind": "COMMON",
-   "substanceId": 801
-  },
-  {
-   "alias": "dhea",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 801
-  },
-  {
-   "alias": "dehydroepiandrosterone",
-   "kind": "COMMON",
-   "substanceId": 801
-  },
-  {
-   "alias": "pregnenolone",
-   "kind": "COMMON",
-   "substanceId": 802
-  },
-  {
-   "alias": "pregnenolone",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 802
-  },
-  {
-   "alias": "testosterone",
-   "kind": "COMMON",
-   "substanceId": 803
-  },
-  {
-   "alias": "testosterone",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 803
-  },
-  {
-   "alias": "testosterone cypionate",
-   "kind": "COMMON",
-   "substanceId": 803
-  },
-  {
-   "alias": "testosterone enanthate",
-   "kind": "COMMON",
-   "substanceId": 803
-  },
-  {
-   "alias": "trt",
-   "kind": "COMMON",
-   "substanceId": 803
-  },
-  {
-   "alias": "levothyroxine",
-   "kind": "COMMON",
-   "substanceId": 804
-  },
-  {
-   "alias": "levothyroxine",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 804
-  },
-  {
-   "alias": "synthroid",
-   "kind": "COMMON",
-   "substanceId": 804
-  },
-  {
-   "alias": "t4",
-   "kind": "COMMON",
-   "substanceId": 804
-  },
-  {
-   "alias": "acetaminophen",
-   "kind": "COMMON",
-   "substanceId": 850
-  },
-  {
-   "alias": "acetaminophen",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 850
-  },
-  {
-   "alias": "paracetamol",
-   "kind": "COMMON",
-   "substanceId": 850
-  },
-  {
-   "alias": "tylenol",
-   "kind": "COMMON",
-   "substanceId": 850
-  },
-  {
-   "alias": "apap",
-   "kind": "COMMON",
-   "substanceId": 850
-  },
-  {
-   "alias": "ibuprofen",
-   "kind": "COMMON",
-   "substanceId": 851
-  },
-  {
-   "alias": "ibuprofen",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 851
-  },
-  {
-   "alias": "advil",
-   "kind": "COMMON",
-   "substanceId": 851
-  },
-  {
-   "alias": "motrin",
-   "kind": "COMMON",
-   "substanceId": 851
-  },
-  {
-   "alias": "aspirin",
-   "kind": "COMMON",
-   "substanceId": 852
-  },
-  {
-   "alias": "aspirin",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 852
-  },
-  {
-   "alias": "acetylsalicylic acid",
-   "kind": "COMMON",
-   "substanceId": 852
-  },
-  {
-   "alias": "asa",
-   "kind": "COMMON",
-   "substanceId": 852
-  },
-  {
-   "alias": "naproxen",
-   "kind": "COMMON",
-   "substanceId": 853
-  },
-  {
-   "alias": "naproxen",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 853
-  },
-  {
-   "alias": "aleve",
-   "kind": "COMMON",
-   "substanceId": 853
-  },
-  {
-   "alias": "diphenhydramine",
-   "kind": "COMMON",
-   "substanceId": 854
-  },
-  {
-   "alias": "diphenhydramine",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 854
-  },
-  {
-   "alias": "benadryl",
-   "kind": "COMMON",
-   "substanceId": 854
-  },
-  {
-   "alias": "caffeine",
-   "kind": "COMMON",
-   "substanceId": 855
-  },
-  {
-   "alias": "caffeine",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 855
-  },
-  {
-   "alias": "metformin",
-   "kind": "COMMON",
-   "substanceId": 856
-  },
-  {
-   "alias": "metformin",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 856
-  },
-  {
-   "alias": "glucophage",
-   "kind": "COMMON",
-   "substanceId": 856
-  },
-  {
-   "alias": "omeprazole",
-   "kind": "COMMON",
-   "substanceId": 857
-  },
-  {
-   "alias": "omeprazole",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 857
-  },
-  {
-   "alias": "prilosec",
-   "kind": "COMMON",
-   "substanceId": 857
-  },
-  {
-   "alias": "atorvastatin",
-   "kind": "COMMON",
-   "substanceId": 858
-  },
-  {
-   "alias": "atorvastatin",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 858
-  },
-  {
-   "alias": "lipitor",
-   "kind": "COMMON",
-   "substanceId": 858
-  },
-  {
-   "alias": "lisinopril",
-   "kind": "COMMON",
-   "substanceId": 859
-  },
-  {
-   "alias": "lisinopril",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 859
-  },
-  {
-   "alias": "zestril",
-   "kind": "COMMON",
-   "substanceId": 859
-  },
-  {
-   "alias": "prinivil",
-   "kind": "COMMON",
-   "substanceId": 859
-  },
-  {
-   "alias": "probiotic blend",
-   "kind": "COMMON",
-   "substanceId": 950
-  },
-  {
-   "alias": "probiotic blend",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 950
-  },
-  {
-   "alias": "lactobacillus",
-   "kind": "COMMON",
-   "substanceId": 950
-  },
-  {
-   "alias": "bifidobacterium",
-   "kind": "COMMON",
-   "substanceId": 950
-  },
-  {
-   "alias": "probiotics",
-   "kind": "COMMON",
-   "substanceId": 950
-  },
-  {
-   "alias": "coenzyme q10",
-   "kind": "COMMON",
-   "substanceId": 951
-  },
-  {
-   "alias": "coenzyme q10",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 951
-  },
-  {
-   "alias": "coq10",
-   "kind": "COMMON",
-   "substanceId": 951
-  },
-  {
-   "alias": "ubiquinol",
-   "kind": "COMMON",
-   "substanceId": 951
-  },
-  {
-   "alias": "ubiquinone",
-   "kind": "COMMON",
-   "substanceId": 951
-  },
-  {
-   "alias": "collagen",
-   "kind": "COMMON",
-   "substanceId": 952
-  },
-  {
-   "alias": "collagen",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 952
-  },
-  {
-   "alias": "collagen peptides",
-   "kind": "COMMON",
-   "substanceId": 952
-  },
-  {
-   "alias": "hydrolyzed collagen",
-   "kind": "COMMON",
-   "substanceId": 952
-  },
-  {
-   "alias": "alpha-lipoic acid",
-   "kind": "COMMON",
-   "substanceId": 953
-  },
-  {
-   "alias": "alpha lipoic acid",
-   "kind": "INGREDIENT_GROUP",
-   "substanceId": 953
-  },
-  {
-   "alias": "ala",
-   "kind": "COMMON",
-   "substanceId": 953
-  },
-  {
-   "alias": "alpha lipoic acid",
-   "kind": "COMMON",
-   "substanceId": 953
-  },
-  {
-   "substanceId": 510,
-   "alias": "hmb",
-   "kind": "COMMON"
   },
   {
    "substanceId": 510,
@@ -3678,6 +3132,11 @@
   {
    "substanceId": 510,
    "alias": "calcium hmb",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 510,
+   "alias": "hmb",
    "kind": "COMMON"
   },
   {
@@ -3697,12 +3156,12 @@
   },
   {
    "substanceId": 511,
-   "alias": "leucine",
+   "alias": "l-leucine",
    "kind": "COMMON"
   },
   {
    "substanceId": 511,
-   "alias": "l-leucine",
+   "alias": "leucine",
    "kind": "COMMON"
   },
   {
@@ -3727,12 +3186,12 @@
   },
   {
    "substanceId": 513,
-   "alias": "valine",
+   "alias": "l-valine",
    "kind": "COMMON"
   },
   {
    "substanceId": 513,
-   "alias": "l-valine",
+   "alias": "valine",
    "kind": "COMMON"
   },
   {
@@ -3752,12 +3211,12 @@
   },
   {
    "substanceId": 514,
-   "alias": "branched-chain amino acids",
+   "alias": "branched chain amino acids",
    "kind": "COMMON"
   },
   {
    "substanceId": 514,
-   "alias": "branched chain amino acids",
+   "alias": "branched-chain amino acids",
    "kind": "COMMON"
   },
   {
@@ -3812,7 +3271,7 @@
   },
   {
    "substanceId": 517,
-   "alias": "alcar",
+   "alias": "acetyl l carnitine",
    "kind": "COMMON"
   },
   {
@@ -3822,7 +3281,7 @@
   },
   {
    "substanceId": 517,
-   "alias": "acetyl l carnitine",
+   "alias": "alcar",
    "kind": "COMMON"
   },
   {
@@ -3833,6 +3292,11 @@
   {
    "substanceId": 518,
    "alias": "betaine",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 518,
+   "alias": "betaine anhydrous",
    "kind": "COMMON"
   },
   {
@@ -3847,18 +3311,8 @@
   },
   {
    "substanceId": 518,
-   "alias": "betaine anhydrous",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 518,
    "alias": "betaine",
    "kind": "INGREDIENT_GROUP"
-  },
-  {
-   "substanceId": 519,
-   "alias": "lysine",
-   "kind": "COMMON"
   },
   {
    "substanceId": 519,
@@ -3868,12 +3322,12 @@
   {
    "substanceId": 519,
    "alias": "lysine",
-   "kind": "INGREDIENT_GROUP"
+   "kind": "COMMON"
   },
   {
-   "substanceId": 520,
-   "alias": "tryptophan",
-   "kind": "COMMON"
+   "substanceId": 519,
+   "alias": "lysine",
+   "kind": "INGREDIENT_GROUP"
   },
   {
    "substanceId": 520,
@@ -3883,16 +3337,21 @@
   {
    "substanceId": 520,
    "alias": "tryptophan",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 520,
+   "alias": "tryptophan",
    "kind": "INGREDIENT_GROUP"
   },
   {
    "substanceId": 521,
-   "alias": "5-htp",
+   "alias": "5 htp",
    "kind": "COMMON"
   },
   {
    "substanceId": 521,
-   "alias": "5 htp",
+   "alias": "5-htp",
    "kind": "COMMON"
   },
   {
@@ -3952,12 +3411,12 @@
   },
   {
    "substanceId": 524,
-   "alias": "ornithine",
+   "alias": "l-ornithine",
    "kind": "COMMON"
   },
   {
    "substanceId": 524,
-   "alias": "l-ornithine",
+   "alias": "ornithine",
    "kind": "COMMON"
   },
   {
@@ -3982,12 +3441,12 @@
   },
   {
    "substanceId": 526,
-   "alias": "methionine",
+   "alias": "l-methionine",
    "kind": "COMMON"
   },
   {
    "substanceId": 526,
-   "alias": "l-methionine",
+   "alias": "methionine",
    "kind": "COMMON"
   },
   {
@@ -4011,204 +3470,154 @@
    "kind": "INGREDIENT_GROUP"
   },
   {
-   "substanceId": 215,
-   "alias": "chloride",
-   "kind": "COMMON"
+   "alias": "curcuma longa",
+   "kind": "COMMON",
+   "substanceId": 600
   },
   {
-   "substanceId": 215,
-   "alias": "chloride",
-   "kind": "INGREDIENT_GROUP"
+   "alias": "curcumin (turmeric)",
+   "kind": "COMMON",
+   "substanceId": 600
   },
   {
-   "substanceId": 216,
-   "alias": "silicon",
-   "kind": "COMMON"
+   "alias": "turmeric",
+   "kind": "COMMON",
+   "substanceId": 600
   },
   {
-   "substanceId": 216,
-   "alias": "silica",
-   "kind": "COMMON"
+   "alias": "turmeric",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 600
   },
   {
-   "substanceId": 216,
-   "alias": "orthosilicic acid",
-   "kind": "COMMON"
+   "alias": "ashwagandha",
+   "kind": "COMMON",
+   "substanceId": 601
   },
   {
-   "substanceId": 216,
-   "alias": "bamboo silica",
-   "kind": "COMMON"
+   "alias": "ksm-66",
+   "kind": "COMMON",
+   "substanceId": 601
   },
   {
-   "substanceId": 216,
-   "alias": "silicon",
-   "kind": "INGREDIENT_GROUP"
+   "alias": "withania somnifera",
+   "kind": "COMMON",
+   "substanceId": 601
   },
   {
-   "substanceId": 217,
-   "alias": "strontium",
-   "kind": "COMMON"
+   "alias": "ashwagandha",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 601
   },
   {
-   "substanceId": 217,
-   "alias": "strontium citrate",
-   "kind": "COMMON"
+   "alias": "rhodiola",
+   "kind": "COMMON",
+   "substanceId": 602
   },
   {
-   "substanceId": 217,
-   "alias": "strontium",
-   "kind": "INGREDIENT_GROUP"
+   "alias": "rhodiola rosea",
+   "kind": "COMMON",
+   "substanceId": 602
   },
   {
-   "substanceId": 218,
-   "alias": "lithium",
-   "kind": "COMMON"
+   "alias": "rhodiola",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 602
   },
   {
-   "substanceId": 218,
-   "alias": "lithium orotate",
-   "kind": "COMMON"
+   "alias": "milk thistle",
+   "kind": "COMMON",
+   "substanceId": 603
   },
   {
-   "substanceId": 218,
-   "alias": "lithium",
-   "kind": "INGREDIENT_GROUP"
+   "alias": "silybum marianum",
+   "kind": "COMMON",
+   "substanceId": 603
   },
   {
-   "substanceId": 403,
-   "alias": "alpha-linolenic acid",
-   "kind": "COMMON"
+   "alias": "silymarin",
+   "kind": "COMMON",
+   "substanceId": 603
   },
   {
-   "substanceId": 403,
-   "alias": "alpha linolenic acid",
-   "kind": "COMMON"
+   "alias": "milk thistle",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 603
   },
   {
-   "substanceId": 403,
-   "alias": "flaxseed omega-3",
-   "kind": "COMMON"
+   "alias": "ginkgo biloba",
+   "kind": "COMMON",
+   "substanceId": 604
   },
   {
-   "substanceId": 403,
-   "alias": "alpha-linolenic acid",
-   "kind": "INGREDIENT_GROUP"
+   "alias": "ginkgo",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 604
   },
   {
-   "substanceId": 404,
-   "alias": "cla",
-   "kind": "COMMON"
+   "alias": "valerian",
+   "kind": "COMMON",
+   "substanceId": 605
   },
   {
-   "substanceId": 404,
-   "alias": "conjugated linoleic acid",
-   "kind": "COMMON"
+   "alias": "valeriana officinalis",
+   "kind": "COMMON",
+   "substanceId": 605
   },
   {
-   "substanceId": 404,
-   "alias": "cla",
-   "kind": "INGREDIENT_GROUP"
+   "alias": "valerian",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 605
   },
   {
-   "substanceId": 405,
-   "alias": "mct",
-   "kind": "COMMON"
+   "alias": "hypericum perforatum",
+   "kind": "COMMON",
+   "substanceId": 606
   },
   {
-   "substanceId": 405,
-   "alias": "mct oil",
-   "kind": "COMMON"
+   "alias": "st john's wort",
+   "kind": "COMMON",
+   "substanceId": 606
   },
   {
-   "substanceId": 405,
-   "alias": "medium chain triglycerides",
-   "kind": "COMMON"
+   "alias": "st. john's wort",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 606
   },
   {
-   "substanceId": 405,
-   "alias": "c8",
-   "kind": "COMMON"
+   "alias": "saw palmetto",
+   "kind": "COMMON",
+   "substanceId": 607
   },
   {
-   "substanceId": 405,
-   "alias": "caprylic acid",
-   "kind": "COMMON"
+   "alias": "serenoa repens",
+   "kind": "COMMON",
+   "substanceId": 607
   },
   {
-   "substanceId": 405,
-   "alias": "mct",
-   "kind": "INGREDIENT_GROUP"
+   "alias": "saw palmetto",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 607
   },
   {
-   "substanceId": 406,
-   "alias": "lecithin",
-   "kind": "COMMON"
+   "alias": "berberine",
+   "kind": "COMMON",
+   "substanceId": 608
   },
   {
-   "substanceId": 406,
-   "alias": "soy lecithin",
-   "kind": "COMMON"
+   "alias": "berberine",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 608
   },
   {
-   "substanceId": 406,
-   "alias": "sunflower lecithin",
-   "kind": "COMMON"
+   "alias": "echinacea",
+   "kind": "COMMON",
+   "substanceId": 609
   },
   {
-   "substanceId": 406,
-   "alias": "lecithin",
-   "kind": "INGREDIENT_GROUP"
-  },
-  {
-   "substanceId": 407,
-   "alias": "gla",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 407,
-   "alias": "gamma-linolenic acid",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 407,
-   "alias": "gamma linolenic acid",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 407,
-   "alias": "gla",
-   "kind": "INGREDIENT_GROUP"
-  },
-  {
-   "substanceId": 408,
-   "alias": "phosphatidylcholine",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 408,
-   "alias": "phosphatidylcholine",
-   "kind": "INGREDIENT_GROUP"
-  },
-  {
-   "substanceId": 610,
-   "alias": "ginseng",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 610,
-   "alias": "panax ginseng",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 610,
-   "alias": "korean ginseng",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 610,
-   "alias": "red ginseng",
-   "kind": "COMMON"
+   "alias": "echinacea",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 609
   },
   {
    "substanceId": 610,
@@ -4218,7 +3627,32 @@
   {
    "substanceId": 610,
    "alias": "ginseng",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 610,
+   "alias": "korean ginseng",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 610,
+   "alias": "panax ginseng",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 610,
+   "alias": "red ginseng",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 610,
+   "alias": "ginseng",
    "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 611,
+   "alias": "lepidium meyenii",
+   "kind": "COMMON"
   },
   {
    "substanceId": 611,
@@ -4232,18 +3666,8 @@
   },
   {
    "substanceId": 611,
-   "alias": "lepidium meyenii",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 611,
    "alias": "maca",
    "kind": "INGREDIENT_GROUP"
-  },
-  {
-   "substanceId": 612,
-   "alias": "tongkat ali",
-   "kind": "COMMON"
   },
   {
    "substanceId": 612,
@@ -4258,7 +3682,17 @@
   {
    "substanceId": 612,
    "alias": "tongkat ali",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 612,
+   "alias": "tongkat ali",
    "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 613,
+   "alias": "puncture vine",
+   "kind": "COMMON"
   },
   {
    "substanceId": 613,
@@ -4268,11 +3702,6 @@
   {
    "substanceId": 613,
    "alias": "tribulus terrestris",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 613,
-   "alias": "puncture vine",
    "kind": "COMMON"
   },
   {
@@ -4302,7 +3731,7 @@
   },
   {
    "substanceId": 615,
-   "alias": "lions mane",
+   "alias": "hericium erinaceus",
    "kind": "COMMON"
   },
   {
@@ -4312,7 +3741,7 @@
   },
   {
    "substanceId": 615,
-   "alias": "hericium erinaceus",
+   "alias": "lions mane",
    "kind": "COMMON"
   },
   {
@@ -4322,12 +3751,12 @@
   },
   {
    "substanceId": 616,
-   "alias": "reishi",
+   "alias": "ganoderma lucidum",
    "kind": "COMMON"
   },
   {
    "substanceId": 616,
-   "alias": "ganoderma lucidum",
+   "alias": "reishi",
    "kind": "COMMON"
   },
   {
@@ -4352,6 +3781,11 @@
   },
   {
    "substanceId": 618,
+   "alias": "black elderberry",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 618,
    "alias": "elderberry",
    "kind": "COMMON"
   },
@@ -4367,18 +3801,8 @@
   },
   {
    "substanceId": 618,
-   "alias": "black elderberry",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 618,
    "alias": "elderberry",
    "kind": "INGREDIENT_GROUP"
-  },
-  {
-   "substanceId": 619,
-   "alias": "garlic",
-   "kind": "COMMON"
   },
   {
    "substanceId": 619,
@@ -4388,6 +3812,11 @@
   {
    "substanceId": 619,
    "alias": "allicin",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 619,
+   "alias": "garlic",
    "kind": "COMMON"
   },
   {
@@ -4412,7 +3841,7 @@
   },
   {
    "substanceId": 621,
-   "alias": "green tea extract",
+   "alias": "camellia sinensis",
    "kind": "COMMON"
   },
   {
@@ -4427,7 +3856,7 @@
   },
   {
    "substanceId": 621,
-   "alias": "camellia sinensis",
+   "alias": "green tea extract",
    "kind": "COMMON"
   },
   {
@@ -4452,17 +3881,17 @@
   },
   {
    "substanceId": 623,
+   "alias": "polygonum cuspidatum",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 623,
    "alias": "resveratrol",
    "kind": "COMMON"
   },
   {
    "substanceId": 623,
    "alias": "trans-resveratrol",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 623,
-   "alias": "polygonum cuspidatum",
    "kind": "COMMON"
   },
   {
@@ -4502,6 +3931,11 @@
   },
   {
    "substanceId": 626,
+   "alias": "actaea racemosa",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 626,
    "alias": "black cohosh",
    "kind": "COMMON"
   },
@@ -4512,27 +3946,17 @@
   },
   {
    "substanceId": 626,
-   "alias": "actaea racemosa",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 626,
    "alias": "black cohosh",
    "kind": "INGREDIENT_GROUP"
   },
   {
    "substanceId": 627,
-   "alias": "cinnamon",
+   "alias": "cassia cinnamon",
    "kind": "COMMON"
   },
   {
    "substanceId": 627,
    "alias": "ceylon cinnamon",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 627,
-   "alias": "cassia cinnamon",
    "kind": "COMMON"
   },
   {
@@ -4543,16 +3967,16 @@
   {
    "substanceId": 627,
    "alias": "cinnamon",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 627,
+   "alias": "cinnamon",
    "kind": "INGREDIENT_GROUP"
   },
   {
    "substanceId": 628,
    "alias": "fenugreek",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 628,
-   "alias": "trigonella",
    "kind": "COMMON"
   },
   {
@@ -4562,8 +3986,18 @@
   },
   {
    "substanceId": 628,
+   "alias": "trigonella",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 628,
    "alias": "fenugreek",
    "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 629,
+   "alias": "beet powder",
+   "kind": "COMMON"
   },
   {
    "substanceId": 629,
@@ -4573,11 +4007,6 @@
   {
    "substanceId": 629,
    "alias": "beetroot",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 629,
-   "alias": "beet powder",
    "kind": "COMMON"
   },
   {
@@ -4592,12 +4021,12 @@
   },
   {
    "substanceId": 630,
-   "alias": "spirulina",
+   "alias": "arthrospira",
    "kind": "COMMON"
   },
   {
    "substanceId": 630,
-   "alias": "arthrospira",
+   "alias": "spirulina",
    "kind": "COMMON"
   },
   {
@@ -4618,11 +4047,6 @@
   {
    "substanceId": 632,
    "alias": "boswellia",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 632,
-   "alias": "frankincense",
    "kind": "COMMON"
   },
   {
@@ -4632,6 +4056,11 @@
   },
   {
    "substanceId": 632,
+   "alias": "frankincense",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 632,
    "alias": "boswellia",
    "kind": "INGREDIENT_GROUP"
   },
@@ -4642,12 +4071,12 @@
   },
   {
    "substanceId": 633,
-   "alias": "matricaria",
+   "alias": "german chamomile",
    "kind": "COMMON"
   },
   {
    "substanceId": 633,
-   "alias": "german chamomile",
+   "alias": "matricaria",
    "kind": "COMMON"
   },
   {
@@ -4657,12 +4086,12 @@
   },
   {
    "substanceId": 634,
-   "alias": "peppermint oil",
+   "alias": "mentha piperita",
    "kind": "COMMON"
   },
   {
    "substanceId": 634,
-   "alias": "mentha piperita",
+   "alias": "peppermint oil",
    "kind": "COMMON"
   },
   {
@@ -4687,12 +4116,12 @@
   },
   {
    "substanceId": 636,
-   "alias": "horny goat weed",
+   "alias": "epimedium",
    "kind": "COMMON"
   },
   {
    "substanceId": 636,
-   "alias": "epimedium",
+   "alias": "horny goat weed",
    "kind": "COMMON"
   },
   {
@@ -4707,7 +4136,7 @@
   },
   {
    "substanceId": 637,
-   "alias": "shilajit",
+   "alias": "fulvic acid",
    "kind": "COMMON"
   },
   {
@@ -4717,7 +4146,7 @@
   },
   {
    "substanceId": 637,
-   "alias": "fulvic acid",
+   "alias": "shilajit",
    "kind": "COMMON"
   },
   {
@@ -4757,12 +4186,12 @@
   },
   {
    "substanceId": 640,
-   "alias": "yohimbine",
+   "alias": "yohimbe",
    "kind": "COMMON"
   },
   {
    "substanceId": 640,
-   "alias": "yohimbe",
+   "alias": "yohimbine",
    "kind": "COMMON"
   },
   {
@@ -4792,7 +4221,7 @@
   },
   {
    "substanceId": 642,
-   "alias": "turkey tail",
+   "alias": "coriolus",
    "kind": "COMMON"
   },
   {
@@ -4802,7 +4231,7 @@
   },
   {
    "substanceId": 642,
-   "alias": "coriolus",
+   "alias": "turkey tail",
    "kind": "COMMON"
   },
   {
@@ -4812,7 +4241,7 @@
   },
   {
    "substanceId": 643,
-   "alias": "vitex",
+   "alias": "chaste tree",
    "kind": "COMMON"
   },
   {
@@ -4822,7 +4251,7 @@
   },
   {
    "substanceId": 643,
-   "alias": "chaste tree",
+   "alias": "vitex",
    "kind": "COMMON"
   },
   {
@@ -4837,17 +4266,17 @@
   },
   {
    "substanceId": 644,
+   "alias": "epo",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 644,
    "alias": "evening primrose",
    "kind": "COMMON"
   },
   {
    "substanceId": 644,
    "alias": "evening primrose oil",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 644,
-   "alias": "epo",
    "kind": "COMMON"
   },
   {
@@ -4867,12 +4296,12 @@
   },
   {
    "substanceId": 645,
-   "alias": "stinging nettle",
+   "alias": "nettle root",
    "kind": "COMMON"
   },
   {
    "substanceId": 645,
-   "alias": "nettle root",
+   "alias": "stinging nettle",
    "kind": "COMMON"
   },
   {
@@ -4887,12 +4316,12 @@
   },
   {
    "substanceId": 646,
-   "alias": "pygeum",
+   "alias": "prunus africana",
    "kind": "COMMON"
   },
   {
    "substanceId": 646,
-   "alias": "prunus africana",
+   "alias": "pygeum",
    "kind": "COMMON"
   },
   {
@@ -4937,7 +4366,7 @@
   },
   {
    "substanceId": 649,
-   "alias": "passionflower",
+   "alias": "passiflora",
    "kind": "COMMON"
   },
   {
@@ -4947,7 +4376,7 @@
   },
   {
    "substanceId": 649,
-   "alias": "passiflora",
+   "alias": "passionflower",
    "kind": "COMMON"
   },
   {
@@ -4977,12 +4406,12 @@
   },
   {
    "substanceId": 651,
-   "alias": "tulsi",
+   "alias": "ocimum sanctum",
    "kind": "COMMON"
   },
   {
    "substanceId": 651,
-   "alias": "ocimum sanctum",
+   "alias": "tulsi",
    "kind": "COMMON"
   },
   {
@@ -5012,12 +4441,12 @@
   },
   {
    "substanceId": 653,
-   "alias": "schizandra",
+   "alias": "schisandra chinensis",
    "kind": "COMMON"
   },
   {
    "substanceId": 653,
-   "alias": "schisandra chinensis",
+   "alias": "schizandra",
    "kind": "COMMON"
   },
   {
@@ -5072,7 +4501,7 @@
   },
   {
    "substanceId": 657,
-   "alias": "oregano oil",
+   "alias": "carvacrol",
    "kind": "COMMON"
   },
   {
@@ -5082,7 +4511,7 @@
   },
   {
    "substanceId": 657,
-   "alias": "carvacrol",
+   "alias": "oregano oil",
    "kind": "COMMON"
   },
   {
@@ -5092,17 +4521,17 @@
   },
   {
    "substanceId": 658,
+   "alias": "oleuropein",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 658,
    "alias": "olive leaf",
    "kind": "COMMON"
   },
   {
    "substanceId": 658,
    "alias": "olive leaf extract",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 658,
-   "alias": "oleuropein",
    "kind": "COMMON"
   },
   {
@@ -5132,28 +4561,13 @@
   },
   {
    "substanceId": 660,
-   "alias": "licorice",
+   "alias": "deglycyrrhizinated licorice",
    "kind": "COMMON"
   },
   {
    "substanceId": 660,
    "alias": "dgl",
    "kind": "COMMON"
-  },
-  {
-   "substanceId": 660,
-   "alias": "deglycyrrhizinated licorice",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 660,
-   "alias": "glycyrrhiza",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 660,
-   "alias": "licorice",
-   "kind": "INGREDIENT_GROUP"
   },
   {
    "substanceId": 661,
@@ -5172,7 +4586,7 @@
   },
   {
    "substanceId": 662,
-   "alias": "saffron",
+   "alias": "affron",
    "kind": "COMMON"
   },
   {
@@ -5182,7 +4596,7 @@
   },
   {
    "substanceId": 662,
-   "alias": "affron",
+   "alias": "saffron",
    "kind": "COMMON"
   },
   {
@@ -5192,17 +4606,17 @@
   },
   {
    "substanceId": 663,
+   "alias": "lavandula",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 663,
    "alias": "lavender",
    "kind": "COMMON"
   },
   {
    "substanceId": 663,
    "alias": "silexan",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 663,
-   "alias": "lavandula",
    "kind": "COMMON"
   },
   {
@@ -5232,17 +4646,17 @@
   },
   {
    "substanceId": 665,
-   "alias": "pycnogenol",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 665,
    "alias": "pine bark",
    "kind": "COMMON"
   },
   {
    "substanceId": 665,
    "alias": "pine bark extract",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 665,
+   "alias": "pycnogenol",
    "kind": "COMMON"
   },
   {
@@ -5267,7 +4681,7 @@
   },
   {
    "substanceId": 667,
-   "alias": "horse chestnut",
+   "alias": "aescin",
    "kind": "COMMON"
   },
   {
@@ -5277,12 +4691,12 @@
   },
   {
    "substanceId": 667,
-   "alias": "aescin",
+   "alias": "escin",
    "kind": "COMMON"
   },
   {
    "substanceId": 667,
-   "alias": "escin",
+   "alias": "horse chestnut",
    "kind": "COMMON"
   },
   {
@@ -5332,12 +4746,12 @@
   },
   {
    "substanceId": 670,
-   "alias": "yerba mate",
+   "alias": "ilex paraguariensis",
    "kind": "COMMON"
   },
   {
    "substanceId": 670,
-   "alias": "ilex paraguariensis",
+   "alias": "yerba mate",
    "kind": "COMMON"
   },
   {
@@ -5412,7 +4826,7 @@
   },
   {
    "substanceId": 675,
-   "alias": "sea moss",
+   "alias": "chondrus crispus",
    "kind": "COMMON"
   },
   {
@@ -5422,7 +4836,7 @@
   },
   {
    "substanceId": 675,
-   "alias": "chondrus crispus",
+   "alias": "sea moss",
    "kind": "COMMON"
   },
   {
@@ -5432,18 +4846,23 @@
   },
   {
    "substanceId": 676,
-   "alias": "wheatgrass",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 676,
    "alias": "wheat grass",
    "kind": "COMMON"
   },
   {
    "substanceId": 676,
    "alias": "wheatgrass",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 676,
+   "alias": "wheatgrass",
    "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 677,
+   "alias": "chlorogenic acid",
+   "kind": "COMMON"
   },
   {
    "substanceId": 677,
@@ -5457,13 +4876,753 @@
   },
   {
    "substanceId": 677,
-   "alias": "chlorogenic acid",
+   "alias": "green coffee",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 678,
+   "alias": "garcinia",
    "kind": "COMMON"
   },
   {
-   "substanceId": 677,
-   "alias": "green coffee",
+   "substanceId": 678,
+   "alias": "garcinia cambogia",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 678,
+   "alias": "hca",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 678,
+   "alias": "hydroxycitric acid",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 678,
+   "alias": "garcinia",
    "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 679,
+   "alias": "coleus forskohlii",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 679,
+   "alias": "forskolin",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 679,
+   "alias": "forskolin",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 680,
+   "alias": "cat's claw",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 680,
+   "alias": "cats claw",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 680,
+   "alias": "uncaria tomentosa",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 680,
+   "alias": "cats claw",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 681,
+   "alias": "devil's claw",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 681,
+   "alias": "devils claw",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 681,
+   "alias": "harpagophytum",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 681,
+   "alias": "devils claw",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 682,
+   "alias": "goldenseal",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 682,
+   "alias": "hydrastis canadensis",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 682,
+   "alias": "goldenseal",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 683,
+   "alias": "althaea officinalis",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 683,
+   "alias": "marshmallow root",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 683,
+   "alias": "marshmallow root",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "substanceId": 684,
+   "alias": "glycyrrhiza",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 684,
+   "alias": "glycyrrhiza glabra",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 684,
+   "alias": "licorice",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 684,
+   "alias": "licorice",
+   "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "alias": "body protection compound",
+   "kind": "COMMON",
+   "substanceId": 700
+  },
+  {
+   "alias": "bpc-157",
+   "kind": "COMMON",
+   "substanceId": 700
+  },
+  {
+   "alias": "bpc157",
+   "kind": "COMMON",
+   "substanceId": 700
+  },
+  {
+   "alias": "pentadecapeptide bpc 157",
+   "kind": "COMMON",
+   "substanceId": 700
+  },
+  {
+   "alias": "bpc-157",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 700
+  },
+  {
+   "alias": "tb-500",
+   "kind": "COMMON",
+   "substanceId": 701
+  },
+  {
+   "alias": "tb500",
+   "kind": "COMMON",
+   "substanceId": 701
+  },
+  {
+   "alias": "thymosin beta 4",
+   "kind": "COMMON",
+   "substanceId": 701
+  },
+  {
+   "alias": "thymosin beta-4",
+   "kind": "COMMON",
+   "substanceId": 701
+  },
+  {
+   "alias": "tb-500",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 701
+  },
+  {
+   "alias": "ipamorelin",
+   "kind": "COMMON",
+   "substanceId": 702
+  },
+  {
+   "alias": "ipamorelin",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 702
+  },
+  {
+   "alias": "cjc-1295",
+   "kind": "COMMON",
+   "substanceId": 703
+  },
+  {
+   "alias": "cjc1295",
+   "kind": "COMMON",
+   "substanceId": 703
+  },
+  {
+   "alias": "mod grf 1-29",
+   "kind": "COMMON",
+   "substanceId": 703
+  },
+  {
+   "alias": "cjc-1295",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 703
+  },
+  {
+   "alias": "ozempic",
+   "kind": "COMMON",
+   "substanceId": 704
+  },
+  {
+   "alias": "rybelsus",
+   "kind": "COMMON",
+   "substanceId": 704
+  },
+  {
+   "alias": "semaglutide",
+   "kind": "COMMON",
+   "substanceId": 704
+  },
+  {
+   "alias": "wegovy",
+   "kind": "COMMON",
+   "substanceId": 704
+  },
+  {
+   "alias": "semaglutide",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 704
+  },
+  {
+   "alias": "mounjaro",
+   "kind": "COMMON",
+   "substanceId": 705
+  },
+  {
+   "alias": "tirzepatide",
+   "kind": "COMMON",
+   "substanceId": 705
+  },
+  {
+   "alias": "zepbound",
+   "kind": "COMMON",
+   "substanceId": 705
+  },
+  {
+   "alias": "tirzepatide",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 705
+  },
+  {
+   "alias": "ly3437943",
+   "kind": "COMMON",
+   "substanceId": 706
+  },
+  {
+   "alias": "reta",
+   "kind": "COMMON",
+   "substanceId": 706
+  },
+  {
+   "alias": "retatrutide",
+   "kind": "COMMON",
+   "substanceId": 706
+  },
+  {
+   "alias": "retatrutide",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 706
+  },
+  {
+   "alias": "egrifta",
+   "kind": "COMMON",
+   "substanceId": 707
+  },
+  {
+   "alias": "tesamorelin",
+   "kind": "COMMON",
+   "substanceId": 707
+  },
+  {
+   "alias": "tesamorelin",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 707
+  },
+  {
+   "alias": "sermorelin",
+   "kind": "COMMON",
+   "substanceId": 708
+  },
+  {
+   "alias": "sermorelin",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 708
+  },
+  {
+   "alias": "semax",
+   "kind": "COMMON",
+   "substanceId": 709
+  },
+  {
+   "alias": "semax",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 709
+  },
+  {
+   "alias": "selank",
+   "kind": "COMMON",
+   "substanceId": 710
+  },
+  {
+   "alias": "selank",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 710
+  },
+  {
+   "alias": "copper peptide",
+   "kind": "COMMON",
+   "substanceId": 711
+  },
+  {
+   "alias": "ghk copper",
+   "kind": "COMMON",
+   "substanceId": 711
+  },
+  {
+   "alias": "ghk-cu",
+   "kind": "COMMON",
+   "substanceId": 711
+  },
+  {
+   "alias": "ghk-cu",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 711
+  },
+  {
+   "alias": "epitalon",
+   "kind": "COMMON",
+   "substanceId": 712
+  },
+  {
+   "alias": "epithalon",
+   "kind": "COMMON",
+   "substanceId": 712
+  },
+  {
+   "alias": "epitalon",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 712
+  },
+  {
+   "alias": "mots-c",
+   "kind": "COMMON",
+   "substanceId": 713
+  },
+  {
+   "alias": "motsc",
+   "kind": "COMMON",
+   "substanceId": 713
+  },
+  {
+   "alias": "mots-c",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 713
+  },
+  {
+   "alias": "bremelanotide",
+   "kind": "COMMON",
+   "substanceId": 714
+  },
+  {
+   "alias": "pt-141",
+   "kind": "COMMON",
+   "substanceId": 714
+  },
+  {
+   "alias": "vyleesi",
+   "kind": "COMMON",
+   "substanceId": 714
+  },
+  {
+   "alias": "pt-141",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 714
+  },
+  {
+   "alias": "aod-9604",
+   "kind": "COMMON",
+   "substanceId": 715
+  },
+  {
+   "alias": "aod9604",
+   "kind": "COMMON",
+   "substanceId": 715
+  },
+  {
+   "alias": "aod-9604",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 715
+  },
+  {
+   "alias": "melatonin",
+   "kind": "COMMON",
+   "substanceId": 800
+  },
+  {
+   "alias": "melatonin",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 800
+  },
+  {
+   "alias": "dehydroepiandrosterone",
+   "kind": "COMMON",
+   "substanceId": 801
+  },
+  {
+   "alias": "dhea",
+   "kind": "COMMON",
+   "substanceId": 801
+  },
+  {
+   "alias": "dhea",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 801
+  },
+  {
+   "alias": "pregnenolone",
+   "kind": "COMMON",
+   "substanceId": 802
+  },
+  {
+   "alias": "pregnenolone",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 802
+  },
+  {
+   "alias": "testosterone",
+   "kind": "COMMON",
+   "substanceId": 803
+  },
+  {
+   "alias": "testosterone cypionate",
+   "kind": "COMMON",
+   "substanceId": 803
+  },
+  {
+   "alias": "testosterone enanthate",
+   "kind": "COMMON",
+   "substanceId": 803
+  },
+  {
+   "alias": "trt",
+   "kind": "COMMON",
+   "substanceId": 803
+  },
+  {
+   "alias": "testosterone",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 803
+  },
+  {
+   "alias": "levothyroxine",
+   "kind": "COMMON",
+   "substanceId": 804
+  },
+  {
+   "alias": "synthroid",
+   "kind": "COMMON",
+   "substanceId": 804
+  },
+  {
+   "alias": "t4",
+   "kind": "COMMON",
+   "substanceId": 804
+  },
+  {
+   "alias": "levothyroxine",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 804
+  },
+  {
+   "alias": "acetaminophen",
+   "kind": "COMMON",
+   "substanceId": 850
+  },
+  {
+   "alias": "apap",
+   "kind": "COMMON",
+   "substanceId": 850
+  },
+  {
+   "alias": "paracetamol",
+   "kind": "COMMON",
+   "substanceId": 850
+  },
+  {
+   "alias": "tylenol",
+   "kind": "COMMON",
+   "substanceId": 850
+  },
+  {
+   "alias": "acetaminophen",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 850
+  },
+  {
+   "alias": "advil",
+   "kind": "COMMON",
+   "substanceId": 851
+  },
+  {
+   "alias": "ibuprofen",
+   "kind": "COMMON",
+   "substanceId": 851
+  },
+  {
+   "alias": "motrin",
+   "kind": "COMMON",
+   "substanceId": 851
+  },
+  {
+   "alias": "ibuprofen",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 851
+  },
+  {
+   "alias": "acetylsalicylic acid",
+   "kind": "COMMON",
+   "substanceId": 852
+  },
+  {
+   "alias": "asa",
+   "kind": "COMMON",
+   "substanceId": 852
+  },
+  {
+   "alias": "aspirin",
+   "kind": "COMMON",
+   "substanceId": 852
+  },
+  {
+   "alias": "aspirin",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 852
+  },
+  {
+   "alias": "aleve",
+   "kind": "COMMON",
+   "substanceId": 853
+  },
+  {
+   "alias": "naproxen",
+   "kind": "COMMON",
+   "substanceId": 853
+  },
+  {
+   "alias": "naproxen",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 853
+  },
+  {
+   "alias": "benadryl",
+   "kind": "COMMON",
+   "substanceId": 854
+  },
+  {
+   "alias": "diphenhydramine",
+   "kind": "COMMON",
+   "substanceId": 854
+  },
+  {
+   "alias": "diphenhydramine",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 854
+  },
+  {
+   "alias": "caffeine",
+   "kind": "COMMON",
+   "substanceId": 855
+  },
+  {
+   "alias": "caffeine",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 855
+  },
+  {
+   "alias": "glucophage",
+   "kind": "COMMON",
+   "substanceId": 856
+  },
+  {
+   "alias": "metformin",
+   "kind": "COMMON",
+   "substanceId": 856
+  },
+  {
+   "alias": "metformin",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 856
+  },
+  {
+   "alias": "omeprazole",
+   "kind": "COMMON",
+   "substanceId": 857
+  },
+  {
+   "alias": "prilosec",
+   "kind": "COMMON",
+   "substanceId": 857
+  },
+  {
+   "alias": "omeprazole",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 857
+  },
+  {
+   "alias": "atorvastatin",
+   "kind": "COMMON",
+   "substanceId": 858
+  },
+  {
+   "alias": "lipitor",
+   "kind": "COMMON",
+   "substanceId": 858
+  },
+  {
+   "alias": "atorvastatin",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 858
+  },
+  {
+   "alias": "lisinopril",
+   "kind": "COMMON",
+   "substanceId": 859
+  },
+  {
+   "alias": "prinivil",
+   "kind": "COMMON",
+   "substanceId": 859
+  },
+  {
+   "alias": "zestril",
+   "kind": "COMMON",
+   "substanceId": 859
+  },
+  {
+   "alias": "lisinopril",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 859
+  },
+  {
+   "alias": "bifidobacterium",
+   "kind": "COMMON",
+   "substanceId": 950
+  },
+  {
+   "alias": "lactobacillus",
+   "kind": "COMMON",
+   "substanceId": 950
+  },
+  {
+   "alias": "probiotic blend",
+   "kind": "COMMON",
+   "substanceId": 950
+  },
+  {
+   "alias": "probiotics",
+   "kind": "COMMON",
+   "substanceId": 950
+  },
+  {
+   "alias": "probiotic blend",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 950
+  },
+  {
+   "alias": "coenzyme q10",
+   "kind": "COMMON",
+   "substanceId": 951
+  },
+  {
+   "alias": "coq10",
+   "kind": "COMMON",
+   "substanceId": 951
+  },
+  {
+   "alias": "ubiquinol",
+   "kind": "COMMON",
+   "substanceId": 951
+  },
+  {
+   "alias": "ubiquinone",
+   "kind": "COMMON",
+   "substanceId": 951
+  },
+  {
+   "alias": "coenzyme q10",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 951
+  },
+  {
+   "alias": "collagen",
+   "kind": "COMMON",
+   "substanceId": 952
+  },
+  {
+   "alias": "collagen peptides",
+   "kind": "COMMON",
+   "substanceId": 952
+  },
+  {
+   "alias": "hydrolyzed collagen",
+   "kind": "COMMON",
+   "substanceId": 952
+  },
+  {
+   "alias": "collagen",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 952
+  },
+  {
+   "alias": "ala",
+   "kind": "COMMON",
+   "substanceId": 953
+  },
+  {
+   "alias": "alpha lipoic acid",
+   "kind": "COMMON",
+   "substanceId": 953
+  },
+  {
+   "alias": "alpha-lipoic acid",
+   "kind": "COMMON",
+   "substanceId": 953
+  },
+  {
+   "alias": "alpha lipoic acid",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 953
   },
   {
    "substanceId": 954,
@@ -5472,12 +5631,12 @@
   },
   {
    "substanceId": 954,
-   "alias": "glucosamine sulfate",
+   "alias": "glucosamine hcl",
    "kind": "COMMON"
   },
   {
    "substanceId": 954,
-   "alias": "glucosamine hcl",
+   "alias": "glucosamine sulfate",
    "kind": "COMMON"
   },
   {
@@ -5502,7 +5661,7 @@
   },
   {
    "substanceId": 956,
-   "alias": "msm",
+   "alias": "dimethyl sulfone",
    "kind": "COMMON"
   },
   {
@@ -5512,7 +5671,7 @@
   },
   {
    "substanceId": 956,
-   "alias": "dimethyl sulfone",
+   "alias": "msm",
    "kind": "COMMON"
   },
   {
@@ -5537,6 +5696,11 @@
   },
   {
    "substanceId": 958,
+   "alias": "floraglo",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 958,
    "alias": "lutein",
    "kind": "COMMON"
   },
@@ -5547,18 +5711,8 @@
   },
   {
    "substanceId": 958,
-   "alias": "floraglo",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 958,
    "alias": "lutein",
    "kind": "INGREDIENT_GROUP"
-  },
-  {
-   "substanceId": 959,
-   "alias": "zeaxanthin",
-   "kind": "COMMON"
   },
   {
    "substanceId": 959,
@@ -5568,6 +5722,11 @@
   {
    "substanceId": 959,
    "alias": "zeaxanthin",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 959,
+   "alias": "zeaxanthin",
    "kind": "INGREDIENT_GROUP"
   },
   {
@@ -5579,15 +5738,15 @@
    "substanceId": 960,
    "alias": "lycopene",
    "kind": "INGREDIENT_GROUP"
-  },
-  {
-   "substanceId": 961,
-   "alias": "astaxanthin",
-   "kind": "COMMON"
   },
   {
    "substanceId": 961,
    "alias": "astareal",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 961,
+   "alias": "astaxanthin",
    "kind": "COMMON"
   },
   {
@@ -5622,12 +5781,12 @@
   },
   {
    "substanceId": 963,
-   "alias": "alpha-gpc",
+   "alias": "alpha gpc",
    "kind": "COMMON"
   },
   {
    "substanceId": 963,
-   "alias": "alpha gpc",
+   "alias": "alpha-gpc",
    "kind": "COMMON"
   },
   {
@@ -5642,12 +5801,12 @@
   },
   {
    "substanceId": 964,
-   "alias": "citicoline",
+   "alias": "cdp-choline",
    "kind": "COMMON"
   },
   {
    "substanceId": 964,
-   "alias": "cdp-choline",
+   "alias": "citicoline",
    "kind": "COMMON"
   },
   {
@@ -5662,23 +5821,18 @@
   },
   {
    "substanceId": 965,
-   "alias": "nmn",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 965,
    "alias": "nicotinamide mononucleotide",
    "kind": "COMMON"
   },
   {
    "substanceId": 965,
    "alias": "nmn",
-   "kind": "INGREDIENT_GROUP"
+   "kind": "COMMON"
   },
   {
-   "substanceId": 966,
-   "alias": "nicotinamide riboside",
-   "kind": "COMMON"
+   "substanceId": 965,
+   "alias": "nmn",
+   "kind": "INGREDIENT_GROUP"
   },
   {
    "substanceId": 966,
@@ -5688,11 +5842,16 @@
   {
    "substanceId": 966,
    "alias": "nicotinamide riboside",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 966,
+   "alias": "nicotinamide riboside",
    "kind": "INGREDIENT_GROUP"
   },
   {
    "substanceId": 967,
-   "alias": "sam-e",
+   "alias": "s-adenosyl-l-methionine",
    "kind": "COMMON"
   },
   {
@@ -5702,7 +5861,7 @@
   },
   {
    "substanceId": 967,
-   "alias": "s-adenosyl-l-methionine",
+   "alias": "sam-e",
    "kind": "COMMON"
   },
   {
@@ -5727,17 +5886,17 @@
   },
   {
    "substanceId": 969,
+   "alias": "ispaghula",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 969,
    "alias": "psyllium",
    "kind": "COMMON"
   },
   {
    "substanceId": 969,
    "alias": "psyllium husk",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 969,
-   "alias": "ispaghula",
    "kind": "COMMON"
   },
   {
@@ -5752,7 +5911,7 @@
   },
   {
    "substanceId": 970,
-   "alias": "whey protein",
+   "alias": "whey concentrate",
    "kind": "COMMON"
   },
   {
@@ -5762,7 +5921,7 @@
   },
   {
    "substanceId": 970,
-   "alias": "whey concentrate",
+   "alias": "whey protein",
    "kind": "COMMON"
   },
   {
@@ -5807,12 +5966,12 @@
   },
   {
    "substanceId": 973,
-   "alias": "apple cider vinegar",
+   "alias": "acv",
    "kind": "COMMON"
   },
   {
    "substanceId": 973,
-   "alias": "acv",
+   "alias": "apple cider vinegar",
    "kind": "COMMON"
   },
   {
@@ -5852,23 +6011,18 @@
   },
   {
    "substanceId": 976,
-   "alias": "activated charcoal",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 976,
    "alias": "activated carbon",
    "kind": "COMMON"
   },
   {
    "substanceId": 976,
    "alias": "activated charcoal",
-   "kind": "INGREDIENT_GROUP"
+   "kind": "COMMON"
   },
   {
-   "substanceId": 977,
-   "alias": "beta-glucan",
-   "kind": "COMMON"
+   "substanceId": 976,
+   "alias": "activated charcoal",
+   "kind": "INGREDIENT_GROUP"
   },
   {
    "substanceId": 977,
@@ -5878,12 +6032,12 @@
   {
    "substanceId": 977,
    "alias": "beta-glucan",
-   "kind": "INGREDIENT_GROUP"
+   "kind": "COMMON"
   },
   {
-   "substanceId": 978,
-   "alias": "dim",
-   "kind": "COMMON"
+   "substanceId": 977,
+   "alias": "beta-glucan",
+   "kind": "INGREDIENT_GROUP"
   },
   {
    "substanceId": 978,
@@ -5893,12 +6047,12 @@
   {
    "substanceId": 978,
    "alias": "dim",
-   "kind": "INGREDIENT_GROUP"
+   "kind": "COMMON"
   },
   {
-   "substanceId": 979,
-   "alias": "sulforaphane",
-   "kind": "COMMON"
+   "substanceId": 978,
+   "alias": "dim",
+   "kind": "INGREDIENT_GROUP"
   },
   {
    "substanceId": 979,
@@ -5908,6 +6062,11 @@
   {
    "substanceId": 979,
    "alias": "glucoraphanin",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 979,
+   "alias": "sulforaphane",
    "kind": "COMMON"
   },
   {
@@ -5957,6 +6116,11 @@
   },
   {
    "substanceId": 983,
+   "alias": "huperzia serrata",
+   "kind": "COMMON"
+  },
+  {
+   "substanceId": 983,
    "alias": "huperzine",
    "kind": "COMMON"
   },
@@ -5967,22 +6131,17 @@
   },
   {
    "substanceId": 983,
-   "alias": "huperzia serrata",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 983,
    "alias": "huperzine",
    "kind": "INGREDIENT_GROUP"
   },
   {
    "substanceId": 984,
-   "alias": "colostrum",
+   "alias": "bovine colostrum",
    "kind": "COMMON"
   },
   {
    "substanceId": 984,
-   "alias": "bovine colostrum",
+   "alias": "colostrum",
    "kind": "COMMON"
   },
   {
@@ -6057,23 +6216,18 @@
   },
   {
    "substanceId": 989,
-   "alias": "nattokinase",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 989,
    "alias": "natto extract",
    "kind": "COMMON"
   },
   {
    "substanceId": 989,
    "alias": "nattokinase",
-   "kind": "INGREDIENT_GROUP"
+   "kind": "COMMON"
   },
   {
-   "substanceId": 990,
-   "alias": "tart cherry",
-   "kind": "COMMON"
+   "substanceId": 989,
+   "alias": "nattokinase",
+   "kind": "INGREDIENT_GROUP"
   },
   {
    "substanceId": 990,
@@ -6088,151 +6242,11 @@
   {
    "substanceId": 990,
    "alias": "tart cherry",
-   "kind": "INGREDIENT_GROUP"
-  },
-  {
-   "substanceId": 15,
-   "alias": "beta-carotene",
    "kind": "COMMON"
   },
   {
-   "substanceId": 15,
-   "alias": "beta carotene",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 15,
-   "alias": "provitamin a",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 15,
-   "alias": "beta-carotene",
-   "kind": "INGREDIENT_GROUP"
-  },
-  {
-   "substanceId": 219,
-   "alias": "vanadium",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 219,
-   "alias": "vanadyl sulfate",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 219,
-   "alias": "vanadium",
-   "kind": "INGREDIENT_GROUP"
-  },
-  {
-   "substanceId": 678,
-   "alias": "garcinia",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 678,
-   "alias": "garcinia cambogia",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 678,
-   "alias": "hca",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 678,
-   "alias": "hydroxycitric acid",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 678,
-   "alias": "garcinia",
-   "kind": "INGREDIENT_GROUP"
-  },
-  {
-   "substanceId": 679,
-   "alias": "forskolin",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 679,
-   "alias": "coleus forskohlii",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 679,
-   "alias": "forskolin",
-   "kind": "INGREDIENT_GROUP"
-  },
-  {
-   "substanceId": 680,
-   "alias": "cats claw",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 680,
-   "alias": "cat's claw",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 680,
-   "alias": "uncaria tomentosa",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 680,
-   "alias": "cats claw",
-   "kind": "INGREDIENT_GROUP"
-  },
-  {
-   "substanceId": 681,
-   "alias": "devils claw",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 681,
-   "alias": "devil's claw",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 681,
-   "alias": "harpagophytum",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 681,
-   "alias": "devils claw",
-   "kind": "INGREDIENT_GROUP"
-  },
-  {
-   "substanceId": 682,
-   "alias": "goldenseal",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 682,
-   "alias": "hydrastis canadensis",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 682,
-   "alias": "goldenseal",
-   "kind": "INGREDIENT_GROUP"
-  },
-  {
-   "substanceId": 683,
-   "alias": "marshmallow root",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 683,
-   "alias": "althaea officinalis",
-   "kind": "COMMON"
-  },
-  {
-   "substanceId": 683,
-   "alias": "marshmallow root",
+   "substanceId": 990,
+   "alias": "tart cherry",
    "kind": "INGREDIENT_GROUP"
   }
  ],
