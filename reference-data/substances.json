@@ -35,7 +35,10 @@
    "type": "VITAMIN",
    "nutrientId": 803,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "ANTIPLATELET"
+   ]
   },
   {
    "id": 5,
@@ -161,7 +164,11 @@
    "type": "MINERAL",
    "nutrientId": 1002,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "absorptionGroup": [
+    "DIVALENT_METALS",
+    "THYROID_BINDING"
+   ]
   },
   {
    "id": 203,
@@ -170,7 +177,11 @@
    "type": "MINERAL",
    "nutrientId": 1003,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "absorptionGroup": [
+    "DIVALENT_METALS",
+    "THYROID_BINDING"
+   ]
   },
   {
    "id": 204,
@@ -179,7 +190,10 @@
    "type": "MINERAL",
    "nutrientId": 1004,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "absorptionGroup": [
+    "DIVALENT_METALS"
+   ]
   },
   {
    "id": 205,
@@ -188,7 +202,10 @@
    "type": "MINERAL",
    "nutrientId": 1005,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "absorptionGroup": [
+    "DIVALENT_METALS"
+   ]
   },
   {
    "id": 206,
@@ -206,7 +223,10 @@
    "type": "MINERAL",
    "nutrientId": 1007,
    "defaultUnit": "mcg",
-   "isControlled": false
+   "isControlled": false,
+   "absorptionGroup": [
+    "DIVALENT_METALS"
+   ]
   },
   {
    "id": 208,
@@ -323,7 +343,10 @@
    "type": "LIPID",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "ANTIPLATELET"
+   ]
   },
   {
    "id": 401,
@@ -332,7 +355,10 @@
    "type": "LIPID",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "ANTIPLATELET"
+   ]
   },
   {
    "id": 402,
@@ -341,7 +367,10 @@
    "type": "LIPID",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "ANTIPLATELET"
+   ]
   },
   {
    "id": 403,
@@ -593,7 +622,10 @@
    "type": "AMINO_ACID",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "SEROTONERGIC"
+   ]
   },
   {
    "id": 522,
@@ -665,7 +697,11 @@
    "type": "HERBAL",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "SEDATIVE",
+    "THYROID_AFFECTING"
+   ]
   },
   {
    "id": 602,
@@ -692,7 +728,10 @@
    "type": "HERBAL",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "ANTIPLATELET"
+   ]
   },
   {
    "id": 605,
@@ -701,7 +740,10 @@
    "type": "HERBAL",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "SEDATIVE"
+   ]
   },
   {
    "id": 606,
@@ -710,7 +752,15 @@
    "type": "HERBAL",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "cypInduces": [
+    "3A4",
+    "2C9",
+    "1A2"
+   ],
+   "mechanisms": [
+    "SEROTONERGIC"
+   ]
   },
   {
    "id": 607,
@@ -728,7 +778,10 @@
    "type": "HERBAL",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "GLUCOSE_LOWERING"
+   ]
   },
   {
    "id": 609,
@@ -746,7 +799,10 @@
    "type": "HERBAL",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "GLUCOSE_LOWERING"
+   ]
   },
   {
    "id": 611,
@@ -827,7 +883,10 @@
    "type": "HERBAL",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "ANTIPLATELET"
+   ]
   },
   {
    "id": 620,
@@ -845,7 +904,10 @@
    "type": "HERBAL",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "HEPATOTOXIC"
+   ]
   },
   {
    "id": 622,
@@ -1016,7 +1078,11 @@
    "type": "HERBAL",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "STIMULANT",
+    "HYPERTENSIVE"
+   ]
   },
   {
    "id": 641,
@@ -1322,7 +1388,11 @@
    "type": "HERBAL",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "HEPATOTOXIC",
+    "SEDATIVE"
+   ]
   },
   {
    "id": 675,
@@ -1565,7 +1635,10 @@
    "type": "HORMONE",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "SEDATIVE"
+   ]
   },
   {
    "id": 801,
@@ -1601,7 +1674,10 @@
    "type": "HORMONE",
    "nutrientId": null,
    "defaultUnit": "mcg",
-   "isControlled": false
+   "isControlled": false,
+   "absorptionGroup": [
+    "THYROID_BINDING"
+   ]
   },
   {
    "id": 850,
@@ -1610,7 +1686,10 @@
    "type": "DRUG",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "HEPATOTOXIC"
+   ]
   },
   {
    "id": 851,
@@ -1619,7 +1698,10 @@
    "type": "DRUG",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "ANTIPLATELET"
+   ]
   },
   {
    "id": 852,
@@ -1628,7 +1710,10 @@
    "type": "DRUG",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "ANTIPLATELET"
+   ]
   },
   {
    "id": 853,
@@ -1637,7 +1722,10 @@
    "type": "DRUG",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "ANTIPLATELET"
+   ]
   },
   {
    "id": 854,
@@ -1646,7 +1734,10 @@
    "type": "DRUG",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "SEDATIVE"
+   ]
   },
   {
    "id": 855,
@@ -1655,7 +1746,13 @@
    "type": "DRUG",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "cypSubstrate": [
+    "1A2"
+   ],
+   "mechanisms": [
+    "STIMULANT"
+   ]
   },
   {
    "id": 856,
@@ -1664,7 +1761,10 @@
    "type": "DRUG",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "GLUCOSE_LOWERING"
+   ]
   },
   {
    "id": 857,
@@ -1673,7 +1773,14 @@
    "type": "DRUG",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "cypInhibits": [
+    "2C19"
+   ],
+   "cypSubstrate": [
+    "2C19",
+    "3A4"
+   ]
   },
   {
    "id": 858,
@@ -1682,7 +1789,10 @@
    "type": "DRUG",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "cypSubstrate": [
+    "3A4"
+   ]
   },
   {
    "id": 859,
@@ -1691,7 +1801,10 @@
    "type": "DRUG",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "HYPOTENSIVE"
+   ]
   },
   {
    "id": 950,
@@ -1853,7 +1966,10 @@
    "type": "OTHER",
    "nutrientId": null,
    "defaultUnit": "mg",
-   "isControlled": false
+   "isControlled": false,
+   "mechanisms": [
+    "SEROTONERGIC"
+   ]
   },
   {
    "id": 968,
@@ -6746,6 +6862,41 @@
    "sourceUrl": "https://ods.od.nih.gov/HealthInformation/nutrientrecommendations.aspx",
    "asOf": "2026-08-09",
    "note": "Commonly cited ceiling for healthy adults; pregnancy limits are lower"
+  }
+ ],
+ "interactions": [
+  {
+   "substanceAId": 857,
+   "substanceBId": 203,
+   "direction": "A_AFFECTS_B",
+   "severity": "MONITOR",
+   "effect": "Omeprazole reduces stomach acid, and iron needs stomach acid to be absorbed. Taken together over months, iron levels can fall even on a normal dose.",
+   "management": "Not a timing fix — this one does not go away by spacing the doses. Worth mentioning if iron is being taken for a known deficiency.",
+   "sourceName": "NIH Office of Dietary Supplements — Iron fact sheet for health professionals",
+   "sourceUrl": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+   "asOf": "2026-08-14"
+  },
+  {
+   "substanceAId": 857,
+   "substanceBId": 204,
+   "direction": "A_AFFECTS_B",
+   "severity": "MONITOR",
+   "effect": "Long-term omeprazole can lower magnesium levels. The FDA issued a safety communication about this after cases needing hospital treatment.",
+   "management": "Relevant to prolonged use rather than a short course. Worth raising with a prescriber if a PPI has been taken for more than a year.",
+   "sourceName": "FDA Drug Safety Communication — low magnesium levels with proton pump inhibitors",
+   "sourceUrl": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-low-magnesium-levels-can-be-associated-long-term-use-proton-pump",
+   "asOf": "2026-08-14"
+  },
+  {
+   "substanceAId": 640,
+   "substanceBId": 859,
+   "direction": "A_AFFECTS_B",
+   "severity": "SERIOUS",
+   "effect": "Yohimbine raises blood pressure, which works against what lisinopril is prescribed to do.",
+   "management": "Worth raising with the prescriber rather than adjusting anything yourself.",
+   "sourceName": "NIH Office of Dietary Supplements — Yohimbe fact sheet for health professionals",
+   "sourceUrl": "https://ods.od.nih.gov/factsheets/Yohimbe-HealthProfessional/",
+   "asOf": "2026-08-14"
   }
  ]
 }
