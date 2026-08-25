@@ -260,7 +260,7 @@
    "code": "CHROMIUM",
    "name": "Chromium",
    "type": "MINERAL",
-   "nutrientId": null,
+   "nutrientId": 11096,
    "defaultUnit": "mcg",
    "isControlled": false
   },
@@ -269,7 +269,7 @@
    "code": "MOLYBDENUM",
    "name": "Molybdenum",
    "type": "MINERAL",
-   "nutrientId": null,
+   "nutrientId": 11102,
    "defaultUnit": "mcg",
    "isControlled": false
   },
@@ -278,7 +278,7 @@
    "code": "BORON",
    "name": "Boron",
    "type": "MINERAL",
-   "nutrientId": null,
+   "nutrientId": 11137,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -287,7 +287,7 @@
    "code": "FLUORIDE",
    "name": "Fluoride",
    "type": "MINERAL",
-   "nutrientId": null,
+   "nutrientId": 11099,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -305,7 +305,7 @@
    "code": "SILICON",
    "name": "Silicon",
    "type": "MINERAL",
-   "nutrientId": null,
+   "nutrientId": 11150,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -314,7 +314,7 @@
    "code": "STRONTIUM",
    "name": "Strontium",
    "type": "MINERAL",
-   "nutrientId": null,
+   "nutrientId": 11152,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -323,7 +323,7 @@
    "code": "LITHIUM",
    "name": "Lithium (low-dose)",
    "type": "MINERAL",
-   "nutrientId": null,
+   "nutrientId": 11144,
    "defaultUnit": "mcg",
    "isControlled": false
   },
@@ -332,7 +332,7 @@
    "code": "VANADIUM",
    "name": "Vanadium",
    "type": "MINERAL",
-   "nutrientId": null,
+   "nutrientId": 11155,
    "defaultUnit": "mcg",
    "isControlled": false
   },
@@ -341,7 +341,7 @@
    "code": "EPA",
    "name": "EPA (omega-3)",
    "type": "LIPID",
-   "nutrientId": null,
+   "nutrientId": 11278,
    "defaultUnit": "mg",
    "isControlled": false,
    "mechanisms": [
@@ -353,7 +353,7 @@
    "code": "DHA",
    "name": "DHA (omega-3)",
    "type": "LIPID",
-   "nutrientId": null,
+   "nutrientId": 11272,
    "defaultUnit": "mg",
    "isControlled": false,
    "mechanisms": [
@@ -377,7 +377,7 @@
    "code": "ALPHA_LINOLENIC",
    "name": "Alpha-linolenic acid (omega-3)",
    "type": "LIPID",
-   "nutrientId": null,
+   "nutrientId": 11404,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -413,7 +413,7 @@
    "code": "GLA",
    "name": "GLA (gamma-linolenic acid)",
    "type": "LIPID",
-   "nutrientId": null,
+   "nutrientId": 11321,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -458,7 +458,7 @@
    "code": "L_ARGININE",
    "name": "L-Arginine",
    "type": "AMINO_ACID",
-   "nutrientId": null,
+   "nutrientId": 11220,
    "defaultUnit": "g",
    "isControlled": false
   },
@@ -476,7 +476,7 @@
    "code": "GLYCINE",
    "name": "Glycine",
    "type": "AMINO_ACID",
-   "nutrientId": null,
+   "nutrientId": 11225,
    "defaultUnit": "g",
    "isControlled": false
   },
@@ -485,7 +485,7 @@
    "code": "TAURINE",
    "name": "Taurine",
    "type": "AMINO_ACID",
-   "nutrientId": null,
+   "nutrientId": 11234,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -503,7 +503,7 @@
    "code": "GLUTAMINE",
    "name": "L-Glutamine",
    "type": "AMINO_ACID",
-   "nutrientId": null,
+   "nutrientId": 11233,
    "defaultUnit": "g",
    "isControlled": false
   },
@@ -512,7 +512,7 @@
    "code": "TYROSINE",
    "name": "L-Tyrosine",
    "type": "AMINO_ACID",
-   "nutrientId": null,
+   "nutrientId": 11218,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -530,7 +530,7 @@
    "code": "L_LEUCINE",
    "name": "L-Leucine",
    "type": "AMINO_ACID",
-   "nutrientId": null,
+   "nutrientId": 11213,
    "defaultUnit": "g",
    "isControlled": false
   },
@@ -539,7 +539,7 @@
    "code": "L_ISOLEUCINE",
    "name": "L-Isoleucine",
    "type": "AMINO_ACID",
-   "nutrientId": null,
+   "nutrientId": 11212,
    "defaultUnit": "g",
    "isControlled": false
   },
@@ -548,7 +548,7 @@
    "code": "L_VALINE",
    "name": "L-Valine",
    "type": "AMINO_ACID",
-   "nutrientId": null,
+   "nutrientId": 11219,
    "defaultUnit": "g",
    "isControlled": false
   },
@@ -593,7 +593,7 @@
    "code": "BETAINE",
    "name": "Betaine anhydrous (TMG)",
    "type": "AMINO_ACID",
-   "nutrientId": null,
+   "nutrientId": 11198,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -602,7 +602,7 @@
    "code": "L_LYSINE",
    "name": "L-Lysine",
    "type": "AMINO_ACID",
-   "nutrientId": null,
+   "nutrientId": 11214,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -611,7 +611,7 @@
    "code": "L_TRYPTOPHAN",
    "name": "L-Tryptophan",
    "type": "AMINO_ACID",
-   "nutrientId": null,
+   "nutrientId": 11210,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -641,7 +641,7 @@
    "code": "GLUTATHIONE",
    "name": "Glutathione",
    "type": "AMINO_ACID",
-   "nutrientId": null,
+   "nutrientId": 12069,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -668,7 +668,7 @@
    "code": "L_METHIONINE",
    "name": "L-Methionine",
    "type": "AMINO_ACID",
-   "nutrientId": null,
+   "nutrientId": 11215,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -677,7 +677,7 @@
    "code": "L_HISTIDINE",
    "name": "L-Histidine",
    "type": "AMINO_ACID",
-   "nutrientId": null,
+   "nutrientId": 11221,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -932,7 +932,7 @@
    "code": "QUERCETIN",
    "name": "Quercetin",
    "type": "HERBAL",
-   "nutrientId": null,
+   "nutrientId": 11391,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -1143,7 +1143,7 @@
    "code": "BETA_SITOSTEROL",
    "name": "Beta-sitosterol",
    "type": "HERBAL",
-   "nutrientId": null,
+   "nutrientId": 11288,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -1744,7 +1744,7 @@
    "code": "CAFFEINE",
    "name": "Caffeine",
    "type": "DRUG",
-   "nutrientId": null,
+   "nutrientId": 1502,
    "defaultUnit": "mg",
    "isControlled": false,
    "cypSubstrate": [
@@ -1883,7 +1883,7 @@
    "code": "LUTEIN",
    "name": "Lutein",
    "type": "OTHER",
-   "nutrientId": null,
+   "nutrientId": 11121,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -1892,7 +1892,7 @@
    "code": "ZEAXANTHIN",
    "name": "Zeaxanthin",
    "type": "OTHER",
-   "nutrientId": null,
+   "nutrientId": 11119,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -1901,7 +1901,7 @@
    "code": "LYCOPENE",
    "name": "Lycopene",
    "type": "OTHER",
-   "nutrientId": null,
+   "nutrientId": 11122,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -1919,7 +1919,7 @@
    "code": "INOSITOL",
    "name": "Inositol (myo-inositol)",
    "type": "OTHER",
-   "nutrientId": null,
+   "nutrientId": 11181,
    "defaultUnit": "g",
    "isControlled": false
   },
@@ -2057,7 +2057,7 @@
    "code": "BETA_GLUCAN",
    "name": "Beta-glucan",
    "type": "OTHER",
-   "nutrientId": null,
+   "nutrientId": 12058,
    "defaultUnit": "mg",
    "isControlled": false
   },
@@ -2102,7 +2102,7 @@
    "code": "APIGENIN",
    "name": "Apigenin",
    "type": "OTHER",
-   "nutrientId": null,
+   "nutrientId": 11379,
    "defaultUnit": "mg",
    "isControlled": false
   },
