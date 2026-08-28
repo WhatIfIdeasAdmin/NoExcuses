@@ -243,6 +243,40 @@
    "typicalHalfLife": null
   },
   {
+   "substanceId": 684,
+   "summary": "Whole licorice root. Its glycyrrhizin content is what the safety story is about; deglycyrrhizinated (DGL) products are a separate, safer entry.",
+   "body": "Licorice root (Glycyrrhiza glabra) contains glycyrrhizin (glycyrrhizinic acid), the compound responsible both for its characteristic sweetness and for its principal risk. This entry covers the whole root; products sold as DGL have had glycyrrhizin removed and are tracked separately.",
+   "commonUses": "Traditionally taken for digestive complaints, sore throat and coughs; appears in many herbal blends and teas.",
+   "offLabelUses": null,
+   "safetyNotes": "Glycyrrhizin can cause pseudohyperaldosteronism: raised blood pressure, low potassium, fluid retention, and in severe cases heart-rhythm problems. EFSA advises staying below about 100 mg of glycyrrhizinic acid per day. That figure bounds the COMPOUND, not the root: measured glycyrrhizin content varies as much as 30-fold between products and is often not stated on the label, which is why this app attaches no numeric limit to licorice root — a threshold in mg of root would be wrong by an unknown factor either way. Regular intake, sensitive individuals, and anyone with hypertension, heart or kidney disease should treat whole-root products cautiously. DGL products do not carry this risk.",
+   "contraindications": "Hypertension; heart failure; kidney disease; low potassium; pregnancy. Concurrent diuretics, digoxin or corticosteroids.",
+   "evidenceLevel": "WELL_ESTABLISHED",
+   "regulatoryStatus": null,
+   "regulatoryAsOf": null,
+   "sourceUrl": "https://www.efsa.europa.eu/en/efsajournal/pub/2197",
+   "sources": [
+    {
+     "name": "EFSA opinion on glycyrrhizinic acid",
+     "url": "https://www.efsa.europa.eu/en/efsajournal/pub/2197",
+     "asOf": null,
+     "kind": null
+    },
+    {
+     "name": "Danish market survey of glycyrrhizin content",
+     "url": "https://www.sciencedirect.com/science/article/pii/S0956713522005151",
+     "asOf": null,
+     "kind": null
+    },
+    {
+     "name": "NCCIH: Licorice Root",
+     "url": "https://www.nccih.nih.gov/health/licorice-root",
+     "asOf": null,
+     "kind": null
+    }
+   ],
+   "typicalHalfLife": null
+  },
+  {
    "substanceId": 500,
    "summary": "One of the most studied sports supplements.",
    "body": null,
