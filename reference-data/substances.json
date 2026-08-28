@@ -1807,6 +1807,22 @@
    ]
   },
   {
+   "id": 860,
+   "code": "WARFARIN",
+   "name": "Warfarin",
+   "type": "DRUG",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false,
+   "mechanisms": [
+    "ANTICOAGULANT"
+   ],
+   "cypSubstrate": [
+    "2C9",
+    "3A4"
+   ]
+  },
+  {
    "id": 950,
    "code": "PROBIOTIC",
    "name": "Probiotic blend",
@@ -5646,6 +5662,26 @@
    "substanceId": 859
   },
   {
+   "alias": "warfarin",
+   "kind": "COMMON",
+   "substanceId": 860
+  },
+  {
+   "alias": "coumadin",
+   "kind": "COMMON",
+   "substanceId": 860
+  },
+  {
+   "alias": "jantoven",
+   "kind": "COMMON",
+   "substanceId": 860
+  },
+  {
+   "alias": "warfarin",
+   "kind": "INGREDIENT_GROUP",
+   "substanceId": 860
+  },
+  {
    "alias": "lisinopril",
    "kind": "INGREDIENT_GROUP",
    "substanceId": 859
@@ -6897,6 +6933,17 @@
    "sourceName": "NIH Office of Dietary Supplements — Yohimbe fact sheet for health professionals",
    "sourceUrl": "https://ods.od.nih.gov/factsheets/Yohimbe-HealthProfessional/",
    "asOf": "2026-08-14"
+  },
+  {
+   "substanceAId": 5,
+   "substanceBId": 860,
+   "direction": "A_AFFECTS_B",
+   "severity": "SERIOUS",
+   "effect": "Vitamin K works directly against warfarin: warfarin acts by blocking vitamin K recycling, so a supplement or a large dietary swing in vitamin K (including the MK-7 and MK-4 forms) changes how strongly the same warfarin dose works.",
+   "management": "The issue is consistency, not avoidance - keep vitamin K intake steady and tell the prescriber about any supplement so monitoring can account for it.",
+   "sourceName": "NIH Office of Dietary Supplements - Vitamin K fact sheet for health professionals",
+   "sourceUrl": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
+   "asOf": "2026-08-28"
   }
  ]
 }
