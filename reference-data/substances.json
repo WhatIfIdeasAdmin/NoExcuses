@@ -1932,6 +1932,15 @@
    ]
   },
   {
+   "id": 805,
+   "code": "NANDROLONE",
+   "name": "Nandrolone",
+   "type": "HORMONE",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": true
+  },
+  {
    "id": 850,
    "code": "ACETAMINOPHEN",
    "name": "Acetaminophen",
@@ -6822,6 +6831,31 @@
    "alias": "acetamoren",
    "kind": "COMMON",
    "substanceId": 743
+  },
+  {
+   "alias": "deca",
+   "kind": "COMMON",
+   "substanceId": 805
+  },
+  {
+   "alias": "deca-durabolin",
+   "kind": "COMMON",
+   "substanceId": 805
+  },
+  {
+   "alias": "nandrolone decanoate",
+   "kind": "COMMON",
+   "substanceId": 805
+  },
+  {
+   "alias": "npp",
+   "kind": "COMMON",
+   "substanceId": 805
+  },
+  {
+   "alias": "nandrolone phenylpropionate",
+   "kind": "COMMON",
+   "substanceId": 805
   }
  ],
  "forms": [
