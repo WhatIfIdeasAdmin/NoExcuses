@@ -1514,7 +1514,7 @@
   {
    "id": 703,
    "code": "CJC_1295",
-   "name": "CJC-1295",
+   "name": "CJC-1295 DAC",
    "type": "PEPTIDE",
    "nutrientId": null,
    "defaultUnit": "mcg",
@@ -1626,6 +1626,258 @@
    "type": "PEPTIDE",
    "nutrientId": null,
    "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 716,
+   "code": "KPV",
+   "name": "KPV",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 717,
+   "code": "DSIP",
+   "name": "DSIP",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 718,
+   "code": "MELANOTAN_II",
+   "name": "Melanotan II",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 719,
+   "code": "MELANOTAN_I",
+   "name": "Melanotan I",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 720,
+   "code": "KISSPEPTIN_10",
+   "name": "Kisspeptin-10",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 721,
+   "code": "OXYTOCIN",
+   "name": "Oxytocin",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "IU",
+   "isControlled": false
+  },
+  {
+   "id": 722,
+   "code": "ARA_290",
+   "name": "ARA-290",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
+   "id": 723,
+   "code": "AHK_CU",
+   "name": "AHK-Cu",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
+   "id": 724,
+   "code": "VIP",
+   "name": "VIP",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 725,
+   "code": "PINEALON",
+   "name": "Pinealon",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
+   "id": 726,
+   "code": "THYMOSIN_ALPHA_1",
+   "name": "Thymosin Alpha-1",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
+   "id": 727,
+   "code": "HEXARELIN",
+   "name": "Hexarelin",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 728,
+   "code": "SS_31",
+   "name": "SS-31",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
+   "id": 729,
+   "code": "CAGRILINTIDE",
+   "name": "Cagrilintide",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
+   "id": 730,
+   "code": "ELORALINTIDE",
+   "name": "Eloralintide",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
+   "id": 731,
+   "code": "DIHEXA",
+   "name": "Dihexa",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
+   "id": 732,
+   "code": "ADAMAX",
+   "name": "Adamax",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
+   "id": 733,
+   "code": "IGF_1_LR3",
+   "name": "IGF-1 LR3",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 734,
+   "code": "FOLLISTATIN_344",
+   "name": "Follistatin-344",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 735,
+   "code": "HCG",
+   "name": "HCG",
+   "type": "HORMONE",
+   "nutrientId": null,
+   "defaultUnit": "IU",
+   "isControlled": false
+  },
+  {
+   "id": 736,
+   "code": "CJC_1295_NO_DAC",
+   "name": "CJC-1295 no-DAC",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 737,
+   "code": "GHRP_2",
+   "name": "GHRP-2",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 738,
+   "code": "GHRP_6",
+   "name": "GHRP-6",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 739,
+   "code": "HGH_FRAG_176_191",
+   "name": "HGH Fragment 176-191",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 740,
+   "code": "NAD_PLUS",
+   "name": "NAD+",
+   "type": "OTHER",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
+   "id": 741,
+   "code": "AMINO_1MQ",
+   "name": "5-Amino-1MQ",
+   "type": "OTHER",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
+   "id": 742,
+   "code": "SLU_PP_332",
+   "name": "SLU-PP-332",
+   "type": "OTHER",
+   "nutrientId": null,
+   "defaultUnit": "mg",
+   "isControlled": false
+  },
+  {
+   "id": 743,
+   "code": "MK_677",
+   "name": "MK-677",
+   "type": "DRUG",
+   "nutrientId": null,
+   "defaultUnit": "mg",
    "isControlled": false
   },
   {
@@ -5212,11 +5464,6 @@
    "substanceId": 703
   },
   {
-   "alias": "mod grf 1-29",
-   "kind": "COMMON",
-   "substanceId": 703
-  },
-  {
    "alias": "cjc-1295",
    "kind": "INGREDIENT_GROUP",
    "substanceId": 703
@@ -6400,6 +6647,181 @@
    "substanceId": 990,
    "alias": "tart cherry",
    "kind": "INGREDIENT_GROUP"
+  },
+  {
+   "alias": "glp-1 sm",
+   "kind": "COMMON",
+   "substanceId": 704
+  },
+  {
+   "alias": "glp-2 tr",
+   "kind": "COMMON",
+   "substanceId": 705
+  },
+  {
+   "alias": "glp-3 rt",
+   "kind": "COMMON",
+   "substanceId": 706
+  },
+  {
+   "alias": "tb4",
+   "kind": "COMMON",
+   "substanceId": 701
+  },
+  {
+   "alias": "n-acetyl semax",
+   "kind": "COMMON",
+   "substanceId": 709
+  },
+  {
+   "alias": "n-acetyl selank",
+   "kind": "COMMON",
+   "substanceId": 710
+  },
+  {
+   "alias": "cjc-1295 dac",
+   "kind": "COMMON",
+   "substanceId": 703
+  },
+  {
+   "alias": "cjc with dac",
+   "kind": "COMMON",
+   "substanceId": 703
+  },
+  {
+   "alias": "lys-pro-val",
+   "kind": "COMMON",
+   "substanceId": 716
+  },
+  {
+   "alias": "delta sleep-inducing peptide",
+   "kind": "COMMON",
+   "substanceId": 717
+  },
+  {
+   "alias": "mt-2",
+   "kind": "COMMON",
+   "substanceId": 718
+  },
+  {
+   "alias": "mt-ii",
+   "kind": "COMMON",
+   "substanceId": 718
+  },
+  {
+   "alias": "melanotan 2",
+   "kind": "COMMON",
+   "substanceId": 718
+  },
+  {
+   "alias": "mt-1",
+   "kind": "COMMON",
+   "substanceId": 719
+  },
+  {
+   "alias": "afamelanotide",
+   "kind": "COMMON",
+   "substanceId": 719
+  },
+  {
+   "alias": "melanotan 1",
+   "kind": "COMMON",
+   "substanceId": 719
+  },
+  {
+   "alias": "metastin",
+   "kind": "COMMON",
+   "substanceId": 720
+  },
+  {
+   "alias": "cibinetide",
+   "kind": "COMMON",
+   "substanceId": 722
+  },
+  {
+   "alias": "vasoactive intestinal peptide",
+   "kind": "COMMON",
+   "substanceId": 724
+  },
+  {
+   "alias": "thymalfasin",
+   "kind": "COMMON",
+   "substanceId": 726
+  },
+  {
+   "alias": "ta1",
+   "kind": "COMMON",
+   "substanceId": 726
+  },
+  {
+   "alias": "examorelin",
+   "kind": "COMMON",
+   "substanceId": 727
+  },
+  {
+   "alias": "elamipretide",
+   "kind": "COMMON",
+   "substanceId": 728
+  },
+  {
+   "alias": "mtp-131",
+   "kind": "COMMON",
+   "substanceId": 728
+  },
+  {
+   "alias": "long r3 igf-1",
+   "kind": "COMMON",
+   "substanceId": 733
+  },
+  {
+   "alias": "human chorionic gonadotropin",
+   "kind": "COMMON",
+   "substanceId": 735
+  },
+  {
+   "alias": "mod grf 1-29",
+   "kind": "COMMON",
+   "substanceId": 736
+  },
+  {
+   "alias": "modified grf 1-29",
+   "kind": "COMMON",
+   "substanceId": 736
+  },
+  {
+   "alias": "pralmorelin",
+   "kind": "COMMON",
+   "substanceId": 737
+  },
+  {
+   "alias": "frag 176-191",
+   "kind": "COMMON",
+   "substanceId": 739
+  },
+  {
+   "alias": "fragment 176-191",
+   "kind": "COMMON",
+   "substanceId": 739
+  },
+  {
+   "alias": "nicotinamide adenine dinucleotide",
+   "kind": "COMMON",
+   "substanceId": 740
+  },
+  {
+   "alias": "ibutamoren",
+   "kind": "COMMON",
+   "substanceId": 743
+  },
+  {
+   "alias": "mk-777",
+   "kind": "COMMON",
+   "substanceId": 743
+  },
+  {
+   "alias": "acetamoren",
+   "kind": "COMMON",
+   "substanceId": 743
   }
  ],
  "forms": [
