@@ -7629,20 +7629,20 @@
   },
   {
    "blendId": 747,
-   "componentId": 703,
-   "fraction": null,
-   "note": "The vendor page does not state DAC vs no-DAC. Bare 'CJC-1295' resolves to the DAC row in this catalog, and the only CJC single Northline sells is labeled 'with DAC' - revisit if the vendor clarifies.",
-   "sourceName": "Northline Labs - CJC-1295/Ipamorelin Blend",
-   "sourceUrl": "https://northlinelabs.org/product/cjc-ipamorelin-blend-premium-research-peptide-set/",
+   "componentId": 736,
+   "fraction": 0.5,
+   "note": "COA for lot DPS-7408699 identifies this component as CJC-1295 no DAC (CAS 446036-97-1) at 5 mg in the 10 mg vial - the earlier DAC assumption was corrected 2026-11-24. The 20 mg presentation is not separately verified.",
+   "sourceName": "Horizon Analytical COA for Northline Labs, lot DPS-7408699",
+   "sourceUrl": "https://northlinelabs.org/wp-content/uploads/2026/08/coas/DPS-7408699%20-%20CJC-1295%20%2B%20Ipamorelin%20-%20purity.pdf",
    "asOf": "2026-11-24"
   },
   {
    "blendId": 747,
    "componentId": 702,
-   "fraction": null,
-   "note": "Sold in 10 mg and 20 mg vials; split not published.",
-   "sourceName": "Northline Labs - CJC-1295/Ipamorelin Blend",
-   "sourceUrl": "https://northlinelabs.org/product/cjc-ipamorelin-blend-premium-research-peptide-set/",
+   "fraction": 0.5,
+   "note": "COA for lot DPS-7408699 states Ipamorelin 5 mg in the 10 mg vial. The 20 mg presentation is not separately verified.",
+   "sourceName": "Horizon Analytical COA for Northline Labs, lot DPS-7408699",
+   "sourceUrl": "https://northlinelabs.org/wp-content/uploads/2026/08/coas/DPS-7408699%20-%20CJC-1295%20%2B%20Ipamorelin%20-%20purity.pdf",
    "asOf": "2026-11-24"
   },
   {
