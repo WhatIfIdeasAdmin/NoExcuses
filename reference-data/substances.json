@@ -1881,6 +1881,69 @@
    "isControlled": false
   },
   {
+   "id": 744,
+   "code": "GLOW_BLEND",
+   "name": "GLOW",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 745,
+   "code": "KLOW_BLEND",
+   "name": "KLOW",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 746,
+   "code": "BPC_TB_BLEND",
+   "name": "BPC-157/TB-500 Blend",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 747,
+   "code": "CJC_IPA_BLEND",
+   "name": "CJC-1295/Ipamorelin Blend",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 748,
+   "code": "TESA_IPA_BLEND",
+   "name": "Tesamorelin/Ipamorelin Blend",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 749,
+   "code": "SEMAX_SELANK_BLEND",
+   "name": "Semax/Selank Blend",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
+   "id": 750,
+   "code": "AHK_GHK_BLEND",
+   "name": "AHK-Cu/GHK-Cu Blend",
+   "type": "PEPTIDE",
+   "nutrientId": null,
+   "defaultUnit": "mcg",
+   "isControlled": false
+  },
+  {
    "id": 800,
    "code": "MELATONIN",
    "name": "Melatonin",
@@ -6876,6 +6939,66 @@
    "alias": "nandrolone phenylpropionate",
    "kind": "COMMON",
    "substanceId": 805
+  },
+  {
+   "alias": "glow blend",
+   "kind": "COMMON",
+   "substanceId": 744
+  },
+  {
+   "alias": "bpc-157/tb-500/ghk-cu",
+   "kind": "COMMON",
+   "substanceId": 744
+  },
+  {
+   "alias": "klow blend",
+   "kind": "COMMON",
+   "substanceId": 745
+  },
+  {
+   "alias": "bpc-157/tb-500/kpv/ghk-cu",
+   "kind": "COMMON",
+   "substanceId": 745
+  },
+  {
+   "alias": "wolverine stack",
+   "kind": "COMMON",
+   "substanceId": 746
+  },
+  {
+   "alias": "wolverine blend",
+   "kind": "COMMON",
+   "substanceId": 746
+  },
+  {
+   "alias": "bpc/tb blend",
+   "kind": "COMMON",
+   "substanceId": 746
+  },
+  {
+   "alias": "cjc-ipamorelin blend",
+   "kind": "COMMON",
+   "substanceId": 747
+  },
+  {
+   "alias": "cjc/ipa blend",
+   "kind": "COMMON",
+   "substanceId": 747
+  },
+  {
+   "alias": "tesa/ipa blend",
+   "kind": "COMMON",
+   "substanceId": 748
+  },
+  {
+   "alias": "semax/selank",
+   "kind": "COMMON",
+   "substanceId": 749
+  },
+  {
+   "alias": "ahk/ghk-cu blend",
+   "kind": "COMMON",
+   "substanceId": 750
   }
  ],
  "forms": [
@@ -7420,6 +7543,161 @@
    "sourceName": "NIH Office of Dietary Supplements - Vitamin K fact sheet for health professionals",
    "sourceUrl": "https://ods.od.nih.gov/factsheets/VitaminK-HealthProfessional/",
    "asOf": "2026-08-28"
+  }
+ ],
+ "components": [
+  {
+   "blendId": 744,
+   "componentId": 700,
+   "fraction": null,
+   "note": "70 mg vial; the vendor does not publish the per-component split.",
+   "sourceName": "Northline Labs - GLOW (BPC-157/TB-500/GHK-Cu Blend)",
+   "sourceUrl": "https://northlinelabs.org/product/bpc-157-tb-500-ghk-cu-blend-premium-research-peptide-set/",
+   "asOf": "2026-11-24"
+  },
+  {
+   "blendId": 744,
+   "componentId": 701,
+   "fraction": null,
+   "note": null,
+   "sourceName": "Northline Labs - GLOW (BPC-157/TB-500/GHK-Cu Blend)",
+   "sourceUrl": "https://northlinelabs.org/product/bpc-157-tb-500-ghk-cu-blend-premium-research-peptide-set/",
+   "asOf": "2026-11-24"
+  },
+  {
+   "blendId": 744,
+   "componentId": 711,
+   "fraction": null,
+   "note": null,
+   "sourceName": "Northline Labs - GLOW (BPC-157/TB-500/GHK-Cu Blend)",
+   "sourceUrl": "https://northlinelabs.org/product/bpc-157-tb-500-ghk-cu-blend-premium-research-peptide-set/",
+   "asOf": "2026-11-24"
+  },
+  {
+   "blendId": 745,
+   "componentId": 700,
+   "fraction": null,
+   "note": "80 mg vial; the vendor does not publish the per-component split.",
+   "sourceName": "Northline Labs - KLOW (BPC-157/TB-500/KPV/GHK-Cu Blend)",
+   "sourceUrl": "https://northlinelabs.org/product/bpc-157-tb-500-kpv-ghk-cu-blend-premium-research-peptide-set/",
+   "asOf": "2026-11-24"
+  },
+  {
+   "blendId": 745,
+   "componentId": 701,
+   "fraction": null,
+   "note": null,
+   "sourceName": "Northline Labs - KLOW (BPC-157/TB-500/KPV/GHK-Cu Blend)",
+   "sourceUrl": "https://northlinelabs.org/product/bpc-157-tb-500-kpv-ghk-cu-blend-premium-research-peptide-set/",
+   "asOf": "2026-11-24"
+  },
+  {
+   "blendId": 745,
+   "componentId": 716,
+   "fraction": null,
+   "note": null,
+   "sourceName": "Northline Labs - KLOW (BPC-157/TB-500/KPV/GHK-Cu Blend)",
+   "sourceUrl": "https://northlinelabs.org/product/bpc-157-tb-500-kpv-ghk-cu-blend-premium-research-peptide-set/",
+   "asOf": "2026-11-24"
+  },
+  {
+   "blendId": 745,
+   "componentId": 711,
+   "fraction": null,
+   "note": null,
+   "sourceName": "Northline Labs - KLOW (BPC-157/TB-500/KPV/GHK-Cu Blend)",
+   "sourceUrl": "https://northlinelabs.org/product/bpc-157-tb-500-kpv-ghk-cu-blend-premium-research-peptide-set/",
+   "asOf": "2026-11-24"
+  },
+  {
+   "blendId": 746,
+   "componentId": 700,
+   "fraction": null,
+   "note": "20 mg vial; the vendor does not publish the per-component split. Community alias: Wolverine stack.",
+   "sourceName": "Northline Labs - BPC-157 + TB-500 Research Set",
+   "sourceUrl": "https://northlinelabs.org/product/bpc-157-tb-500-premium-research-peptide-set/",
+   "asOf": "2026-11-24"
+  },
+  {
+   "blendId": 746,
+   "componentId": 701,
+   "fraction": null,
+   "note": null,
+   "sourceName": "Northline Labs - BPC-157 + TB-500 Research Set",
+   "sourceUrl": "https://northlinelabs.org/product/bpc-157-tb-500-premium-research-peptide-set/",
+   "asOf": "2026-11-24"
+  },
+  {
+   "blendId": 747,
+   "componentId": 703,
+   "fraction": null,
+   "note": "The vendor page does not state DAC vs no-DAC. Bare 'CJC-1295' resolves to the DAC row in this catalog, and the only CJC single Northline sells is labeled 'with DAC' - revisit if the vendor clarifies.",
+   "sourceName": "Northline Labs - CJC-1295/Ipamorelin Blend",
+   "sourceUrl": "https://northlinelabs.org/product/cjc-ipamorelin-blend-premium-research-peptide-set/",
+   "asOf": "2026-11-24"
+  },
+  {
+   "blendId": 747,
+   "componentId": 702,
+   "fraction": null,
+   "note": "Sold in 10 mg and 20 mg vials; split not published.",
+   "sourceName": "Northline Labs - CJC-1295/Ipamorelin Blend",
+   "sourceUrl": "https://northlinelabs.org/product/cjc-ipamorelin-blend-premium-research-peptide-set/",
+   "asOf": "2026-11-24"
+  },
+  {
+   "blendId": 748,
+   "componentId": 707,
+   "fraction": 0.6667,
+   "note": "10 mg of the 15 mg vial, stated on the product page.",
+   "sourceName": "Northline Labs - Tesamorelin/Ipamorelin Blend 15 mg",
+   "sourceUrl": "https://northlinelabs.org/product/tesamorelin-ipamorelin-blend/",
+   "asOf": "2026-11-24"
+  },
+  {
+   "blendId": 748,
+   "componentId": 702,
+   "fraction": 0.3333,
+   "note": "5 mg of the 15 mg vial, stated on the product page.",
+   "sourceName": "Northline Labs - Tesamorelin/Ipamorelin Blend 15 mg",
+   "sourceUrl": "https://northlinelabs.org/product/tesamorelin-ipamorelin-blend/",
+   "asOf": "2026-11-24"
+  },
+  {
+   "blendId": 749,
+   "componentId": 709,
+   "fraction": null,
+   "note": "10 mg total of Semax + Selank; the split between the two is not published.",
+   "sourceName": "Northline Labs - Semax/Selank Blend",
+   "sourceUrl": "https://northlinelabs.org/product/semax-selank-blend-premium-research-peptide/",
+   "asOf": "2026-11-24"
+  },
+  {
+   "blendId": 749,
+   "componentId": 710,
+   "fraction": null,
+   "note": null,
+   "sourceName": "Northline Labs - Semax/Selank Blend",
+   "sourceUrl": "https://northlinelabs.org/product/semax-selank-blend-premium-research-peptide/",
+   "asOf": "2026-11-24"
+  },
+  {
+   "blendId": 750,
+   "componentId": 723,
+   "fraction": null,
+   "note": "100 mg vial; the vendor does not publish the per-component split.",
+   "sourceName": "Northline Labs - AHK/GHK-Cu Blend",
+   "sourceUrl": "https://northlinelabs.org/product/ahk-ghk-cu-blend-premium-research-peptide/",
+   "asOf": "2026-11-24"
+  },
+  {
+   "blendId": 750,
+   "componentId": 711,
+   "fraction": null,
+   "note": null,
+   "sourceName": "Northline Labs - AHK/GHK-Cu Blend",
+   "sourceUrl": "https://northlinelabs.org/product/ahk-ghk-cu-blend-premium-research-peptide/",
+   "asOf": "2026-11-24"
   }
  ]
 }
