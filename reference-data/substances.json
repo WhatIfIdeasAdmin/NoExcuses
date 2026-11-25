@@ -1946,7 +1946,7 @@
   {
    "id": 751,
    "code": "BAC_WATER",
-   "name": "Bacteriostatic water",
+   "name": "BAC water",
    "type": "SUPPLY",
    "nutrientId": null,
    "defaultUnit": "mL",
@@ -7011,6 +7011,11 @@
   },
   {
    "alias": "bac",
+   "kind": "COMMON",
+   "substanceId": 751
+  },
+  {
+   "alias": "bacteriostatic water",
    "kind": "COMMON",
    "substanceId": 751
   },
